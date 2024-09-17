@@ -7,6 +7,7 @@ import wikipedia
 import spacy
 from transformers import pipeline
 from bs4 import BeautifulSoup
+import time
 
 # Load the NER pipeline
 ner = pipeline("ner", model="dbmdz/bert-large-cased-finetuned-conll03-english", aggregation_strategy="simple")
@@ -91,14 +92,14 @@ def combine_wikipedia_titles_and_sections(question):
     for title in combined_list:
         #all_pages[title] = {}
         section_title = get_article_sections(title)
-        FINAL_PROMPT += title+" :\n" 
+        INPUT_MODEL_PROMPT += title+" :\n" 
         for key in section_title :
             INPUT_MODEL_PROMPT += key+"\n"+section_title[key]+"\n\n"
     return INPUT_MODEL_PROMPT
 
 def call_open_source_model(messages):
 
-    open_source_model_url = "http://129.146.22.206:17227/v1/completions"
+    open_source_model_url = "http://129.146.101.114:16985/v1/completions"
 
     data = {
         "prompt": messages[0]['content'],
@@ -134,13 +135,17 @@ def call_open_source_model(messages):
         print(f"Request failed: {e}")
         return None
 
-model_data_input = pd.read_csv("model_sample_qa.csv")
+model_data_input = pd.read_csv("C:/Users/hp/Desktop/Document/wiki_qa_sn1/model_sample_qa.csv")
 
 model_data_input["result_model"] = None
-for i in range(len(model_data_input)):
+model_data_input["Time_elapsed"] = None
+for i in range(4):
+    start_date = time.time()
     question = model_data_input.loc[i, "challenge"]
     INPUT_MODEL_PROMPT = combine_wikipedia_titles_and_sections(question)
     response = call_open_source_model([{"role":"user", "content":INPUT_MODEL_PROMPT}])
+    end_date = time.time()
+    model_data_input.loc[i, "Time_elapsed"] = start_date - end_date
     model_data_input.loc[i, "result_model"] = response
 
 
