@@ -1,0 +1,7 @@
+pandas
+numpy
+requests
+re
+wikipedia
+transformers
+beautifulsoup4
