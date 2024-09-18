@@ -1,60 +1,16 @@
 import pandas as pd
-import numpy as np
 import requests
-import re
 from bs4 import BeautifulSoup
 import time
 import spacy
 import nltk
 from nltk.corpus import stopwords
-from transformers import LongformerTokenizer, LongformerForMultipleChoice
+from transformers import AutoModelForQuestionAnswering, AutoTokenizer, LongformerTokenizer, LongformerForMultipleChoice
 import torch
 from unidecode import unidecode
-
+import csv
 
 #********************************* METHODS ***********************************************************
-
-def get_options_from_multichoice_question(question) :
-
-    if "[Input Question]" in question :
-        question = question.split("[Input Question]")[1]
-    
-    # Define the regex patterns
-    regex_A = r"A\.\s*(.*?)\s*B\."
-    regex_B = r"B\.\s*(.*?)\s*C\."
-    regex_C = r"C\.\s*(.*?)\s*D\."
-    regex_D = r"D\.\s*(.*?)\s*Answer"
-
-    # List of regex patterns for matching
-    regex_patterns = {
-        'A': regex_A,
-        'B': regex_B,
-        'C': regex_C,
-        'D': regex_D
-    }
-
-    # Dictionary to store the matches
-    matches = {}
-
-    # Iterate through the regex patterns and find matches
-    for key, regex in regex_patterns.items():
-        match = re.findall(regex, question, re.DOTALL)
-        matches[key] = match
-
-    # Print all matches
-    all_matches = []
-    for key, match_list in matches.items():
-        matches = []
-        for i, match in enumerate(match_list, 1):
-            matches.append(match.strip())
-
-        if len(matches) > 0 :
-            all_matches.append(matches[-1])
-            
-    if "A." in question :
-        question = question.split("A.")[0]
-        
-    return question, all_matches
 
 # Function to merge named entities with commas (e.g., "Kenton, Ohio")
 def merge_named_entities(doc):
@@ -112,8 +68,7 @@ def keyword_generator(sentence):
     return ', '.join([x for x in filtered_noun_phrases])
 
 
-def search_google(query, API_KEY, CX):
-
+def search_google(query):
     url = 'https://www.googleapis.com/customsearch/v1'
     params = {
         'key': API_KEY,
@@ -144,15 +99,15 @@ def get_article_sections(title) :
     return sections
 
 
-def combine_wikipedia_titles_and_sections(question, API_KEY, CX):
+def combine_wikipedia_titles_and_sections(question):
 
-    search_results = search_google(question, API_KEY, CX)
+    search_results = search_google(question)
     wiki_items = []
     if "items" in search_results :
         wiki_items = search_results["items"]
     else :  
         keywords_transformers = keyword_generator(question)
-        search_results = search_google(keywords_transformers, API_KEY, CX)
+        search_results = search_google(keywords_transformers)
         if "items" in search_results :
             wiki_items = search_results["items"]
 
@@ -171,66 +126,53 @@ def combine_wikipedia_titles_and_sections(question, API_KEY, CX):
     return CONTEXT, combined_set
 
 
+def qa_model_hugging_face(question, context):
+    # Load model and tokenizer
+    model_name = "valhalla/longformer-base-4096-finetuned-squadv1"
+    model = AutoModelForQuestionAnswering.from_pretrained(model_name)
+    tokenizer = AutoTokenizer.from_pretrained(model_name)
 
-def prepare_multiple_choice_inputs(question, context, options, tokenizer, device, max_length=512):
-    choices_inputs = []
-    for option in options:
-        try:
-            inputs = tokenizer(
-                question,
-                option + " " + context,
-                truncation=True,
-                padding="max_length",
-                max_length=max_length,
-                return_tensors="pt"
-            )
+    # Tokenize the input without token_type_ids (not required for RoBERTa)
+    inputs = tokenizer(question, context, return_tensors='pt', truncation=True)
 
-            # Move tensors to the device
-            inputs = {key: value.to(device) for key, value in inputs.items()}
-            choices_inputs.append(inputs)
-        
-        except Exception as e:
-            print(f"Exception occurred while tokenizing option '{option}': {e}")
+    # Perform inference (get the start and end logits)
+    with torch.no_grad():
+        outputs = model(**inputs)
+    
+    # Extract start and end logits
+    start_scores = outputs.start_logits
+    end_scores = outputs.end_logits
 
-    # If choices_inputs is empty, raise an error
-    if len(choices_inputs) == 0:
-        raise ValueError("No valid tokenized inputs found. Please check the question, context, and options.")
+    # Convert the input_ids to tokens
+    input_ids = inputs['input_ids']
+    all_tokens = tokenizer.convert_ids_to_tokens(input_ids[0].tolist())
 
-    # Stack the input tensors to match the required shape
-    input_ids = torch.stack([choice['input_ids'] for choice in choices_inputs], dim=1)
-    attention_mask = torch.stack([choice['attention_mask'] for choice in choices_inputs], dim=1)
-    token_type_ids = torch.stack([choice['token_type_ids'] for choice in choices_inputs], dim=1) if 'token_type_ids' in choices_inputs[0] else None
+    # Get the most probable start and end positions
+    start_index = torch.argmax(start_scores, dim=1).item()  # Extracts the most probable index
+    end_index = torch.argmax(end_scores, dim=1).item() + 1  # Extracts the most probable index for the end
 
-    return input_ids, attention_mask, token_type_ids
+    # Convert tokens to answer
+    answer_tokens = all_tokens[start_index:end_index]
+    answer = tokenizer.decode(tokenizer.convert_tokens_to_ids(answer_tokens))
 
-def multichoice_model_hugging_face(question, context, model, tokenizer):
-    question, options = get_options_from_multichoice_question(question)
+    return answer
 
-    match_index_letter = {0:"A", 1 : "B", 2: "C", 3 :"D"}
-    # Prepare the input
-    context = context.replace('\n', ' ')
-    selected_answer = None
-    try:
-        input_ids, attention_mask, token_type_ids = prepare_multiple_choice_inputs(question, context, options, tokenizer, device)
-        # Now pass these inputs to the model
-        outputs = model(input_ids=input_ids, attention_mask=attention_mask, token_type_ids=token_type_ids)
-        logits = outputs.logits
-        prob = torch.softmax(logits, dim=-1)[0].tolist()
+def write_to_csv(list_input):
+    
+    with open('backup-qa.csv', mode='a', newline='') as file:
+        writer = csv.writer(file)
+        writer.writerow(list_input)
 
-        # Select the best option based on the probability
-        selected_answer = options[np.argmax(prob)]
-        
-        selected_answer = match_index_letter[options.index(selected_answer)]
-            
-    except Exception as e:
-        print(f"An error occurred: {e}")
-
-    return selected_answer
+def create_empty_df(name,columns):
+    # Create an empty DataFrame with the specified columns
+    df_empty = pd.DataFrame(columns=columns)
+    # Save the empty DataFrame to a CSV file
+    df_empty.to_csv(name, index=False)
 
 # ***********************************************************************************************************************
 
 df = pd.read_csv("../model_sample_qa.csv")[['date','task', 'challenge', 'reference']]
-multichoice_df = df[df['task'] == 'multi_choice'].reset_index(drop=True)
+date_df = df[df['task'] == 'qa'].reset_index(drop=True)
 
 # Load spaCy model
 nlp = spacy.load("en_core_web_sm")
@@ -242,37 +184,41 @@ nltk.download('stopwords')
 stop_words = set(stopwords.words('english'))
 
 # Your Google Custom Search Engine credentials
-API_KEY = 'AIzaSyBNK55uw-L2MxeFL8Rf1Qr_aA3Dvmw3rMc'
-CX='7086f56d26cbe4bad'
+API_KEY = 'AIzaSyAhe59vpX4Pkmhql3iDW1lRG4i7oVYU3cY'
+CX = '362ecec69da224547'
 
-#Multichoice
-tokenizer = LongformerTokenizer.from_pretrained("potsawee/longformer-large-4096-answering-race")
-model = LongformerForMultipleChoice.from_pretrained("potsawee/longformer-large-4096-answering-race")
+tokenizer = AutoTokenizer.from_pretrained("valhalla/longformer-base-4096-finetuned-squadv1")
+model = AutoModelForQuestionAnswering.from_pretrained("valhalla/longformer-base-4096-finetuned-squadv1")
 
 # Move model to GPU if available
-device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
-
+device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 model.to(device)
 
-model_data_input = multichoice_df.copy()
+model_data_input = date_df.copy()
 model_data_input["result_model"] = None
 model_data_input["Time_elapsed"] = None
 model_data_input['Titles'] = None
 
+# Create empty df for model output
+columns = ['date', 'challenge', 'reference', 'result_model', 'Time_elapsed', 'Titles']
+create_empty_df("backup-qa.csv", columns)
+
 for i in range(50):
     start_date = time.time()
+    print("STEP :", i)
     question = model_data_input.loc[i, "challenge"]
     question = unidecode(question)
-    task = model_data_input.loc[i, "task"]
-    CONTEXT, combined_set = combine_wikipedia_titles_and_sections(question, API_KEY, CX)
+    CONTEXT, combined_set = combine_wikipedia_titles_and_sections(question)
 
-    response = multichoice_model_hugging_face(question, CONTEXT, model, tokenizer)
+    response = qa_model_hugging_face(question, CONTEXT)
     
     end_date = time.time()
     model_data_input.loc[i, "Time_elapsed"] = end_date - start_date
     model_data_input.loc[i, "result_model"] = response
     model_data_input.loc[i, "Titles"] = ', '.join([x for x in combined_set])
 
+    list_input = model_data_input.iloc[i]
+    write_to_csv(list_input)
 
-model_data_input.to_csv("model_predict_multichoice.csv", index=False)
+model_data_input.to_csv("model_predict_qa.csv", index=False)
 

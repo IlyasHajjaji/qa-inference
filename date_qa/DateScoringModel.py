@@ -3,6 +3,7 @@ import pandas as pd
 import numpy as np
 import re
 
+#First Iteration Score = 0.54 Model = valhalla/longformer-base-4096-finetuned-squadv1
 
 def date_diff(ref_date, comp_date):
     """
@@ -85,7 +86,7 @@ def rouge_score(reference, completion, rouge):
 #*******************************************************************************************************************
 
 
-df_score = pd.read_csv("model_predict_date_qa.csv")
+df_score = pd.read_csv("../multi_choice/model_predict_multichoice.csv")
 
 df_score["DATE_SCORE"] = None
 

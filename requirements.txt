@@ -9,3 +9,5 @@ transformers
 torch
 unidecode
 rouge
+angle_emb 
+scipy
