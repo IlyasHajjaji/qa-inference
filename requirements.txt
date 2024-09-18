@@ -1,6 +1,11 @@
+#python -m spacy download en_core_web_sm
 pandas
 numpy
 requests
-wikipedia
-transformers
 beautifulsoup4
+spacy
+nltk
+transformers
+torch
+unidecode
+rouge
