@@ -43,7 +43,8 @@ def relevance_score(reference, completion, model) :
 
 
 # Load your CSV
-df_score = pd.read_csv("backup-qa.csv")
+df_score = pd.read_csv("model_predict_qa_valhalle_Ilyas.csv")
+df_score = df_score[:200]
 
 df_score["QA_SCORE"] = None  # Initialize QA_SCORE as None
 

@@ -1,16 +1,21 @@
 import pandas as pd
+import numpy as np
 import requests
+import json
+import re
+import wikipedia
+from transformers import pipeline
 from bs4 import BeautifulSoup
 import time
+from transformers import T5Tokenizer, T5ForConditionalGeneration
 import spacy
 import nltk
 from nltk.corpus import stopwords
-from transformers import AutoModelForQuestionAnswering, AutoTokenizer, LongformerTokenizer, LongformerForMultipleChoice
-import torch
-from unidecode import unidecode
+from transformers import AutoModelForQuestionAnswering, AutoTokenizer, pipeline
 import csv
+from unidecode import unidecode
+import torch
 
-#********************************* METHODS ***********************************************************
 
 # Function to merge named entities with commas (e.g., "Kenton, Ohio")
 def merge_named_entities(doc):
@@ -32,8 +37,7 @@ def merge_named_entities(doc):
 
     return " ".join(new_sentence)
     
-def keyword_generator(sentence):
-
+def keyword_nabil(sentence):
     # Process the sentence using spaCy
     doc = nlp(sentence)
 
@@ -67,6 +71,19 @@ def keyword_generator(sentence):
 
     return ', '.join([x for x in filtered_noun_phrases])
 
+def extract_query_from_question_transformers(question):
+
+    # Get the named entities using the NER model
+    ner_results = ner(question)
+    
+    # Extract relevant entities (ORG, LOC, DATE, MISC) and numbers (for population, etc.)
+    query_terms = []
+    for entity in ner_results:
+        if entity['entity_group'] in ["PER", "LOC", "ORG", "MISC", "DATE", "CARDINAL"]:
+            query_terms.append(entity['word'])
+    #print("query_terms transformers :",query_terms)
+
+    return ', '.join([x for x in query_terms]) 
 
 def search_google(query):
     url = 'https://www.googleapis.com/customsearch/v1'
@@ -100,20 +117,31 @@ def get_article_sections(title) :
 
 
 def combine_wikipedia_titles_and_sections(question):
+    CONTEXT = "No  CONTEXT"
+    combined_set = []
 
     search_results = search_google(question)
     wiki_items = []
     if "items" in search_results :
+        print("Methode : Google API")
         wiki_items = search_results["items"]
     else :  
-        keywords_transformers = keyword_generator(question)
+        print("Methode : extract_query_from_question_transformers")
+        keywords_transformers = unidecode(extract_query_from_question_transformers(question))
         search_results = search_google(keywords_transformers)
         if "items" in search_results :
             wiki_items = search_results["items"]
+        else :     
+            print("Methode : keyword_nabil")
+            keywords_transformers = unidecode(keyword_nabil(question))
+            search_results = search_google(keywords_transformers)
+            if "items" in search_results :
+                wiki_items = search_results["items"]
+            else : 
+                print("Methode : Nan")
+                return CONTEXT,combined_set
+                    
 
-    CONTEXT = ""
-    combined_set = []
-    
     for element in wiki_items :
         wiki_url = element['link']
         title = wiki_url.replace('https://en.wikipedia.org/wiki/', '')
@@ -122,57 +150,61 @@ def combine_wikipedia_titles_and_sections(question):
         CONTEXT += title+" :\n" 
         for h2 in sections_title :
             CONTEXT += h2+"\n"+sections_title[h2]+"\n\n"
-
+    
     return CONTEXT, combined_set
 
 
-def qa_model_hugging_face(question, context):
-    # Load model and tokenizer
-    model_name = "valhalla/longformer-base-4096-finetuned-squadv1"
-    model = AutoModelForQuestionAnswering.from_pretrained(model_name)
-    tokenizer = AutoTokenizer.from_pretrained(model_name)
+def generate_answer(question, content):
+    prompt = f"question: {question} context: {content}"
+    inputs = tokenizer(prompt, return_tensors="pt", max_length=512, truncation=True)
+    outputs = model.generate(inputs.input_ids, max_length=30, num_return_sequences=1)
+    answer = tokenizer.decode(outputs[0], skip_special_tokens=True)
+    return answer
 
-    # Tokenize the input without token_type_ids (not required for RoBERTa)
-    inputs = tokenizer(question, context, return_tensors='pt', truncation=True)
-
-    # Perform inference (get the start and end logits)
-    with torch.no_grad():
-        outputs = model(**inputs)
-    
-    # Extract start and end logits
-    start_scores = outputs.start_logits
-    end_scores = outputs.end_logits
-
-    # Convert the input_ids to tokens
-    input_ids = inputs['input_ids']
+def qa_model_hugging_face(question, CONTEXT,model):
+    max_length = 4096  # Longformer's maximum length
+    encoding = tokenizer(question, CONTEXT, return_tensors="pt", truncation=True, max_length=max_length)
+    input_ids = encoding["input_ids"].to(device)
+    attention_mask = encoding["attention_mask"].to(device)
+    output = model(input_ids, attention_mask=attention_mask)
+    start_scores = output.start_logits
+    end_scores = output.end_logits
     all_tokens = tokenizer.convert_ids_to_tokens(input_ids[0].tolist())
-
-    # Get the most probable start and end positions
-    start_index = torch.argmax(start_scores, dim=1).item()  # Extracts the most probable index
-    end_index = torch.argmax(end_scores, dim=1).item() + 1  # Extracts the most probable index for the end
-
-    # Convert tokens to answer
-    answer_tokens = all_tokens[start_index:end_index]
-    answer = tokenizer.decode(tokenizer.convert_tokens_to_ids(answer_tokens))
+    
+    # Convert tokens to the answer
+    all_tokens = tokenizer.convert_ids_to_tokens(input_ids[0].tolist())
+    answer_tokens = all_tokens[torch.argmax(start_scores):torch.argmax(end_scores) + 1]
+    answer = tokenizer.decode(tokenizer.convert_tokens_to_ids(answer_tokens), clean_up_tokenization_spaces=False)
 
     return answer
 
+def generat_empty_backup(generate):
+        if generate == True:
+            # Define the columns for the DataFrame
+            columns = ['date', 'task', 'challenge', 'reference', 'result_model', 'Time_elapsed', 'Titles']
+            # Create an empty DataFrame with the specified columns
+            df = pd.DataFrame(columns=columns)
+            # Save the empty DataFrame to a CSV file
+            df.to_csv('empty_data1.csv', index=False)
+
 def write_to_csv(list_input):
-    
-    with open('backup-qa.csv', mode='a', newline='') as file:
+
+    # Extract data without index and convert to list
+    row_data_no_index = list_input.values.tolist()
+
+    with open('empty_data1.csv', mode='a', newline='') as file:
         writer = csv.writer(file)
-        writer.writerow(list_input)
+        writer.writerow(row_data_no_index)
 
-def create_empty_df(name,columns):
-    # Create an empty DataFrame with the specified columns
-    df_empty = pd.DataFrame(columns=columns)
-    # Save the empty DataFrame to a CSV file
-    df_empty.to_csv(name, index=False)
+def clean_query(query) : 
+    query = unidecode(query)
+    query = re.sub(r'(.*)Here is a question(.*):(\n)*', '', query)
+    query = query.strip().replace("\n", "")  # Clean the query
+    return query
 
-# ***********************************************************************************************************************
 
-df = pd.read_csv("../model_sample_qa.csv")[['date','task', 'challenge', 'reference']]
-date_df = df[df['task'] == 'qa'].reset_index(drop=True)
+
+
 
 # Load spaCy model
 nlp = spacy.load("en_core_web_sm")
@@ -183,42 +215,59 @@ nltk.download('stopwords')
 # Get the list of stopwords from nltk
 stop_words = set(stopwords.words('english'))
 
-# Your Google Custom Search Engine credentials
-API_KEY = 'AIzaSyAhe59vpX4Pkmhql3iDW1lRG4i7oVYU3cY'
-CX = '362ecec69da224547'
+# Define the model and task
+#model_name = "deepset/roberta-base-squad2"
+#nlp_hugg = pipeline('question-answering', model=model_name, tokenizer=model_name)
 
-tokenizer = AutoTokenizer.from_pretrained("valhalla/longformer-base-4096-finetuned-squadv1")
-model = AutoModelForQuestionAnswering.from_pretrained("valhalla/longformer-base-4096-finetuned-squadv1")
+# Load the NER pipeline
+ner = pipeline("ner", model="dbmdz/bert-large-cased-finetuned-conll03-english", aggregation_strategy="simple")
+
+# Your Google Custom Search Engine credentials
+API_KEY = ''
+CX = '5607d294a06a04e49'
+
+
+
+ckpt = "valhalla/longformer-base-4096-finetuned-squadv1"
+#tokenizer = AutoTokenizer.from_pretrained(ckpt)
+#model = AutoModelForQuestionAnswering.from_pretrained(ckpt)
+
+tokenizer = AutoTokenizer.from_pretrained(ckpt)
+model = AutoModelForQuestionAnswering.from_pretrained(ckpt)
 
 # Move model to GPU if available
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 model.to(device)
+
+
+df = pd.read_csv("../model_sample_qa.csv")[['date','task', 'challenge', 'reference']]
+date_df = df[df['task'] == 'qa'].reset_index(drop=True)
+
+# Generate emptybackup
+generat_empty_backup(False)
 
 model_data_input = date_df.copy()
 model_data_input["result_model"] = None
 model_data_input["Time_elapsed"] = None
 model_data_input['Titles'] = None
 
-# Create empty df for model output
-columns = ['date', 'challenge', 'reference', 'result_model', 'Time_elapsed', 'Titles']
-create_empty_df("backup-qa.csv", columns)
-
-for i in range(50):
+start_date_globale = time.time()
+for i in range(200):
+    print("Steps :",str(i))
     start_date = time.time()
-    print("STEP :", i)
+   
     question = model_data_input.loc[i, "challenge"]
-    question = unidecode(question)
+    question = clean_query(question)
     CONTEXT, combined_set = combine_wikipedia_titles_and_sections(question)
+    answer = qa_model_hugging_face(question, CONTEXT,model)
 
-    response = qa_model_hugging_face(question, CONTEXT)
-    
     end_date = time.time()
     model_data_input.loc[i, "Time_elapsed"] = end_date - start_date
-    model_data_input.loc[i, "result_model"] = response
+    model_data_input.loc[i, "result_model"] = answer
     model_data_input.loc[i, "Titles"] = ', '.join([x for x in combined_set])
-
+    
     list_input = model_data_input.iloc[i]
     write_to_csv(list_input)
-
-model_data_input.to_csv("model_predict_qa.csv", index=False)
-
+    
+model_data_input.to_csv("model_predict_qa_valhalle_Ilyas.csv", index=False)
+print("Timing globale for running  is :", time.time() - start_date_globale)

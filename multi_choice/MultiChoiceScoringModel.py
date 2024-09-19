@@ -27,7 +27,7 @@ def multichoice_score(reference, completion) :
 #*******************************************************************************************************************
 
 
-df_score = pd.read_csv("model_predict_multichoice.csv")
+df_score = pd.read_csv("model_predict_multichoice_potsawee.csv")
 
 df_score["MULTICHOICE_SCORE"] = None
 
@@ -40,4 +40,6 @@ for i in range(len(df_score)) :
 
 df_score = df_score.dropna(subset=["result_model"]).reset_index(drop=True)
 print("SUCCESS RATIO :",(sum(df_score.loc[:, "MULTICHOICE_SCORE"])/len(df_score))*100, "%")
-df_score.to_csv("model_score_multichoice.csv", index=False)
+df_score.to_csv("model_score_multichoice_Nabil.csv", index=False)
+
+#SUCCESS RATIO : 42.857142857142854 % potsawee

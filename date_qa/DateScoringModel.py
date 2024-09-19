@@ -4,6 +4,8 @@ import numpy as np
 import re
 
 #First Iteration Score = 0.54 Model = valhalla/longformer-base-4096-finetuned-squadv1
+# DATE SCORE : 0.5997401300927698
+# DATE SCORE : 0.6497283177901685
 
 def date_diff(ref_date, comp_date):
     """
@@ -85,8 +87,7 @@ def rouge_score(reference, completion, rouge):
 
 #*******************************************************************************************************************
 
-
-df_score = pd.read_csv("model_predict_date_qa.csv")
+df_score = pd.read_csv("empty_data1.csv")
 
 df_score["DATE_SCORE"] = None
 
@@ -101,4 +102,4 @@ for i in range(len(df_score)) :
 
 df_score = df_score.dropna(subset=["result_model"]).reset_index(drop=True)
 print("DATE SCORE :",sum(df_score.loc[:, "DATE_SCORE"])/len(df_score))
-df_score.to_csv("model_score_date_qa.csv", index=False)
+df_score.to_csv("model_score_date_qa_vvalhalle_Nabil.csv", index=False)

@@ -7,10 +7,10 @@ import time
 import spacy
 import nltk
 from nltk.corpus import stopwords
-from transformers import LongformerTokenizer, LongformerForMultipleChoice
+from transformers import LongformerTokenizer, LongformerForMultipleChoice, pipeline
 import torch
 from unidecode import unidecode
-
+import csv
 
 #********************************* METHODS ***********************************************************
 
@@ -144,18 +144,52 @@ def get_article_sections(title) :
     return sections
 
 
+
+def extract_query_from_question_transformers(question):
+
+    # Get the named entities using the NER model
+    ner_results = ner(question)
+    
+    # Extract relevant entities (ORG, LOC, DATE, MISC) and numbers (for population, etc.)
+    query_terms = []
+    for entity in ner_results:
+        if entity['entity_group'] in ["PER", "LOC", "ORG", "MISC", "DATE", "CARDINAL"]:
+            query_terms.append(entity['word'])
+    #print("query_terms transformers :",query_terms)
+
+    return ', '.join([x for x in query_terms]) 
+
+def clean_query(query) : 
+    query = unidecode(query)
+    query = query.strip().replace("\n", "")  # Clean the query
+    return query
+
 def combine_wikipedia_titles_and_sections(question, API_KEY, CX):
 
+    CONTEXT = " No CONTEXT"
+    combined_set = []
     search_results = search_google(question, API_KEY, CX)
     wiki_items = []
     if "items" in search_results :
+        print("Methode : Google API")
         wiki_items = search_results["items"]
     else :  
-        keywords_transformers = keyword_generator(question)
+        print("Methode : extract_query_from_question_transformers")
+        keywords_transformers = unidecode(extract_query_from_question_transformers(question))
         search_results = search_google(keywords_transformers, API_KEY, CX)
         if "items" in search_results :
             wiki_items = search_results["items"]
-
+        else :     
+            print("Methode : keyword_nabil")
+            keywords_transformers = unidecode(keyword_generator(question))
+            search_results = search_google(keywords_transformers, API_KEY, CX)
+            if "items" in search_results :
+                wiki_items = search_results["items"]
+            else : 
+                print("Methode : Nan")
+                return CONTEXT ,combined_set
+                
+                
     CONTEXT = ""
     combined_set = []
     
@@ -167,7 +201,7 @@ def combine_wikipedia_titles_and_sections(question, API_KEY, CX):
         CONTEXT += title+" :\n" 
         for h2 in sections_title :
             CONTEXT += h2+"\n"+sections_title[h2]+"\n\n"
-
+    
     return CONTEXT, combined_set
 
 
@@ -203,8 +237,7 @@ def prepare_multiple_choice_inputs(question, context, options, tokenizer, device
 
     return input_ids, attention_mask, token_type_ids
 
-def multichoice_model_hugging_face(question, context, model, tokenizer):
-    question, options = get_options_from_multichoice_question(question)
+def multichoice_model_hugging_face(question, context ,options, model, tokenizer):
 
     match_index_letter = {0:"A", 1 : "B", 2: "C", 3 :"D"}
     # Prepare the input
@@ -227,6 +260,26 @@ def multichoice_model_hugging_face(question, context, model, tokenizer):
 
     return selected_answer
 
+
+def generat_empty_backup(generate):
+        if generate == True:
+            # Define the columns for the DataFrame
+            columns = ['date', 'task', 'challenge', 'reference', 'result_model', 'Time_elapsed', 'Titles']
+            # Create an empty DataFrame with the specified columns
+            df = pd.DataFrame(columns=columns)
+            # Save the empty DataFrame to a CSV file
+            df.to_csv('empty_data1.csv', index=False)
+
+def write_to_csv(list_input):
+
+    # Extract data without index and convert to list
+    row_data_no_index = list_input.values.tolist()
+
+    with open('empty_data1.csv', mode='a', newline='') as file:
+        writer = csv.writer(file)
+        writer.writerow(row_data_no_index)
+
+
 # ***********************************************************************************************************************
 
 df = pd.read_csv("../model_sample_qa.csv")[['date','task', 'challenge', 'reference']]
@@ -241,13 +294,19 @@ nltk.download('stopwords')
 # Get the list of stopwords from nltk
 stop_words = set(stopwords.words('english'))
 
+# Load the NER pipeline
+ner = pipeline("ner", model="dbmdz/bert-large-cased-finetuned-conll03-english", aggregation_strategy="simple")
+
 # Your Google Custom Search Engine credentials
-API_KEY = 'AIzaSyBNK55uw-L2MxeFL8Rf1Qr_aA3Dvmw3rMc'
-CX='7086f56d26cbe4bad'
+API_KEY = ''
+CX='5607d294a06a04e49'
 
 #Multichoice
 tokenizer = LongformerTokenizer.from_pretrained("potsawee/longformer-large-4096-answering-race")
 model = LongformerForMultipleChoice.from_pretrained("potsawee/longformer-large-4096-answering-race")
+
+# Generate emptybackup
+generat_empty_backup(True)
 
 # Move model to GPU if available
 device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
@@ -259,20 +318,27 @@ model_data_input["result_model"] = None
 model_data_input["Time_elapsed"] = None
 model_data_input['Titles'] = None
 
-for i in range(50):
+start_date_globale = time.time()
+for i in range(200):
+    print("Steps :",str(i))
     start_date = time.time()
     question = model_data_input.loc[i, "challenge"]
-    question = unidecode(question)
-    task = model_data_input.loc[i, "task"]
+    question = clean_query(question)
+
+    question, options = get_options_from_multichoice_question(question)
+
     CONTEXT, combined_set = combine_wikipedia_titles_and_sections(question, API_KEY, CX)
 
-    response = multichoice_model_hugging_face(question, CONTEXT, model, tokenizer)
+    response = multichoice_model_hugging_face(question, CONTEXT, options, model, tokenizer)
     
     end_date = time.time()
     model_data_input.loc[i, "Time_elapsed"] = end_date - start_date
     model_data_input.loc[i, "result_model"] = response
     model_data_input.loc[i, "Titles"] = ', '.join([x for x in combined_set])
 
+    list_input = model_data_input.iloc[i]
+    write_to_csv(list_input)
 
-model_data_input.to_csv("model_predict_multichoice.csv", index=False)
 
+model_data_input.to_csv("model_predict_multichoice_potsawee.csv", index=False)
+print("Timing globale for running  is :", time.time() - start_date_globale)
