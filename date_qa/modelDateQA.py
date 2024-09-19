@@ -8,7 +8,12 @@ from nltk.corpus import stopwords
 from transformers import AutoModelForQuestionAnswering, AutoTokenizer, LongformerTokenizer, LongformerForMultipleChoice
 import torch
 from unidecode import unidecode
-
+import warnings
+import re
+# Suppress FutureWarning (like the ones from tokenization changes)
+warnings.filterwarnings("ignore", category=FutureWarning)
+# Suppress UserWarning (like the model initialization warnings)
+warnings.filterwarnings("ignore", category=UserWarning)
 
 #********************************* METHODS ***********************************************************
 
@@ -69,17 +74,27 @@ def keyword_generator(sentence):
 
 
 def search_google(query):
+
     url = 'https://www.googleapis.com/customsearch/v1'
     params = {
         'key': API_KEY,
         'cx': CX,
         'q': query,
-        'num': 2  # Adjust number of results as needed
+        'num': 2
     }
-    response = requests.get(url, params=params)
-
-    response.raise_for_status()  # Will raise an HTTPError for bad responses
-    return response.json()
+    
+    try:
+        response = requests.get(url, params=params)
+        response.raise_for_status()  # Will raise HTTPError for bad responses
+        return response.json()
+    except requests.exceptions.HTTPError as http_err:
+        print(f"HTTP error occurred: {http_err}")  # Print HTTP error details
+    except requests.exceptions.RequestException as req_err:
+        print(f"Request error occurred: {req_err}")  # Print request error details
+    except Exception as err:
+        print(f"An error occurred: {err}")  # Print any other error details
+    
+    return {}  # Return an empty dictionary if an error occurs
 
 
 def get_article_sections(title) :
@@ -132,8 +147,14 @@ def qa_model_hugging_face(question, context):
     model = AutoModelForQuestionAnswering.from_pretrained(model_name)
     tokenizer = AutoTokenizer.from_pretrained(model_name)
 
-    # Tokenize the input without token_type_ids (not required for RoBERTa)
-    inputs = tokenizer(question, context, return_tensors='pt', truncation=True)
+    # Add separator tokens explicitly to ensure the correct format
+    sep_token = tokenizer.sep_token
+
+    # Join the question and context with the appropriate separator tokens
+    input_text = f"{question} {sep_token} {context} {sep_token}"
+
+    # Tokenize the input
+    inputs = tokenizer(input_text, return_tensors='pt', truncation=True, max_length=4096, padding='max_length')
 
     # Perform inference (get the start and end logits)
     with torch.no_grad():
@@ -148,8 +169,8 @@ def qa_model_hugging_face(question, context):
     all_tokens = tokenizer.convert_ids_to_tokens(input_ids[0].tolist())
 
     # Get the most probable start and end positions
-    start_index = torch.argmax(start_scores, dim=1).item()  # Extracts the most probable index
-    end_index = torch.argmax(end_scores, dim=1).item() + 1  # Extracts the most probable index for the end
+    start_index = torch.argmax(start_scores, dim=1).item()
+    end_index = torch.argmax(end_scores, dim=1).item() + 1
 
     # Convert tokens to answer
     answer_tokens = all_tokens[start_index:end_index]
@@ -157,9 +178,15 @@ def qa_model_hugging_face(question, context):
 
     return answer
 
+def clean_query(query) : 
+    query = unidecode(query)
+    query = re.sub(r'(.*)Here is a question(.*):(\n)*', '', query)
+    query = query.strip().replace("\n", "")  # Clean the query
+    return query
+
 # ***********************************************************************************************************************
 
-df = pd.read_csv("model_sample_qa.csv")[['date','task', 'challenge', 'reference']]
+df = pd.read_csv("../model_sample_qa.csv")[['date','task', 'challenge', 'reference']]
 date_df = df[df['task'] == 'date_qa'].reset_index(drop=True)
 
 # Load spaCy model
@@ -172,8 +199,8 @@ nltk.download('stopwords')
 stop_words = set(stopwords.words('english'))
 
 # Your Google Custom Search Engine credentials
-API_KEY = 'AIzaSyBNK55uw-L2MxeFL8Rf1Qr_aA3Dvmw3rMc'
-CX='7086f56d26cbe4bad'
+API_KEY = 'AIzaSyCVot1ZUjAS-kVXc5HgDeQFJbaokaJxozE'
+CX='53282e4da3bc047e2'
 
 tokenizer = AutoTokenizer.from_pretrained("valhalla/longformer-base-4096-finetuned-squadv1")
 model = AutoModelForQuestionAnswering.from_pretrained("valhalla/longformer-base-4096-finetuned-squadv1")
@@ -190,7 +217,10 @@ model_data_input['Titles'] = None
 for i in range(50):
     start_date = time.time()
     question = model_data_input.loc[i, "challenge"]
-    question = unidecode(question)
+    question = clean_query(question)
+    print("STEP :", str(i))
+    print("Question :", question)
+    print('')
     task = model_data_input.loc[i, "task"]
     CONTEXT, combined_set = combine_wikipedia_titles_and_sections(question)
 

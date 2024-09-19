@@ -86,7 +86,7 @@ def rouge_score(reference, completion, rouge):
 #*******************************************************************************************************************
 
 
-df_score = pd.read_csv("../multi_choice/model_predict_multichoice.csv")
+df_score = pd.read_csv("model_predict_date_qa.csv")
 
 df_score["DATE_SCORE"] = None
 
@@ -100,5 +100,5 @@ for i in range(len(df_score)) :
     df_score.loc[i, "DATE_SCORE"] = 0.7*date_scoring + 0.3*rouge_scoring
 
 df_score = df_score.dropna(subset=["result_model"]).reset_index(drop=True)
-print("SUCCESS RATIO :",(sum(df_score.loc[:, "DATE_SCORE"])/len(df_score))*100, "%")
+print("DATE SCORE :",sum(df_score.loc[:, "DATE_SCORE"])/len(df_score))
 df_score.to_csv("model_score_date_qa.csv", index=False)
