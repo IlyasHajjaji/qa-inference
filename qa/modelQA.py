@@ -7,7 +7,6 @@ import wikipedia
 from transformers import pipeline
 from bs4 import BeautifulSoup
 import time
-from transformers import T5Tokenizer, T5ForConditionalGeneration
 import spacy
 import nltk
 from nltk.corpus import stopwords
@@ -69,7 +68,7 @@ def keyword_nabil(sentence):
         if filtered_np and (filtered_np[0].isupper() or filtered_np[0].isdigit()):
             filtered_noun_phrases.append(filtered_np)
 
-    return ', '.join([x for x in filtered_noun_phrases])
+    return ' '.join([x for x in filtered_noun_phrases])
 
 def extract_query_from_question_transformers(question):
 
@@ -81,7 +80,6 @@ def extract_query_from_question_transformers(question):
     for entity in ner_results:
         if entity['entity_group'] in ["PER", "LOC", "ORG", "MISC", "DATE", "CARDINAL"]:
             query_terms.append(entity['word'])
-    #print("query_terms transformers :",query_terms)
 
     return ', '.join([x for x in query_terms]) 
 
@@ -119,28 +117,29 @@ def get_article_sections(title) :
 def combine_wikipedia_titles_and_sections(question):
     CONTEXT = "No  CONTEXT"
     combined_set = []
-
-    search_results = search_google(question)
+    
+    keywords_transformers = unidecode(extract_query_from_question_transformers(question))
+    print("keywords_transformers*************",keywords_transformers)
     wiki_items = []
-    if "items" in search_results :
-        print("Methode : Google API")
-        wiki_items = search_results["items"]
-    else :  
+    if keywords_transformers:
         print("Methode : extract_query_from_question_transformers")
-        keywords_transformers = unidecode(extract_query_from_question_transformers(question))
         search_results = search_google(keywords_transformers)
-        if "items" in search_results :
+        if "items" in search_results:
             wiki_items = search_results["items"]
-        else :     
-            print("Methode : keyword_nabil")
-            keywords_transformers = unidecode(keyword_nabil(question))
-            search_results = search_google(keywords_transformers)
+        else :  
+            print("Methode : Google API")
+            search_results = search_google(question)
             if "items" in search_results :
                 wiki_items = search_results["items"]
-            else : 
-                print("Methode : Nan")
-                return CONTEXT,combined_set
-                    
+            else :     
+                print("Methode : keyword_nabil")
+                keywords_transformers = unidecode(keyword_nabil(question))
+                search_results = search_google(keywords_transformers)
+                if "items" in search_results :
+                    wiki_items = search_results["items"]
+                else : 
+                    print("Methode : Nan")
+                    return CONTEXT,combined_set
 
     for element in wiki_items :
         wiki_url = element['link']
@@ -203,6 +202,28 @@ def clean_query(query) :
     return query
 
 
+# Function to reformulate a question using regex and append the model's answer
+def reformulate_question_re(question, model_answer):
+    # Define a regex pattern for common question starters
+    pattern = r"(What was|What is|Which|How many|Who are|In what|What were|Who|What was|What are|How do|What)"
+    
+    # Search for the pattern in the question
+    match = re.match(pattern, question)
+    
+    # Remove trailing punctuation like '?' from the question
+    question = re.sub(r'[?]$', '', question).strip()
+
+    # If a match is found, extract the rest of the question and append the answer
+    if match:
+        # Extract the part of the question after the match
+        rest_of_question = question[len(match.group(0)):].strip()
+        reformulated_question = f"According to the context, The {rest_of_question} is {model_answer}"
+    else:
+        # If no match, simply return the original question with the answer
+        reformulated_question = f"According to the context, is {model_answer}"
+    
+    return reformulated_question
+
 
 
 
@@ -223,9 +244,8 @@ stop_words = set(stopwords.words('english'))
 ner = pipeline("ner", model="dbmdz/bert-large-cased-finetuned-conll03-english", aggregation_strategy="simple")
 
 # Your Google Custom Search Engine credentials
-API_KEY = ''
+API_KEY = 'AIzaSyD_tquylmyhRpoGqBHMFh3HeMC-kLy1Z1U'
 CX = '5607d294a06a04e49'
-
 
 
 ckpt = "valhalla/longformer-base-4096-finetuned-squadv1"
@@ -243,8 +263,11 @@ model.to(device)
 df = pd.read_csv("../model_sample_qa.csv")[['date','task', 'challenge', 'reference']]
 date_df = df[df['task'] == 'qa'].reset_index(drop=True)
 
+#date_df = date_df.iloc[9:10].reset_index(drop=True)
+#print(len(date_df))
+
 # Generate emptybackup
-generat_empty_backup(False)
+generat_empty_backup(True)
 
 model_data_input = date_df.copy()
 model_data_input["result_model"] = None
@@ -258,12 +281,19 @@ for i in range(200):
    
     question = model_data_input.loc[i, "challenge"]
     question = clean_query(question)
+    print("question*************",question)
     CONTEXT, combined_set = combine_wikipedia_titles_and_sections(question)
+    print("combined_set*************",combined_set)
+    #print("CONTEXT*************",CONTEXT)
     answer = qa_model_hugging_face(question, CONTEXT,model)
 
+    # Get the reformulated answer using T5
+    final_answer = reformulate_question_re(question, answer)
+
+    #print("answer********************",final_answer)
     end_date = time.time()
     model_data_input.loc[i, "Time_elapsed"] = end_date - start_date
-    model_data_input.loc[i, "result_model"] = answer
+    model_data_input.loc[i, "result_model"] = final_answer
     model_data_input.loc[i, "Titles"] = ', '.join([x for x in combined_set])
     
     list_input = model_data_input.iloc[i]
@@ -271,3 +301,6 @@ for i in range(200):
     
 model_data_input.to_csv("model_predict_qa_valhalle_Ilyas.csv", index=False)
 print("Timing globale for running  is :", time.time() - start_date_globale)
+
+#SUCCESS RATIO : 0.44970498215780585
+# SUCCESS RATIO : 0.7335893658698376 
