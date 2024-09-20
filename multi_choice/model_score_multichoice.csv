@@ -1,0 +1,3201 @@
+date,task,challenge,reference,result_model,Time_elapsed,Titles,MULTICHOICE_SCORE
+2024-09-03 18:09:16.451237917,multi_choice,"[Example 1]
+What is the capital of Texas?
+A. Paris
+B. London
+C. Austin
+D. Houston
+Answer: C
+
+[Input Question]
+What is the origin of the name 'Parkville' in Victoria?
+
+A. It was named after Royal Park
+B. It was named after the Parkville family who settled in the area
+C. It was named after a popular park in Melbourne
+D. It was named after a famous Australian park ranger
+Answer: ",A,C,6.997094631195068,"Parkville,_Victoria, Wardlow,_Parkville,_Melbourne",False
+2024-09-04 01:12:44.565644026,multi_choice,"[Example 1]
+What is the capital of Texas?
+A. Paris
+B. London
+C. Austin
+D. Houston
+Answer: C
+
+[Input Question]
+When was Jacques-Gabriel Prod'homme the president of the Société française de musicologie?
+
+A. 1956
+B. 1944
+C. 1964
+D. 1924
+Answer: ",B,C,6.493147134780884,"Jacques-Gabriel_Prod%27homme, Conservatoire_de_Paris",False
+2024-09-05 06:56:22.714188544,multi_choice,"[Example 1]
+What is the capital of Texas?
+A. Paris
+B. London
+C. Austin
+D. Houston
+Answer: C
+
+[Input Question]
+What is the format of the audiobook novella 'Drunken Fireworks' by Stephen King?
+
+A. A historical drama about the American Revolution
+B. A collection of short stories
+C. A science fiction epic set in space
+D. A humorous story in the form of a police statement
+Answer: ",D,D,5.569969415664673,"Drunken_Fireworks, Castle_Rock_(Stephen_King)",True
+2024-09-04 10:27:24.077007532,multi_choice,"[Example 1]
+What is the capital of Texas?
+A. Paris
+B. London
+C. Austin
+D. Houston
+Answer: C
+
+[Input Question]
+What is a primary focus of the Association of Equipment Manufacturers' (AEM) political advocacy?
+
+A. Environmental regulations and climate change
+B. Public health and education policy
+C. National security and defense spending
+D. Infrastructure improvements and workforce issues
+Answer: ",D,D,5.223436117172241,"Association_of_Equipment_Manufacturers, File:AEM_logo2.png",True
+2024-09-04 16:49:16.722639872,multi_choice,"[Example 1]
+What is the capital of Texas?
+A. Paris
+B. London
+C. Austin
+D. Houston
+Answer: C
+
+[Input Question]
+Who named Byng Inlet?
+
+A. John Byng
+B. Captain Henry Wolsey Bayfield
+C. Admiral William Fitzwilliam Owen
+D. An unnamed British Naval officer
+Answer: ",B,D,4.97878623008728,"Byng_Inlet,_Ontario, Byng_Inlet_(Ontario)",False
+2024-09-06 08:14:37.248400211,multi_choice,"[Example 1]
+What is the capital of Texas?
+A. Paris
+B. London
+C. Austin
+D. Houston
+Answer: C
+
+[Input Question]
+What is James Allen Collins' profession besides being a politician?
+
+A. Teacher
+B. Lawyer
+C. Doctor
+D. Funeral director
+Answer: ",D,D,5.386667013168335,"J._Collins, Allen_Collins",True
+2024-09-03 15:15:37.602315426,multi_choice,"[Example 1]
+What is the capital of Texas?
+A. Paris
+B. London
+C. Austin
+D. Houston
+Answer: C
+
+[Input Question]
+Where is the Bornova station located in relation to the Bornova center?
+
+A. 1.05 km southwest of Bornova's center
+B. Adjacent to the former Bornova railway station
+C. In the heart of Bornova center
+D. Near the University of İzmir
+Answer: ",A,A,7.070986270904541,"Bornova_Bornova, Bornova",True
+2024-09-05 12:01:28.014510870,multi_choice,"[Example 1]
+What is the capital of Texas?
+A. Paris
+B. London
+C. Austin
+D. Houston
+Answer: C
+
+[Input Question]
+Where was 'The Shooting of Dan McGrew' first published?
+
+A. Australia
+B. The United States
+C. Canada
+D. The United Kingdom
+Answer: ",C,C,4.687862873077393,"The_Shooting_of_Dan_McGrew, The_Shooting_of_Dan_McGrew_(1924_film)",True
+2024-09-05 18:11:57.035889149,multi_choice,"[Example 1]
+What is the capital of Texas?
+A. Paris
+B. London
+C. Austin
+D. Houston
+Answer: C
+
+[Input Question]
+In what year did Harold Stanley co-found Morgan Stanley?
+
+A. 1920
+B. 1935
+C. 1960
+D. 1950
+Answer: ",B,B,4.97272515296936,"Harold_Stanley, Morgan_Stanley",True
+2024-09-05 09:50:30.570303440,multi_choice,"[Example 1]
+What is the capital of Texas?
+A. Paris
+B. London
+C. Austin
+D. Houston
+Answer: C
+
+[Input Question]
+Which team did Maximiliano Filizzola sign for ahead of the 2021 Súper Liga Americana de Rugby season?
+
+A. Italian Rugby Club
+B. Piacenza Lyons
+C. Argentina Sevens
+D. Selknam
+Answer: ",D,B,3.7248380184173584,,False
+2024-09-02 13:53:42.015391350,multi_choice,"[Example 1]
+What is the capital of Texas?
+A. Paris
+B. London
+C. Austin
+D. Houston
+Answer: C
+
+[Input Question]
+Where did Sean Higgins start his football career?
+
+A. Rangers FC
+B. Ross County
+C. Victoria Park
+D. Hamilton Academical
+Answer: ",D,C,3.6346025466918954,"Sean_Higgins_(basketball), Sean_Higgins_(footballer)",False
+2024-09-03 04:46:00.403348224,multi_choice,"[Example 1]
+What is the capital of Texas?
+A. Paris
+B. London
+C. Austin
+D. Houston
+Answer: C
+
+[Input Question]
+Where did the film 'Oru Rathri Oru Pakal' have its Indian premiere?
+
+A. Kazhcha-Niv Independent Film Festival (KNIFF)
+B. Chennai International Film Festival
+C. Mumbai Film Festival
+D. Kerala Film Festival
+Answer: ",A,A,3.835435390472412,"Oru_Rathri_Oru_Pakal, Prathap_Joseph",True
+2024-09-04 12:46:25.052795172,multi_choice,"[Example 1]
+What is the capital of Texas?
+A. Paris
+B. London
+C. Austin
+D. Houston
+Answer: C
+
+[Input Question]
+What is a notable achievement of Russian high jumper Natalya Mamlina?
+
+A. She holds the current world record in high jump
+B. She won a gold medal at the Olympic Games
+C. She won a silver medal at the European Championships
+D. She won an individual gold medal at the Youth World Championships
+Answer: ",D,D,3.608451843261719,"Natalya_Mamlina, Category:Russian_female_high_jumpers",True
+2024-09-03 04:49:14.075834368,multi_choice,"[Example 1]
+What is the capital of Texas?
+A. Paris
+B. London
+C. Austin
+D. Houston
+Answer: C
+
+[Input Question]
+What is the population of Miangaran-e Olya village according to the 2006 census?
+
+A. 788
+B. 688
+C. 588
+D. 488
+Answer: ",C,C,5.43046760559082,"Miangaran-e_Olya, Miangaran",True
+2024-09-04 21:48:03.075129032,multi_choice,"[Example 1]
+What is the capital of Texas?
+A. Paris
+B. London
+C. Austin
+D. Houston
+Answer: C
+
+[Input Question]
+Who painted the large mural of a girl on a bicycle on a gable facing Ravnsborggade on Nørrebrogade?
+
+A. A well-known street artist
+B. Seppo Matinens
+C. An anonymous artist
+D. A local Danish artist
+Answer: ",B,C,6.097840309143066,"Ravnsborggade, Ryesgade",False
+2024-09-04 12:21:01.365555712,multi_choice,"[Example 1]
+What is the capital of Texas?
+A. Paris
+B. London
+C. Austin
+D. Houston
+Answer: C
+
+[Input Question]
+What was Ronald J. Shurer's occupation after being honorably discharged in 2009?
+
+A. Special agent in the United States Secret Service
+B. Police officer in Phoenix
+C. Special agent in the FBI
+D. Security consultant in Washington, D.C.
+Answer: ",A,C,4.69580602645874,"Ronald_J._Shurer, File:Ronald_J._Shurer.jpg",False
+2024-09-04 04:34:07.448683977,multi_choice,"[Example 1]
+What is the capital of Texas?
+A. Paris
+B. London
+C. Austin
+D. Houston
+Answer: C
+
+[Input Question]
+What is the primary material used for the facades and minarets of Al-Hakim Mosque?
+
+A. Polychrome marble
+B. Stone
+C. Brick
+D. Wood
+Answer: ",B,B,5.188077449798584,"Al-Hakim_Mosque, Aqmar_Mosque",True
+2024-09-02 22:20:31.200684786,multi_choice,"[Example 1]
+What is the capital of Texas?
+A. Paris
+B. London
+C. Austin
+D. Houston
+Answer: C
+
+[Input Question]
+Who was the first wife of Sir Thomas Palmer, 4th Baronet, of Wingham?
+
+A. Robert Marsham
+B. Elizabeth Marsham
+C. Lady Romney
+D. Elizabeth Palmer
+Answer: ",B,D,4.31442928314209,"Sir_Thomas_Palmer,_4th_Baronet,_of_Wingham, Sir_Thomas_Palmer,_1st_Baronet",False
+2024-09-05 20:10:00.716023445,multi_choice,"[Example 1]
+What is the capital of Texas?
+A. Paris
+B. London
+C. Austin
+D. Houston
+Answer: C
+
+[Input Question]
+What is the name of the boutique label founded by Stefan Rusconi and his bandmates in 2012?
+
+A. Bee Jazz Records
+B. Sony Music Entertainment
+C. Rusconi Records
+D. Qilin Records
+Answer: ",D,D,3.645276546478272,"Stefan_Rusconi, Rusconi_(surname)",True
+2024-09-05 11:55:32.822103739,multi_choice,"[Example 1]
+What is the capital of Texas?
+A. Paris
+B. London
+C. Austin
+D. Houston
+Answer: C
+
+[Input Question]
+What type of athlete is Ludvig Hedström?
+
+A. Ice hockey player
+B. Basketball player
+C. Tennis player
+D. Soccer player
+Answer: ",A,A,3.7952942848205566,"Ludvig_Hedstr%C3%B6m, Hedstrom",True
+2024-09-04 16:18:09.909822464,multi_choice,"[Example 1]
+What is the capital of Texas?
+A. Paris
+B. London
+C. Austin
+D. Houston
+Answer: C
+
+[Input Question]
+What was the reason for the 'R' rating given to the movie Sixpack Annie, according to Lindsay Bloom?
+
+A. Lindsay Bloom's character's beer consumption
+B. The use of salty language and a nude scene
+C. The film's depiction of truck driving
+D. The movie's setting in a town named Titwillow
+Answer: ",B,B,4.586745500564575,"Sixpack_Annie, Lindsay_Bloom",True
+2024-09-06 11:50:10.481215715,multi_choice,"[Example 1]
+What is the capital of Texas?
+A. Paris
+B. London
+C. Austin
+D. Houston
+Answer: C
+
+[Input Question]
+In which district is Yudaishan Station located?
+
+A. Jiangbei District
+B. Yubei District
+C. Shapingba District
+D. Jiangjin District
+Answer: ",A,A,3.654716968536377,"Yudaishan_station, Nanqiaosi_station",True
+2024-09-06 00:23:23.518548488,multi_choice,"[Example 1]
+What is the capital of Texas?
+A. Paris
+B. London
+C. Austin
+D. Houston
+Answer: C
+
+[Input Question]
+What is the material of the sculpture 'Leif, the Discoverer'?
+
+A. Marble
+B. Red sandstone
+C. Bronze
+D. Granite
+Answer: ",C,C,4.775071382522583,"Leif,_the_Discoverer_(Whitney), Leif_Erikson",True
+2024-09-05 00:57:10.453648329,multi_choice,"[Example 1]
+What is the capital of Texas?
+A. Paris
+B. London
+C. Austin
+D. Houston
+Answer: C
+
+[Input Question]
+Which of the following counties is entirely included in North Carolina's 51st House district?
+
+A. Chatham County
+B. Lee County
+C. Moore County
+D. Harnett County
+Answer: ",B,B,5.032214641571045,"North_Carolina_House_of_Representatives, Speaker_of_the_North_Carolina_House_of_Representatives",True
+2024-09-03 08:19:35.663314688,multi_choice,"[Example 1]
+What is the capital of Texas?
+A. Paris
+B. London
+C. Austin
+D. Houston
+Answer: C
+
+[Input Question]
+What is the primary goal of thematic investing?
+
+A. To invest in companies with a strong track record of dividend payments
+B. To invest in individual stocks with high growth potential
+C. To identify and capitalize on macro-level trends that will shape the global economy
+D. To diversify a portfolio by investing in different asset classes
+Answer: ",C,C,2.2532546520233154,,True
+2024-09-04 12:54:57.967683840,multi_choice,"[Example 1]
+What is the capital of Texas?
+A. Paris
+B. London
+C. Austin
+D. Houston
+Answer: C
+
+[Input Question]
+What was the critical reception of the film Huge, according to the reviews mentioned?
+
+A. Extremely negative, with all reviewers panning the film's humor and direction
+B. Mixed, with some reviewers praising the filmmaker's debut and others criticizing the film's humor
+C. Overwhelmingly positive, with all reviewers praising the film's originality and execution
+D. Generally positive, with praise for its humor and direction
+Answer: ",B,D,2.244173526763916,,False
+2024-09-04 01:51:36.876674891,multi_choice,"[Example 1]
+What is the capital of Texas?
+A. Paris
+B. London
+C. Austin
+D. Houston
+Answer: C
+
+[Input Question]
+What is the Japanese term used to designate various grades, levels or degrees of proficiency or experience in martial arts and other activities?
+
+A. Geup
+B. Kyū
+C. Ji
+D. Dan
+Answer: ",B,D,5.291256666183472,"Japanese_language, Japan",False
+2024-09-04 07:44:48.170804024,multi_choice,"[Example 1]
+What is the capital of Texas?
+A. Paris
+B. London
+C. Austin
+D. Houston
+Answer: C
+
+[Input Question]
+What provides the Hong Kong Archaeological Society with workshop and office spaces?
+
+A. Antiquities and Monuments Office of the Hong Kong Government
+B. Hong Kong Museum of History
+C. Private donors
+D. Hong Kong University
+Answer: ",B,A,5.005849123001099,"Hong_Kong_Archaeological_Society, Li_Long_Lam",False
+2024-09-05 07:17:56.412069559,multi_choice,"[Example 1]
+What is the capital of Texas?
+A. Paris
+B. London
+C. Austin
+D. Houston
+Answer: C
+
+[Input Question]
+What was the title of Dead Horse's first release, which was released independently in 1989?
+
+A. Feed Me
+B. Peaceful Death and Pretty Flowers
+C. BOIL
+D. Horsecore: An Unrelated Story That's Time Consuming
+Answer: ",D,C,4.720301151275635,"Dead_Horse_(song), Deadhorse,_Alaska",False
+2024-09-02 23:11:13.973649664,multi_choice,"[Example 1]
+What is the capital of Texas?
+A. Paris
+B. London
+C. Austin
+D. Houston
+Answer: C
+
+[Input Question]
+What is the main purpose of the design of the Nine-turn bridge in Chinese Gardens?
+
+A. To allow for a greater number of people to cross at the same time
+B. To enable viewers to enjoy different scenes from various angles
+C. To create a sense of grandeur and intimidation
+D. To provide a direct and efficient path for crossing
+Answer: ",B,B,4.994651794433594,"Chinese_garden, List_of_Chinese_gardens",True
+2024-09-03 04:28:22.736440832,multi_choice,"[Example 1]
+What is the capital of Texas?
+A. Paris
+B. London
+C. Austin
+D. Houston
+Answer: C
+
+[Input Question]
+What was the name of the play that Damson Idris landed a role in after being encouraged by Cathy Tyson?
+
+A. Pandora's Box
+B. Casualty
+C. Miranda
+D. Doctors
+Answer: ",A,C,4.514412879943848,"Damson_Idris, Category:Alumni_of_Brunel_University_London",False
+2024-09-06 11:26:19.711689949,multi_choice,"[Example 1]
+What is the capital of Texas?
+A. Paris
+B. London
+C. Austin
+D. Houston
+Answer: C
+
+[Input Question]
+What is Elliot Speller-Gillott best known for?
+
+A. His music career as a solo artist
+B. His appearances in various British films
+C. His role in a BBC One drama series
+D. His starring role alongside Nick Helm in the BBC Three sitcom Uncle
+Answer: ",D,D,4.987915754318237,"Uncle_(British_TV_series), Days_of_the_Bagnold_Summer_(film)",True
+2024-09-04 13:36:39.076097965,multi_choice,"[Example 1]
+What is the capital of Texas?
+A. Paris
+B. London
+C. Austin
+D. Houston
+Answer: C
+
+[Input Question]
+According to the 2020 United States census, what is the population of Plymouth, North Carolina?
+
+A. 1,522
+B. 4,000
+C. 3,320
+D. 3,200
+Answer: ",C,C,4.765669584274292,"Plymouth,_North_Carolina, Plymouth_High_School_(North_Carolina)",True
+2024-09-01 16:02:51.056334734,multi_choice,"[Example 1]
+What is the capital of Texas?
+A. Paris
+B. London
+C. Austin
+D. Houston
+Answer: C
+
+[Input Question]
+When did Georgi Georgiev make his league debut for FC Tiraspol?
+
+A. 31 December 2010
+B. 1 January 2012
+C. 1 July 2011
+D. 23 July 2011
+Answer: ",D,D,5.397597074508667,"Georgi_Georgiev_(footballer,_born_1988), Category:FC_Tiraspol_players",True
+2024-09-05 06:49:18.395732880,multi_choice,"[Example 1]
+What is the capital of Texas?
+A. Paris
+B. London
+C. Austin
+D. Houston
+Answer: C
+
+[Input Question]
+What is the literacy rate of Ramkote according to the 2011 census of India?
+
+A. 65.99%
+B. 73.08%
+C. 79.55%
+D. 67.16%
+Answer: ",B,C,4.634588718414307,"Christ_Church_(Hyderabad), Koti,_Hyderabad",False
+2024-09-06 11:11:05.073789120,multi_choice,"[Example 1]
+What is the capital of Texas?
+A. Paris
+B. London
+C. Austin
+D. Houston
+Answer: C
+
+[Input Question]
+Where was the film 'Give Us Tomorrow' primarily shot?
+
+A. Orpington, London
+B. Sevenoaks, Kent
+C. Petts Wood, Kent
+D. Moorfield Road, Kent
+Answer: ",C,B,4.806786060333252,"Give_Us_Tomorrow, Epiousion",False
+2024-09-04 12:20:40.945244312,multi_choice,"[Example 1]
+What is the capital of Texas?
+A. Paris
+B. London
+C. Austin
+D. Houston
+Answer: C
+
+[Input Question]
+What is Kaitlyn's problem in the 2001 film Lucky Girl?
+
+A. Her family is going through a divorce
+B. She is being bullied by her peers
+C. She has accumulated a large amount of debt due to her gambling habit
+D. She is struggling in school due to a learning disability
+Answer: ",C,C,5.283202648162842,"Lucky_Girl_(2001_film), The_Bachelorette_(American_TV_series)_season_11",True
+2024-09-05 10:01:36.379825592,multi_choice,"[Example 1]
+What is the capital of Texas?
+A. Paris
+B. London
+C. Austin
+D. Houston
+Answer: C
+
+[Input Question]
+In which taluka is Sanquelim situated?
+
+A. Pernem Taluka
+B. Ponda Taluka
+C. Sattari Taluka
+D. Bicholim Taluka
+Answer: ",D,D,4.448922634124756,"Sanquelim, Sanquelim_Assembly_constituency",True
+2024-09-03 23:40:36.641473532,multi_choice,"[Example 1]
+What is the capital of Texas?
+A. Paris
+B. London
+C. Austin
+D. Houston
+Answer: C
+
+[Input Question]
+According to Chomsky, Hauser and Fitch (2002), how many main aspects of high-level reference system are there?
+
+A. Three
+B. Five
+C. Six
+D. Seven
+Answer: ",C,B,4.513412952423096,"Language, Viki_(chimpanzee)",False
+2024-09-05 01:34:50.123754025,multi_choice,"[Example 1]
+What is the capital of Texas?
+A. Paris
+B. London
+C. Austin
+D. Houston
+Answer: C
+
+[Input Question]
+Where did Alexander Crichton travel to in 1539, carrying royal letters as a servant of Cardinal Beaton?
+
+A. France
+B. Italy
+C. England
+D. Spain
+Answer: ",A,A,4.457242727279663,"Alexander_Crichton_of_Brunstane, George_Wishart",True
+2024-09-06 07:11:45.627158165,multi_choice,"[Example 1]
+What is the capital of Texas?
+A. Paris
+B. London
+C. Austin
+D. Houston
+Answer: C
+
+[Input Question]
+What was François-Joseph Fétis's father's occupation?
+
+A. Organ manufacturer
+B. Music teacher
+C. Titular organist of the noble chapter of Saint-Waltrude
+D. Surgeon
+Answer: ",C,B,4.516360521316528,"Fran%C3%A7ois-Joseph_F%C3%A9tis, Category:Pupils_of_Fran%C3%A7ois-Joseph_F%C3%A9tis",False
+2024-09-04 22:46:14.060386304,multi_choice,"[Example 1]
+What is the capital of Texas?
+A. Paris
+B. London
+C. Austin
+D. Houston
+Answer: C
+
+[Input Question]
+What was the outcome of Samuel Little's trial in September 2014?
+
+A. He was acquitted of all charges
+B. He was found guilty and sentenced to life imprisonment with the possibility of parole
+C. The trial was declared a mistrial
+D. He was found guilty and sentenced to life imprisonment without the possibility of parole
+Answer: ",D,D,4.835394859313965,"Samuel_Little, Sam_Little_(golfer)",True
+2024-09-05 22:13:11.716572046,multi_choice,"[Example 1]
+What is the capital of Texas?
+A. Paris
+B. London
+C. Austin
+D. Houston
+Answer: C
+
+[Input Question]
+What was the statute of limitations for civil suits for sexual misconduct in New York before 2019?
+
+A. 10 years
+B. 15 years
+C. 20 years
+D. 3 years
+Answer: ",D,C,5.610424995422363,"New_York_City, New_York_(state)",False
+2024-09-05 02:22:07.748188734,multi_choice,"[Example 1]
+What is the capital of Texas?
+A. Paris
+B. London
+C. Austin
+D. Houston
+Answer: C
+
+[Input Question]
+What was the overall record of the 2018-19 Baylor Lady Bears basketball team?
+
+A. 35-1
+B. 32-3
+C. 33-2
+D. 31-4
+Answer: ",C,D,4.825162649154663,"Baylor_Bears_women%27s_basketball, Baylor_Bears",False
+2024-09-05 03:07:45.975494862,multi_choice,"[Example 1]
+What is the capital of Texas?
+A. Paris
+B. London
+C. Austin
+D. Houston
+Answer: C
+
+[Input Question]
+Which England player was ruled out of the squad due to an injury during the WODI series against India in February 2019?
+
+A. Katherine Brunt
+B. Heather Knight
+C. Nat Sciver
+D. Sophie Ecclestone
+Answer: ",D,D,3.9536564350128174,"England_women%27s_cricket_team_in_India_in_2018%E2%80%9319, England_women%27s_cricket_team_in_India_in_2017%E2%80%9318",True
+2024-09-03 19:29:21.481259823,multi_choice,"[Example 1]
+What is the capital of Texas?
+A. Paris
+B. London
+C. Austin
+D. Houston
+Answer: C
+
+[Input Question]
+What is the original Swedish title of the 1960 comedy film directed by Arne Mattsson?
+
+A. Sommar och lycka
+B. Sommar och sol
+C. Sommar och regn
+D. Sommar och syndare
+Answer: ",D,B,4.60081934928894,"Arne_Mattsson, The_Lady_in_Black_(1958_film)",False
+2024-09-04 15:57:57.508812189,multi_choice,"[Example 1]
+What is the capital of Texas?
+A. Paris
+B. London
+C. Austin
+D. Houston
+Answer: C
+
+[Input Question]
+What is the title of the science fiction novel by Ernest Cline published in 2015?
+
+A. Armada
+B. Warcross
+C. The Eye of Minds
+D. Ready Player One
+Answer: ",A,D,4.415988922119141,"Ernest_Cline, Ready_Player_One",False
+2024-09-05 00:49:18.031386375,multi_choice,"[Example 1]
+What is the capital of Texas?
+A. Paris
+B. London
+C. Austin
+D. Houston
+Answer: C
+
+[Input Question]
+When did Shirayama Station first open?
+
+A. January 1, 1920
+B. November 1, 1943
+C. April 30, 1912
+D. April 30, 1900
+Answer: ",C,C,5.687436580657959,"Shirayama_Station, Category:Stations_of_Takamatsu-Kotohira_Electric_Railroad",True
+2024-09-06 00:42:10.102803707,multi_choice,"[Example 1]
+What is the capital of Texas?
+A. Paris
+B. London
+C. Austin
+D. Houston
+Answer: C
+
+[Input Question]
+What type of livestock is commonly raised in the Kentucky district of New South Wales?
+
+A. Chickens and turkeys
+B. Dairy cattle and pigs
+C. Horses and goats
+D. Merino sheep and beef cattle
+Answer: ",D,D,4.147314071655273,"Kentucky,_New_South_Wales, Kentucky_State_Forest,_New_South_Wales",True
+2024-09-04 11:26:34.580947638,multi_choice,"[Example 1]
+What is the capital of Texas?
+A. Paris
+B. London
+C. Austin
+D. Houston
+Answer: C
+
+[Input Question]
+Who wrote the music for the popular song 'You'll Never Know'?
+
+A. Mack Gordon
+B. Anonymous
+C. Dorothy Fern Norris
+D. Harry Warren
+Answer: ",D,D,4.454042911529541,"You%27ll_Never_Know, You%27ll_Never_Know_(Kim_Richey_song)",True
+2024-09-02 01:19:00.031957388,multi_choice,"[Example 1]
+What is the capital of Texas?
+A. Paris
+B. London
+C. Austin
+D. Houston
+Answer: C
+
+[Input Question]
+How many tracks does Gateway Station feature?
+
+A. 4
+B. 3
+C. 1
+D. 2
+Answer: ",B,C,5.616253614425659,"Lunar_Gateway, Gateway_Station_(Charlotte)",False
+2024-09-03 04:20:14.675558144,multi_choice,"[Example 1]
+What is the capital of Texas?
+A. Paris
+B. London
+C. Austin
+D. Houston
+Answer: C
+
+[Input Question]
+What is the name of the diocese with its headquarters in Oradea, Romania?
+
+A. Reformed Diocese of Oradea
+B. Reformed Diocese of Királyhágómellék
+C. Reformed Diocese of Tiszántúl
+D. Reformed Diocese of Piatra Craiului
+Answer: ",B,D,4.921597719192505,"Oradea, Oradea_International_Airport",False
+2024-09-04 18:57:08.139993344,multi_choice,"[Example 1]
+What is the capital of Texas?
+A. Paris
+B. London
+C. Austin
+D. Houston
+Answer: C
+
+[Input Question]
+Where did Richard Alderson record his first commercially released live recordings of Nina Simone?
+
+A. The Village Gate
+B. RLA Studios
+C. Carnegie Hall
+D. The Gaslight
+Answer: ",A,B,4.515740871429443,"Richard_Alderson_(record_producer), Balaklava_(album)",False
+2024-09-03 19:19:23.550379776,multi_choice,"[Example 1]
+What is the capital of Texas?
+A. Paris
+B. London
+C. Austin
+D. Houston
+Answer: C
+
+[Input Question]
+In which region of the Czech Republic is the village of Selibice located?
+
+A. North Bohemia
+B. Central Bohemia
+C. South Moravia
+D. East Bohemia
+Answer: ",A,A,5.833910942077637,"Selibice_(Sta%C5%88kovice), Category:All_WikiProject_Czech_Republic_pages?from=Se",True
+2024-09-05 07:57:45.294825792,multi_choice,"[Example 1]
+What is the capital of Texas?
+A. Paris
+B. London
+C. Austin
+D. Houston
+Answer: C
+
+[Input Question]
+What is the top-level professional futsal league for men in Russia?
+
+A. Russian Futsal Super League
+B. Russian Futsal Cup
+C. Russian Futsal Premier League
+D. Russian Futsal Championship
+Answer: ",A,C,5.709630250930786,"Russia, Russian_Empire",False
+2024-09-04 19:41:29.415116032,multi_choice,"[Example 1]
+What is the capital of Texas?
+A. Paris
+B. London
+C. Austin
+D. Houston
+Answer: C
+
+[Input Question]
+What principle does the infra-red homing seeker head of the 9K34 Strela-3 work on?
+
+A. AM (spin-scan) principle
+B. Pulse-Doppler principle
+C. FM modulation (con-scan) principle
+D. Continuous wave principle
+Answer: ",C,C,4.422725439071655,"9K34_Strela-3, 2003_Baghdad_DHL_attempted_shootdown_incident",True
+2024-09-03 01:40:27.344536781,multi_choice,"[Example 1]
+What is the capital of Texas?
+A. Paris
+B. London
+C. Austin
+D. Houston
+Answer: C
+
+[Input Question]
+What was the purpose of the volunteers' efforts to restore the Loew's Jersey Theatre?
+
+A. To convert it into a residential building
+B. To prevent it from being demolished
+C. To expand its seating capacity
+D. To prepare it for sale to a private developer
+Answer: ",B,B,4.413577079772949,"Loew%27s_Jersey_Theatre, Loew%27s_Wonder_Theatres",True
+2024-08-31 14:08:32.222380032,multi_choice,"[Example 1]
+What is the capital of Texas?
+A. Paris
+B. London
+C. Austin
+D. Houston
+Answer: C
+
+[Input Question]
+Where did Jackie Morris attend high school?
+
+A. Prince Henry's High School in Birmingham
+B. Prince Henry's High School in Evesham
+C. Birmingham Academy of Art
+D. Bath Academy of Art
+Answer: ",B,D,4.71804141998291,"Jackie_Morris, Morris_Chestnut",False
+2024-09-05 02:57:14.586572288,multi_choice,"[Example 1]
+What is the capital of Texas?
+A. Paris
+B. London
+C. Austin
+D. Houston
+Answer: C
+
+[Input Question]
+How did Jan Verhaas initially get involved in snooker refereeing?
+
+A. He was helping at tournaments at a friend's snooker club in Rotterdam and was advised by referee Michael Clarke
+B. He was working as a process operator for Shell Chemicals and was recruited by a friend
+C. He was a professional snooker player and decided to become a referee after retiring
+D. He was a sports journalist covering snooker events and decided to become a referee
+Answer: ",A,A,4.765330076217651,"Jan_Verhaas, Jan_Verhas",True
+2024-09-03 10:46:25.096267700,multi_choice,"[Example 1]
+What is the capital of Texas?
+A. Paris
+B. London
+C. Austin
+D. Houston
+Answer: C
+
+[Input Question]
+How many priority areas have been identified for cooperation by the Bay of Bengal Initiative for Multi-Sectoral Technical and Economic Cooperation?
+
+A. 12
+B. 14
+C. 10
+D. 15
+Answer: ",D,B,4.608100175857544,"Bay_of_Bengal_Initiative_for_Multi-Sectoral_Technical_and_Economic_Cooperation, Template:Regional_organizations",False
+2024-09-04 07:28:07.216000557,multi_choice,"[Example 1]
+What is the capital of Texas?
+A. Paris
+B. London
+C. Austin
+D. Houston
+Answer: C
+
+[Input Question]
+When was Club Deportivo Isla Cristina founded?
+
+A. 1924
+B. 1954
+C. 1944
+D. 1934
+Answer: ",D,D,5.661424875259399,"CD_Isla_Cristina, Rodolfo_Bodipo",True
+2024-09-04 22:29:59.668304682,multi_choice,"[Example 1]
+What is the capital of Texas?
+A. Paris
+B. London
+C. Austin
+D. Houston
+Answer: C
+
+[Input Question]
+Where did James Carpenter graduate from with a BFA in sculpture?
+
+A. Rhode Island School of Design
+B. Massachusetts Institute of Technology
+C. Harvard University
+D. Yale University
+Answer: ",A,A,4.390897989273071,"James_Carpenter_(American_football), James_Carpenter_(architect)",True
+2024-09-02 21:35:38.760935068,multi_choice,"[Example 1]
+What is the capital of Texas?
+A. Paris
+B. London
+C. Austin
+D. Houston
+Answer: C
+
+[Input Question]
+In which voivodeship is the village of Zawadki located?
+
+A. Masovian Voivodeship
+B. Lublin Voivodeship
+C. Silesian Voivodeship
+D. Podlaskie Voivodeship
+Answer: ",B,B,3.5662953853607178,"Zawadki, Zawadki,_Bia%C5%82a_Podlaska_County",True
+2024-09-06 08:38:26.592572451,multi_choice,"[Example 1]
+What is the capital of Texas?
+A. Paris
+B. London
+C. Austin
+D. Houston
+Answer: C
+
+[Input Question]
+What is the name of the foundation established by Jeremy Grantham and his wife Hannelore in 1997?
+
+A. The Grantham Institute for Sustainability
+B. The Grantham Foundation For the Protection of the Environment
+C. The Grantham Centre for Environmental Research
+D. The Grantham Foundation for Climate Change
+Answer: ",B,B,4.519517183303833,"Jeremy_Grantham, Grantham_Prize",True
+2024-09-04 12:51:45.010439873,multi_choice,"[Example 1]
+What is the capital of Texas?
+A. Paris
+B. London
+C. Austin
+D. Houston
+Answer: C
+
+[Input Question]
+What type of boat did New Zealand enter in the 1952 Summer Olympics rowing competition?
+
+A. Coxless four
+B. Coxless pair
+C. Eight
+D. Coxed four
+Answer: ",D,C,5.177778720855713,"New_Zealand_at_the_Olympics, New_Zealand_at_the_2024_Summer_Olympics",False
+2024-09-06 10:50:13.905151129,multi_choice,"[Example 1]
+What is the capital of Texas?
+A. Paris
+B. London
+C. Austin
+D. Houston
+Answer: C
+
+[Input Question]
+What is Sílvia Orriols' educational background?
+
+A. Degree in Business Administration from the University of Barcelona
+B. Degree in Law from the University of Girona
+C. Degree in Library and Information Science from the University of Vic
+D. Degree in Economics from the University of Lleida
+Answer: ",C,C,5.904377937316895,"S%C3%ADlvia_Orriols, Catalan_Alliance",True
+2024-09-05 02:18:59.018121004,multi_choice,"[Example 1]
+What is the capital of Texas?
+A. Paris
+B. London
+C. Austin
+D. Houston
+Answer: C
+
+[Input Question]
+What is the primary function of an introduction in music?
+
+A. To provide a conclusion to a movement or piece
+B. To introduce the vocalist or instrumentalist
+C. To provide a solo or improvisational section
+D. To establish melodic, harmonic or rhythmic material related to the main body of a piece
+Answer: ",D,D,2.2518928050994877,,True
+2024-09-05 19:32:09.063005924,multi_choice,"[Example 1]
+What is the capital of Texas?
+A. Paris
+B. London
+C. Austin
+D. Houston
+Answer: C
+
+[Input Question]
+How many events did the 2015 BRDC Formula 4 Championship support the British GT series?
+
+A. 4 events
+B. 5 events
+C. 6 events
+D. 8 events
+Answer: ",C,C,4.5949647426605225,"2016_BRDC_British_Formula_3_Championship, Seb_Morris",True
+2024-09-02 05:57:04.714919424,multi_choice,"[Example 1]
+What is the capital of Texas?
+A. Paris
+B. London
+C. Austin
+D. Houston
+Answer: C
+
+[Input Question]
+What is the original scheduled release date for the Nintendo 64 version of Starshot: Space Circus Fever in North America?
+
+A. April 16, 1998
+B. June 29, 1999
+C. June 29, 1998
+D. April 16, 1999
+Answer: ",D,D,5.488065242767334,"Starshot:_Space_Circus_Fever, List_of_Nintendo_64_games",True
+2024-09-03 15:51:19.658674944,multi_choice,"[Example 1]
+What is the capital of Texas?
+A. Paris
+B. London
+C. Austin
+D. Houston
+Answer: C
+
+[Input Question]
+What is notable about the collection of the National Museum of Art, Osaka?
+
+A. It features a wide range of art from before 1945
+B. It is the largest collection of contemporary art in Japan
+C. It is the largest collection of ancient Japanese art
+D. It only includes works by Japanese artists
+Answer: ",B,A,6.94933032989502,"National_Museum_of_Art,_Osaka, Osaka_Science_Museum",False
+2024-09-05 07:36:14.017761707,multi_choice,"[Example 1]
+What is the capital of Texas?
+A. Paris
+B. London
+C. Austin
+D. Houston
+Answer: C
+
+[Input Question]
+What is an electromagnetic four-potential?
+
+A. A non-relativistic tensor function that describes the magnetic field only
+B. A relativistic vector function that combines electric scalar potential and magnetic vector potential
+C. A relativistic scalar function that describes the electric field only
+D. A non-relativistic scalar function that describes the electromagnetic wave
+Answer: ",B,D,2.2563648223876958,,False
+2024-08-30 13:10:01.293731584,multi_choice,"[Example 1]
+What is the capital of Texas?
+A. Paris
+B. London
+C. Austin
+D. Houston
+Answer: C
+
+[Input Question]
+Where is Vartdalsfjorden located?
+
+A. Møre og Romsdal county, Norway
+B. Sør-Trøndelag county, Norway
+C. Møre og Romsdal county, Sweden
+D. Troms og Finnmark county, Norway
+Answer: ",A,A,5.606544494628906,"Vartdalsfjorden, S%C3%A6tre,_M%C3%B8re_og_Romsdal",True
+2024-09-06 06:21:53.582399607,multi_choice,"[Example 1]
+What is the capital of Texas?
+A. Paris
+B. London
+C. Austin
+D. Houston
+Answer: C
+
+[Input Question]
+Where was Sietje Gravendaal-Tammens initially sent after being arrested in Amsterdam?
+
+A. Herzogenbusch concentration camp in Vught
+B. Amsterdam Prison
+C. Oranjehotel in Scheveningen
+D. Scholtenhuis in Groningen
+Answer: ",A,A,4.560675144195557,"Sietje_Gravendaal-Tammens, Category:Dutch_resistance_members",True
+2024-09-05 19:22:57.159269094,multi_choice,"[Example 1]
+What is the capital of Texas?
+A. Paris
+B. London
+C. Austin
+D. Houston
+Answer: C
+
+[Input Question]
+What has the timber of some species of Crepe been used to manufacture?
+
+A. Toys and musical instruments
+B. Only bridges
+C. Paper and cardboard
+D. Furniture, bridges, and railway sleepers
+Answer: ",D,D,4.947195529937744,"C_(programming_language), Celsius",True
+2024-09-03 01:46:18.556740352,multi_choice,"[Example 1]
+What is the capital of Texas?
+A. Paris
+B. London
+C. Austin
+D. Houston
+Answer: C
+
+[Input Question]
+What is the full name of the Alliance of the Centre party in Italy?
+
+A. Alliance of the Centre for the Government
+B. Alliance of the Centre for the Territories
+C. Alliance of the Centre for the Nation
+D. Alliance of the Centre for the People
+Answer: ",B,B,5.959496974945068,"Alliance_of_the_Centre_(Italy), Centre-right_coalition_(Italy)",True
+2024-09-04 03:58:37.958161152,multi_choice,"[Example 1]
+What is the capital of Texas?
+A. Paris
+B. London
+C. Austin
+D. Houston
+Answer: C
+
+[Input Question]
+Where was Sarah McMurray buried after her death in 1943?
+
+A. At a cemetery in Wellington, New Zealand
+B. Terrace End Cemetery next to her husband
+C. Ada Street Cemetery in Palmerston North
+D. At a cemetery in her hometown
+Answer: ",B,D,4.623455762863159,"Sarah_McMurray, Sarah_Page_(prohibitionist)",False
+2024-08-30 05:00:38.627507448,multi_choice,"[Example 1]
+What is the capital of Texas?
+A. Paris
+B. London
+C. Austin
+D. Houston
+Answer: C
+
+[Input Question]
+What did critics praise about the game Moonring's world?
+
+A. Its lack of attention to detail
+B. Its complex and constantly-changing map
+C. Its small size and simplicity
+D. Its linear storyline
+Answer: ",B,B,4.6090087890625,"Moonring, 22%C2%B0_halo",True
+2024-09-04 19:40:12.257741312,multi_choice,"[Example 1]
+What is the capital of Texas?
+A. Paris
+B. London
+C. Austin
+D. Houston
+Answer: C
+
+[Input Question]
+Where did Alexander meet Bucephalus?
+
+A. Pella, Macedonia
+B. Babylon, Persia
+C. Athens, Greece
+D. Egypt, Alexandria
+Answer: ",A,C,5.6688268184661865,"Bucephalus, Boukephala_and_Nikaia",False
+2024-09-06 06:29:34.205897570,multi_choice,"[Example 1]
+What is the capital of Texas?
+A. Paris
+B. London
+C. Austin
+D. Houston
+Answer: C
+
+[Input Question]
+What does SPLASH stand for?
+
+A. Systems, Programming, Languages, and Applications: Software for Humans
+B. Software, Programming, Languages, and Applications: Systems for Humans
+C. Systems, Programming, Languages, and Applications: Software for Hackers
+D. Systems, Programming, Languages, and Applications: Software for Humanity
+Answer: ",D,D,4.642594575881958,"Splash_(film), Splash!_(British_TV_series)",True
+2024-09-04 13:27:44.782276869,multi_choice,"[Example 1]
+What is the capital of Texas?
+A. Paris
+B. London
+C. Austin
+D. Houston
+Answer: C
+
+[Input Question]
+How many hours before landfall was the hurricane warning issued in southeastern Florida?
+
+A. 25 hours
+B. 31.5 hours
+C. 16.5 hours
+D. 19.5 hours
+Answer: ",D,C,5.69036340713501,"Florida, Miami",False
+2024-09-03 02:23:14.920225620,multi_choice,"[Example 1]
+What is the capital of Texas?
+A. Paris
+B. London
+C. Austin
+D. Houston
+Answer: C
+
+[Input Question]
+In what year was the Argentina Palace building erected?
+
+A. 1900
+B. 1940
+C. 1928
+D. 1901
+Answer: ",D,A,6.699564695358276,"Casa_Rosada, Palace_of_the_Argentine_National_Congress",False
+2024-09-05 12:30:16.788831949,multi_choice,"[Example 1]
+What is the capital of Texas?
+A. Paris
+B. London
+C. Austin
+D. Houston
+Answer: C
+
+[Input Question]
+What was El Coyote's initial ring name when he started his wrestling career in 2010?
+
+A. Mr. Lince
+B. El Fuego
+C. Antaris
+D. El Coyote
+Answer: ",C,D,4.416181802749634,"El_Coyote_Cafe, El_Coyote_(character)",False
+2024-09-06 09:52:17.659843445,multi_choice,"[Example 1]
+What is the capital of Texas?
+A. Paris
+B. London
+C. Austin
+D. Houston
+Answer: C
+
+[Input Question]
+What was the response of the California Donor Table to Cheryl Brown's vote against climate legislation?
+
+A. They supported her opponent, Eloise Reyes
+B. They withdrew their support for climate legislation
+C. They remained neutral in her re-election campaign
+D. They endorsed her for re-election
+Answer: ",A,A,4.831336736679077,"Cheryl_Brown, Carol_Moseley_Braun",True
+2024-09-04 20:56:17.963618755,multi_choice,"[Example 1]
+What is the capital of Texas?
+A. Paris
+B. London
+C. Austin
+D. Houston
+Answer: C
+
+[Input Question]
+What is the earliest attested form of the name 'Inchaffray'?
+
+A. Insula missarum
+B. Sancti Johannis evangeliste
+C. Innis abh reidh
+D. Inche Affren
+Answer: ",A,A,4.414021015167236,"Inchaffray_Abbey, Abbot_of_Inchaffray",True
+2024-09-04 02:13:10.961703062,multi_choice,"[Example 1]
+What is the capital of Texas?
+A. Paris
+B. London
+C. Austin
+D. Houston
+Answer: C
+
+[Input Question]
+Who originally published Rhiannon: Curse of the Four Branches in English?
+
+A. Arberth Studios
+B. Electronic Arts
+C. Ubisoft
+D. Got Game Entertainment and Lighthouse Interactive
+Answer: ",D,A,4.41827130317688,"Rhiannon:_Curse_of_the_Four_Branches, Four_Branches_of_the_Mabinogi",False
+2024-09-03 03:52:40.157188416,multi_choice,"[Example 1]
+What is the capital of Texas?
+A. Paris
+B. London
+C. Austin
+D. Houston
+Answer: C
+
+[Input Question]
+What is a notable feature of the object IRAS 13208-6020?
+
+A. It has a spherical shape with no distinct outflows
+B. It shines brightly due to its own luminosity
+C. It has a bipolar form with two outflows of material in opposite directions
+D. It is a fully formed planetary nebula
+Answer: ",C,B,4.683842182159424,"Irish_Republican_Army, Ira_Glass",False
+2024-09-03 02:05:40.893988848,multi_choice,"[Example 1]
+What is the capital of Texas?
+A. Paris
+B. London
+C. Austin
+D. Houston
+Answer: C
+
+[Input Question]
+What is a notable feature of Mahone Bay on the Atlantic coast of Nova Scotia, Canada?
+
+A. It has only a few islands
+B. It is a large city
+C. It has many islands, potentially 365
+D. It is a popular skiing destination
+Answer: ",C,C,4.681196451187134,"Mahone_Bay, Oak_Island",True
+2024-09-04 23:31:59.929023504,multi_choice,"[Example 1]
+What is the capital of Texas?
+A. Paris
+B. London
+C. Austin
+D. Houston
+Answer: C
+
+[Input Question]
+Where was Coleman Hutzler's first coaching job in 2006?
+
+A. New Mexico Lobos
+B. San Diego
+C. Stanford Cardinal
+D. Florida
+Answer: ",B,B,4.599071025848389,"Coleman_Hutzler, 2024_Mississippi_State_Bulldogs_football_team",True
+2024-09-03 12:35:52.062310912,multi_choice,"[Example 1]
+What is the capital of Texas?
+A. Paris
+B. London
+C. Austin
+D. Houston
+Answer: C
+
+[Input Question]
+Where are the Martha Blakeney Hodges Special Collections and University Archives located?
+
+A. First floor of the Library's main building
+B. Second and third floors of the Library's main 1950 building
+C. Fourth floor of the Jackson Library
+D. Off-campus location
+Answer: ",B,D,4.588257312774658,"List_of_online_digital_musical_document_libraries, Margaret_Rose_Sanford",False
+2024-09-03 15:17:31.879204035,multi_choice,"[Example 1]
+What is the capital of Texas?
+A. Paris
+B. London
+C. Austin
+D. Houston
+Answer: C
+
+[Input Question]
+What are sweeps in martial arts, according to their categories?
+
+A. Either throws or takedowns that use the arms to attack an opponent's arms, or techniques for reversing a grappling position from a mount position
+B. Either throws or takedowns that use the arms to attack an opponent's legs, or techniques for reversing a grappling position from a side control position
+C. Either throws or takedowns that use the legs to attack an opponent's arms, or techniques for reversing a grappling position from a rear-naked choke position
+D. Either throws or takedowns that use the legs to attack an opponent's legs, or techniques for reversing a grappling position from a guard position
+Answer: ",D,B,2.291559219360352,,False
+2024-09-02 20:25:14.604977152,multi_choice,"[Example 1]
+What is the capital of Texas?
+A. Paris
+B. London
+C. Austin
+D. Houston
+Answer: C
+
+[Input Question]
+How long did it take Tom Scholz to complete the song 'More Than a Feeling'?
+
+A. 1 year
+B. 5 years
+C. 3 years
+D. 10 years
+Answer: ",B,B,4.778275966644287,"More_Than_a_Feeling, Boston_(album)",True
+2024-09-03 09:47:32.962711334,multi_choice,"[Example 1]
+What is the capital of Texas?
+A. Paris
+B. London
+C. Austin
+D. Houston
+Answer: C
+
+[Input Question]
+Who were some notable students of Meir Arik?
+
+A. Rabbi Shlomo Ganzfried and Rabbi Yisrael Meir Kagan
+B. Rabbi Reuvein Margolies and Rabbi Meir Shapiro
+C. Rabbi Yaakov Kamenetsky and Rabbi Shneur Zalman of Liadi
+D. Rabbi Avraham Yitzchak Kook and Rabbi Moshe Feinstein
+Answer: ",B,A,4.20534873008728,"Meir_Arik, Template:Moetzes_Gedolei_HaTorah",False
+2024-09-05 10:01:13.064506769,multi_choice,"[Example 1]
+What is the capital of Texas?
+A. Paris
+B. London
+C. Austin
+D. Houston
+Answer: C
+
+[Input Question]
+What was the typical rank of the governor of Santa Fe de Nuevo México who was also the captain and commander of the company of dragones de cuera?
+
+A. Captain
+B. Corporal
+C. Lieutenant Colonel by brevet
+D. Lieutenant
+Answer: ",C,A,5.516524314880371,"Santa_Fe_de_Nuevo_M%C3%A9xico, Santa_Fe,_New_Mexico",False
+2024-09-03 04:50:32.651001856,multi_choice,"[Example 1]
+What is the capital of Texas?
+A. Paris
+B. London
+C. Austin
+D. Houston
+Answer: C
+
+[Input Question]
+In what year was the 199 Fremont Street office skyscraper completed?
+
+A. 2005
+B. 2000
+C. 2010
+D. 1995
+Answer: ",B,B,4.2692344188690186,"199_Fremont_Street, 181_Fremont",True
+2024-09-01 02:48:51.944180489,multi_choice,"[Example 1]
+What is the capital of Texas?
+A. Paris
+B. London
+C. Austin
+D. Houston
+Answer: C
+
+[Input Question]
+Where was the Empire Nairn built?
+
+A. Bremen
+B. Flensburg
+C. Singapore
+D. Bombay
+Answer: ",B,B,4.7298431396484375,"List_of_Empire_ships_(N), Empire",True
+2024-08-30 13:32:05.131916523,multi_choice,"[Example 1]
+What is the capital of Texas?
+A. Paris
+B. London
+C. Austin
+D. Houston
+Answer: C
+
+[Input Question]
+What percentage of Aberdeen, North Carolina's total area is water?
+
+A. 5%
+B. 20%
+C. 10%
+D. 1.8%
+Answer: ",D,D,3.9194817543029785,"Aberdeen,_North_Carolina, Aberdeen_Historic_District_(Aberdeen,_North_Carolina)",True
+2024-09-03 16:37:25.168201208,multi_choice,"[Example 1]
+What is the capital of Texas?
+A. Paris
+B. London
+C. Austin
+D. Houston
+Answer: C
+
+[Input Question]
+What is Mykola Dzhyha's highest known rank in the Militsiya?
+
+A. General of the Army
+B. Colonel General
+C. Major General
+D. Lieutenant General
+Answer: ",B,B,5.792975902557373,"Mykola_Dzhyha, Mykola",True
+2024-09-02 00:05:43.523565054,multi_choice,"[Example 1]
+What is the capital of Texas?
+A. Paris
+B. London
+C. Austin
+D. Houston
+Answer: C
+
+[Input Question]
+Where did Enrico Cannio spend his whole life and work as a musician and composer?
+
+A. Rome
+B. Naples
+C. Milan
+D. Florence
+Answer: ",B,B,4.343786239624023,"Enrico_Cannio, %27O_surdato_%27nnammurato",True
+2024-09-03 18:01:38.440212224,multi_choice,"[Example 1]
+What is the capital of Texas?
+A. Paris
+B. London
+C. Austin
+D. Houston
+Answer: C
+
+[Input Question]
+What was the result of the Danish Environmental Protection Agency's test on 12 squishies?
+
+A. All squishies were found to release unacceptable levels of harmful substances
+B. No harmful substances were detected in any of the squishies
+C. Some squishies were found to release acceptable levels of harmful substances
+D. All squishies were found to be safe for use
+Answer: ",A,B,5.0752341747283936,"EPA_Network, National_Environmental_Research_Institute_of_Denmark",False
+2024-09-05 00:45:10.270414114,multi_choice,"[Example 1]
+What is the capital of Texas?
+A. Paris
+B. London
+C. Austin
+D. Houston
+Answer: C
+
+[Input Question]
+Which team did Andrew Suniula join for the 2013-2014 season?
+
+A. London Wasps
+B. Chicago Griffins
+C. Cornish Pirates
+D. CSM București
+Answer: ",A,D,4.5172178745269775,"Andrew_Suniula, Roland_Suniula",False
+2024-09-02 22:08:23.321111917,multi_choice,"[Example 1]
+What is the capital of Texas?
+A. Paris
+B. London
+C. Austin
+D. Houston
+Answer: C
+
+[Input Question]
+What is the population of Shamsabad village according to the 2006 census?
+
+A. 5000
+B. 430
+C. 1000
+D. 91
+Answer: ",B,D,5.180114269256592,"Shamsabad, Shamsabad,_Tehran",False
+2024-09-04 23:00:17.062544128,multi_choice,"[Example 1]
+What is the capital of Texas?
+A. Paris
+B. London
+C. Austin
+D. Houston
+Answer: C
+
+[Input Question]
+What role did Louis Deacon take up with England Women's team in the season after his stint with Coventry?
+
+A. Forwards Coach
+B. Head Coach
+C. Team Manager
+D. Defence Coach
+Answer: ",A,B,4.013943672180176,"Louis_Deacon, Ben_Gulliver",False
+2024-09-02 23:54:03.227489792,multi_choice,"[Example 1]
+What is the capital of Texas?
+A. Paris
+B. London
+C. Austin
+D. Houston
+Answer: C
+
+[Input Question]
+What was Richard Pearlman primarily known for?
+
+A. His extensive experience in film direction
+B. His encyclopedic knowledge on every aspect of opera
+C. His work as a renowned playwright
+D. His expertise in ballet choreography
+Answer: ",B,B,3.6376585960388175,"Richard_Pearlman, Pearlman",True
+2024-09-06 11:07:14.372565746,multi_choice,"[Example 1]
+What is the capital of Texas?
+A. Paris
+B. London
+C. Austin
+D. Houston
+Answer: C
+
+[Input Question]
+In which countries does Pegatron have manufacturing plants?
+
+A. Japan, South Korea, and Singapore
+B. Germany, France, and Italy
+C. Taiwan, the Czech Republic, Mexico, Indonesia, and China
+D. Taiwan, China, and the United States
+Answer: ",C,C,5.300828218460083,"Pegatron, Tzu-Hsien_Tung",True
+2024-09-05 00:45:13.230842113,multi_choice,"[Example 1]
+What is the capital of Texas?
+A. Paris
+B. London
+C. Austin
+D. Houston
+Answer: C
+
+[Input Question]
+Where did the 2017 Open de Rennes tennis tournament take place?
+
+A. Rennes, France
+B. Marseille, France
+C. Lyon, France
+D. Paris, France
+Answer: ",A,A,3.713933229446411,"Open_de_Rennes, 2017_Open_de_Rennes",True
+2024-09-05 07:13:45.433763742,multi_choice,"[Example 1]
+What is the capital of Texas?
+A. Paris
+B. London
+C. Austin
+D. Houston
+Answer: C
+
+[Input Question]
+What is the main public transportation system that operates city buses in Waterbury, Connecticut?
+
+A. Northeast Transportation Company
+B. CT Transit
+C. Hartford-New Britain Busway
+D. Waterbury Transit Authority
+Answer: ",B,B,4.940942525863648,"Waterbury,_Connecticut, Downtown_Waterbury_Historic_District",True
+2024-09-05 10:04:57.059383154,multi_choice,"[Example 1]
+What is the capital of Texas?
+A. Paris
+B. London
+C. Austin
+D. Houston
+Answer: C
+
+[Input Question]
+What traditional Iranian instrument did Haj Qorban Soleimani master by his early twenties?
+
+A. Tar
+B. Kamancheh
+C. Setar
+D. Dotar
+Answer: ",D,D,4.604129076004028,"Haj_Qorban_Soleimani, Category:Iranian_dutar_players",True
+2024-09-04 21:28:17.765908736,multi_choice,"[Example 1]
+What is the capital of Texas?
+A. Paris
+B. London
+C. Austin
+D. Houston
+Answer: C
+
+[Input Question]
+What was José Fernando Ramírez's stance on the French invasion of Mexico and the establishment of a monarchy in 1862?
+
+A. He opposed the French invasion and the establishment of a monarchy, but later accepted a government position
+B. He was neutral on the issue and did not take a public stance
+C. He strongly supported the French invasion and the establishment of a monarchy
+D. He was a key figure in the French invasion and helped establish the monarchy
+Answer: ",A,A,4.547879457473755,"Jos%C3%A9_Fernando_Ram%C3%ADrez, Ram%C3%ADrez_Codex",True
+2024-09-04 23:16:55.572915792,multi_choice,"[Example 1]
+What is the capital of Texas?
+A. Paris
+B. London
+C. Austin
+D. Houston
+Answer: C
+
+[Input Question]
+Who wrote the novelty song 'In the Middle of the House'?
+
+A. Bob Hilliard
+B. Vaughn Monroe
+C. Alma Cogan
+D. Rusty Draper
+Answer: ",A,A,4.250814199447632,"In_the_Middle_of_the_House, The_House_in_the_Middle",True
+2024-09-04 04:27:17.695405824,multi_choice,"[Example 1]
+What is the capital of Texas?
+A. Paris
+B. London
+C. Austin
+D. Houston
+Answer: C
+
+[Input Question]
+What sports teams did Barbara Johnson Tucker perform the national anthem for?
+
+A. Dallas Cowboys and San Antonio Spurs
+B. Houston Oilers and Houston Rockets
+C. New Orleans Saints and Oklahoma City Thunder
+D. Houston Astros and Houston Texans
+Answer: ",B,B,4.408796072006226,"Barbara_Johnson_Tucker, Barbara_Tucker",True
+2024-09-02 21:20:27.365489152,multi_choice,"[Example 1]
+What is the capital of Texas?
+A. Paris
+B. London
+C. Austin
+D. Houston
+Answer: C
+
+[Input Question]
+What was the cause of Giovanni Semeria's father's death?
+
+A. He was killed in a duel
+B. He was killed in battle during the Italian War of Independence
+C. He died of an illness unrelated to the war
+D. He died from an outbreak of Cholera in his regiment
+Answer: ",D,D,4.485483646392822,"Giovanni_Semeria, Domus_(magazine)",True
+2024-09-06 11:33:50.076222658,multi_choice,"[Example 1]
+What is the capital of Texas?
+A. Paris
+B. London
+C. Austin
+D. Houston
+Answer: C
+
+[Input Question]
+What style was the Chapel of St. Theresa–the Little Flower constructed in?
+
+A. Romanesque Revival
+B. Art Deco
+C. Gothic Revival
+D. Modern
+Answer: ",A,A,4.788204193115234,"Chapel_of_St._Theresa%E2%80%93the_Little_Flower, Th%C3%A9r%C3%A8se_of_Lisieux",True
+2024-09-06 00:09:03.535275221,multi_choice,"[Example 1]
+What is the capital of Texas?
+A. Paris
+B. London
+C. Austin
+D. Houston
+Answer: C
+
+[Input Question]
+What was Sasalak Haiprakhon subjected to by three Ulsan Hyundai players on social media?
+
+A. Praise for his football skills
+B. Racial abuse
+C. Requests for autographs
+D. Offers for sponsorship deals
+Answer: ",B,B,5.816869258880615,"Sasalak_Haiprakhon, Category:Thai_football_biography_stubs",True
+2024-08-31 01:13:05.764502784,multi_choice,"[Example 1]
+What is the capital of Texas?
+A. Paris
+B. London
+C. Austin
+D. Houston
+Answer: C
+
+[Input Question]
+What is one of the landmarks found in Brusnytsia?
+
+A. The wooden Church of the Assumption of the Virgin Mary
+B. The Church of the Holy Trinity
+C. The Iron Bridge
+D. The Brusnytsia Museum
+Answer: ",A,B,6.375275611877441,"Brusnytsia, Chortoryia",False
+2024-09-03 18:17:23.666779648,multi_choice,"[Example 1]
+What is the capital of Texas?
+A. Paris
+B. London
+C. Austin
+D. Houston
+Answer: C
+
+[Input Question]
+Why did Kafka move to the Bohemian village of Zürau in August 1917?
+
+A. To visit his sister Ottla
+B. To recover from tuberculosis
+C. To escape the hustle and bustle of city life
+D. To work on a new novel
+Answer: ",B,B,6.4475998878479,"The_Z%C3%BCrau_Aphorisms, Ottla_Kafka",True
+2024-09-05 04:05:00.976408005,multi_choice,"[Example 1]
+What is the capital of Texas?
+A. Paris
+B. London
+C. Austin
+D. Houston
+Answer: C
+
+[Input Question]
+When did the World Health Organization (WHO) confirm that a novel coronavirus was the cause of a respiratory illness in a cluster of people in Wuhan City, China?
+
+A. 31 January 2020
+B. 31 December 2019
+C. 12 February 2020
+D. 12 January 2020
+Answer: ",D,B,6.2389655113220215,"COVID-19_lockdown_in_China, COVID-19_pandemic",False
+2024-09-05 17:05:19.827660561,multi_choice,"[Example 1]
+What is the capital of Texas?
+A. Paris
+B. London
+C. Austin
+D. Houston
+Answer: C
+
+[Input Question]
+Where were Coriariaceae fossils, in the form of pollen grains, found in deposits dating back to the Early Campanian period?
+
+A. Antarctica
+B. Asia
+C. North America
+D. Europe
+Answer: ",A,A,4.455005407333374,"Coriaria, 2020_in_paleobotany",True
+2024-09-05 01:56:43.139075756,multi_choice,"[Example 1]
+What is the capital of Texas?
+A. Paris
+B. London
+C. Austin
+D. Houston
+Answer: C
+
+[Input Question]
+In which province is the village of Neshahr located in Iran?
+
+A. Tehran Province
+B. Isfahan Province
+C. Fars Province
+D. Kerman Province
+Answer: ",C,C,7.302701234817505,"Neshahr, Nehshahr",True
+2024-09-03 20:46:05.712366592,multi_choice,"[Example 1]
+What is the capital of Texas?
+A. Paris
+B. London
+C. Austin
+D. Houston
+Answer: C
+
+[Input Question]
+What was the condition of HMS Redbridge before it foundered in Pedro Bay, Jamaica in 1805?
+
+A. Excellent, with no reported issues
+B. Average, with some minor repairs needed
+C. Newly refurbished, with state-of-the-art equipment
+D. Poor and leaky
+Answer: ",D,B,6.465079784393311,"Spanish_Town, List_of_unsolved_murders_(1900%E2%80%931979)",False
+2024-09-05 08:00:02.076717568,multi_choice,"[Example 1]
+What is the capital of Texas?
+A. Paris
+B. London
+C. Austin
+D. Houston
+Answer: C
+
+[Input Question]
+Where is the Norwood neighborhood located in relation to Interstate 75?
+
+A. South and east
+B. North and east
+C. North and west
+D. South and west
+Answer: ",C,C,5.929839611053467,"Ohio_State_Route_562, Interstate_75_in_Ohio",True
+2024-09-03 22:21:59.838305712,multi_choice,"[Example 1]
+What is the capital of Texas?
+A. Paris
+B. London
+C. Austin
+D. Houston
+Answer: C
+
+[Input Question]
+What type of choir is the Pink Singers?
+
+A. Female-only choir
+B. UK's largest Lesbian, Gay, Bisexual and Transgender (LGBT) chorus
+C. Mixed choir with a focus on classical music
+D. Male-only choir
+Answer: ",B,B,5.234906196594238,"Pink_(singer), The_Pink_Singers",True
+2024-08-30 23:33:46.653220892,multi_choice,"[Example 1]
+What is the capital of Texas?
+A. Paris
+B. London
+C. Austin
+D. Houston
+Answer: C
+
+[Input Question]
+When was the Joseph Richardson House in Langhorne, Pennsylvania built?
+
+A. 1918
+B. 1738
+C. 1718
+D. 1818
+Answer: ",B,B,3.802801132202149,"Joseph_Richardson_House_(Langhorne,_Pennsylvania), Joseph_Richardson_House",True
+2024-09-05 17:28:50.222465754,multi_choice,"[Example 1]
+What is the capital of Texas?
+A. Paris
+B. London
+C. Austin
+D. Houston
+Answer: C
+
+[Input Question]
+What was significant about Francisco Serrão's 1512 voyage?
+
+A. It discovered the Strait of Magellan
+B. It was the first known European sailing east past Malacca through modern Indonesia and the East Indies
+C. It established trade routes with the Ottoman Empire
+D. It was the first European voyage to circumnavigate the globe
+Answer: ",B,B,4.504642009735107,"Francisco_Serr%C3%A3o, Francis_Serrao",True
+2024-09-06 04:23:42.132864475,multi_choice,"[Example 1]
+What is the capital of Texas?
+A. Paris
+B. London
+C. Austin
+D. Houston
+Answer: C
+
+[Input Question]
+When was Kilburn Grammar School's old boys' association established?
+
+A. 1939
+B. 1919
+C. 1929
+D. 1909
+Answer: ",B,B,4.019016742706299,"Kilburn_Grammar_School, Category:People_educated_at_Kilburn_Grammar_School",True
+2024-09-05 18:47:03.068362951,multi_choice,"[Example 1]
+What is the capital of Texas?
+A. Paris
+B. London
+C. Austin
+D. Houston
+Answer: C
+
+[Input Question]
+In what year did Infobip open its first high-tech campus, Pangea?
+
+A. 2015
+B. 2017
+C. 2020
+D. 2019
+Answer: ",B,B,3.267515182495117,Infobip,True
+2024-09-04 20:53:54.745057536,multi_choice,"[Example 1]
+What is the capital of Texas?
+A. Paris
+B. London
+C. Austin
+D. Houston
+Answer: C
+
+[Input Question]
+What type of soil does Albourne sit on, which has had both positive and negative effects on the area?
+
+A. Peat soil
+B. Lower Greensand
+C. Chalk soil
+D. Clay soil
+Answer: ",B,B,4.610496520996094,"Albourne_Partners, Albourne",True
+2024-09-03 08:58:05.335295488,multi_choice,"[Example 1]
+What is the capital of Texas?
+A. Paris
+B. London
+C. Austin
+D. Houston
+Answer: C
+
+[Input Question]
+When was the diocese of Zakho founded?
+
+A. 1851
+B. 1860
+C. 1870
+D. 1850
+Answer: ",A,A,7.449320077896118,"Zakho, Zakho_District",True
+2024-08-31 13:23:46.027506828,multi_choice,"[Example 1]
+What is the capital of Texas?
+A. Paris
+B. London
+C. Austin
+D. Houston
+Answer: C
+
+[Input Question]
+Who was the editor of the magazine Livewire?
+
+A. Bob Johnson
+B. Mike Smith
+C. John Doe
+D. Jane Smith
+Answer: ",B,D,4.9082114696502686,"Livewire_(DC_Comics), LiveWire_(motorcycle)",False
+2024-09-01 02:38:26.628063744,multi_choice,"[Example 1]
+What is the capital of Texas?
+A. Paris
+B. London
+C. Austin
+D. Houston
+Answer: C
+
+[Input Question]
+Where did Declan O'Loan's wife, Nuala O'Loan, serve as Police Ombudsman?
+
+A. Wales
+B. Scotland
+C. England
+D. Northern Ireland
+Answer: ",D,C,4.560306072235107,"Declan_O%27Loan, Nuala_O%27Loan,_Baroness_O%27Loan",False
+2024-09-02 14:34:24.075731712,multi_choice,"[Example 1]
+What is the capital of Texas?
+A. Paris
+B. London
+C. Austin
+D. Houston
+Answer: C
+
+[Input Question]
+Where is the Periódico 26 newspaper located?
+
+A. Las Tunas Province
+B. Santiago de Cuba Province
+C. Holguín Province
+D. Havana Province
+Answer: ",A,A,4.282124757766724,"Peri%C3%B3dico_26, List_of_newspapers_in_Cuba",True
+2024-09-06 08:44:58.631200075,multi_choice,"[Example 1]
+What is the capital of Texas?
+A. Paris
+B. London
+C. Austin
+D. Houston
+Answer: C
+
+[Input Question]
+What percentage of Noble Township, Cass County, Indiana is covered in water?
+
+A. 6.21%
+B. 1.21%
+C. 0.16%
+D. 0.61%
+Answer: ",D,D,3.7796266078948975,"Noble_Township,_Cass_County,_Indiana, Noble_Township,_Indiana",True
+2024-09-03 18:01:29.852696320,multi_choice,"[Example 1]
+What is the capital of Texas?
+A. Paris
+B. London
+C. Austin
+D. Houston
+Answer: C
+
+[Input Question]
+How far is Basovo located from Valuyki by road?
+
+A. 19 km
+B. 10 km
+C. 30 km
+D. 25 km
+Answer: ",A,A,6.528481483459473,"Basovo, Timonovo",True
+2024-09-05 18:10:57.739277840,multi_choice,"[Example 1]
+What is the capital of Texas?
+A. Paris
+B. London
+C. Austin
+D. Houston
+Answer: C
+
+[Input Question]
+How did the Cro-Mags initially form, according to guitarist Parris Mayhew?
+
+A. Parris Mayhew put up posters around New York in search of band members, to which Harley Flanagan responded
+B. The band formed under the name Mode of Ignorance with an original lineup consisting of Dave Hahn, Mayhew, and Flanagan
+C. The band formed after Parris Mayhew and Harley Flanagan met at a New York hardcore show
+D. The band was formed by John Joseph, who recruited Mayhew and Flanagan to join
+Answer: ",A,D,4.46068811416626,"Parris_Mayhew, Revenge_(Cro-Mags_album)",False
+2024-09-04 15:08:35.367899179,multi_choice,"[Example 1]
+What is the capital of Texas?
+A. Paris
+B. London
+C. Austin
+D. Houston
+Answer: C
+
+[Input Question]
+What was the main reason behind the design of the O-class battlecruisers for the Kriegsmarine?
+
+A. To test new naval technologies and design concepts
+B. To replace older battleships in the German fleet
+C. To counter the growing threat of the Soviet Navy
+D. To address a perceived lack in ship numbers compared to the British Royal Navy
+Answer: ",D,D,4.510814666748047,"O-class_battlecruiser, HNLMS_O_12",True
+2024-09-06 04:37:02.217132330,multi_choice,"[Example 1]
+What is the capital of Texas?
+A. Paris
+B. London
+C. Austin
+D. Houston
+Answer: C
+
+[Input Question]
+What is the primary characteristic of chasmogamy in plant reproduction?
+
+A. The flowers change color to attract pollinators
+B. The flowers stay closed and self-pollinate
+C. The flowers produce no nectar to deter pollinators
+D. The flowers open up, enabling cross-pollination
+Answer: ",D,D,2.2419400215148926,,True
+2024-09-03 05:29:56.255003136,multi_choice,"[Example 1]
+What is the capital of Texas?
+A. Paris
+B. London
+C. Austin
+D. Houston
+Answer: C
+
+[Input Question]
+Where was Mbali Dlamini born?
+
+A. Gert Sibande District Municipality
+B. Johannesburg
+C. Tshwane
+D. Mkhondo, Mpumalanga
+Answer: ",D,D,3.8375377655029297,"Mbali_Dlamini, Temalangeni_Dlamini",True
+2024-09-01 04:40:18.046658039,multi_choice,"[Example 1]
+What is the capital of Texas?
+A. Paris
+B. London
+C. Austin
+D. Houston
+Answer: C
+
+[Input Question]
+Who featured Gustav Skytte in their 1857 novel 'The Freebooter of the Baltic'?
+
+A. Gustav Skytte himself
+B. Viktor Rydberg
+C. Albert Bonnier
+D. Christina Anna Skytte
+Answer: ",B,A,4.036145925521851,"Gustav_Skytte, The_Freebooter_of_the_Baltic",False
+2024-09-03 00:29:18.286733150,multi_choice,"[Example 1]
+What is the capital of Texas?
+A. Paris
+B. London
+C. Austin
+D. Houston
+Answer: C
+
+[Input Question]
+What is the jurisdiction under which St. James Catholic Church in Crosstown, Missouri operates?
+
+A. Diocese of Springfield-Cape Girardeau
+B. Ste. Genevieve Deanery of the Archdiocese of St. Louis
+C. Archdiocese of Kansas City
+D. Archdiocese of Jefferson City
+Answer: ",B,B,3.813894033432007,"St._James_Roman_Catholic_Church_(Crosstown,_Missouri), Category:Crosstown,_Missouri",True
+2024-09-05 17:37:51.331037283,multi_choice,"[Example 1]
+What is the capital of Texas?
+A. Paris
+B. London
+C. Austin
+D. Houston
+Answer: C
+
+[Input Question]
+Where is Konstantin Ardakov currently a professor of pure mathematics?
+
+A. University of Edinburgh
+B. University of Oxford
+C. University of Manchester
+D. University of Cambridge
+Answer: ",B,B,4.058217287063599,"Konstantin_Ardakov, Brasenose_College_Boat_Club",True
+2024-08-31 12:32:21.644696474,multi_choice,"[Example 1]
+What is the capital of Texas?
+A. Paris
+B. London
+C. Austin
+D. Houston
+Answer: C
+
+[Input Question]
+What is a possible employment opportunity for Thomas Drury during the 1570s?
+
+A. Working as a merchant in London
+B. Studying law at a university
+C. Serving as a soldier in the British army
+D. Being employed by the Lord Keeper Sir Nicholas Bacon
+Answer: ",D,D,4.566050052642822,"Thomas_Drury_(1551%E2%80%931603), Thomas_Joseph_Drury",True
+2024-09-05 23:29:23.588192463,multi_choice,"[Example 1]
+What is the capital of Texas?
+A. Paris
+B. London
+C. Austin
+D. Houston
+Answer: C
+
+[Input Question]
+What is the percentage of females in the population of Bohari, according to the 2001 India census?
+
+A. 51%
+B. 59%
+C. 48%
+D. 52%
+Answer: ",C,B,4.7819154262542725,"Dawoodi_Bohra, Bohari",False
+2024-09-02 18:47:50.315532800,multi_choice,"[Example 1]
+What is the capital of Texas?
+A. Paris
+B. London
+C. Austin
+D. Houston
+Answer: C
+
+[Input Question]
+What is the meaning behind the song title 'U16 Girls'?
+
+A. It is a tribute to a specific girl who was 16 years old when the song was written
+B. It is a tongue-in-cheek warning about the dangers of getting into a relationship with a girl who is under the legal age of consent
+C. It represents the number of weeks the song stayed on the UK Singles Chart
+D. It refers to a group of girls who are part of a sports team
+Answer: ",B,B,4.336100816726685,"U16_Girls, 2023_Asian_Women%27s_U16_Volleyball_Championship",True
+2024-09-04 09:25:51.152014732,multi_choice,"[Example 1]
+What is the capital of Texas?
+A. Paris
+B. London
+C. Austin
+D. Houston
+Answer: C
+
+[Input Question]
+What is the name of the galaxy pair formed by PGC 2387685 and its neighboring galaxy PGC 3087279?
+
+A. PGC Galaxy Pair
+B. Hercules Galaxy Pair
+C. ZW I 137
+D. ZW I 136
+Answer: ",D,B,5.58218240737915,"P%E2%80%B2%E2%80%B2, Lp_space",False
+2024-08-31 16:51:47.085674763,multi_choice,"[Example 1]
+What is the capital of Texas?
+A. Paris
+B. London
+C. Austin
+D. Houston
+Answer: C
+
+[Input Question]
+Where did Florian Cajori attend school after emigrating to the United States in 1875?
+
+A. Harvard University
+B. University of Wisconsin–Madison
+C. State Normal school in Whitewater, Wisconsin
+D. State Normal school in Milwaukee, Wisconsin
+Answer: ",C,C,3.5510387420654297,"Florian_Cajori, File:Florian_Cajori.jpg",True
+2024-09-03 07:21:44.061494784,multi_choice,"[Example 1]
+What is the capital of Texas?
+A. Paris
+B. London
+C. Austin
+D. Houston
+Answer: C
+
+[Input Question]
+Where is Glenledi located in New Zealand?
+
+A. North Island, near Wellington
+B. North Island, near Auckland
+C. South Island, in the Otago region
+D. South Island, near Queenstown
+Answer: ",C,C,3.897888660430908,"Glenledi, Category:Use_New_Zealand_English_from_March_2024",True
+2024-09-02 22:07:43.958261490,multi_choice,"[Example 1]
+What is the capital of Texas?
+A. Paris
+B. London
+C. Austin
+D. Houston
+Answer: C
+
+[Input Question]
+What award did Tom Binns win at the 2013 New Zealand International Comedy Festival?
+
+A. Edinburgh Comedy Award
+B. Best Comedy Show
+C. Adelaide Fringe Comedy Award
+D. Best International Act
+Answer: ",D,D,4.7386579513549805,"Tom_Binns, Edinburgh_Festival_Fringe",True
+2024-08-30 14:07:21.540121555,multi_choice,"[Example 1]
+What is the capital of Texas?
+A. Paris
+B. London
+C. Austin
+D. Houston
+Answer: C
+
+[Input Question]
+What was the population of Carnes, Iowa in 1940?
+
+A. 13
+B. 100
+C. 6
+D. 35
+Answer: ",A,A,4.023243427276611,"Carnes,_Iowa, Brandon_Carnes",True
+2024-09-04 13:11:52.353640556,multi_choice,"[Example 1]
+What is the capital of Texas?
+A. Paris
+B. London
+C. Austin
+D. Houston
+Answer: C
+
+[Input Question]
+What record label released the albums from which the songs on Choice Cuts: The Capricorn Years 1991–1999 were selected?
+
+A. Atlantic Records
+B. Warner Bros. Records
+C. Capitol Records
+D. Capricorn Records
+Answer: ",D,D,3.6962268352508554,"Choice_Cuts:_The_Capricorn_Years_1991%E2%80%931999, Choice_Cuts",True
+2024-09-02 19:21:56.888185600,multi_choice,"[Example 1]
+What is the capital of Texas?
+A. Paris
+B. London
+C. Austin
+D. Houston
+Answer: C
+
+[Input Question]
+What was Adelbert Delbrück's role in Deutsche Bank in 1870?
+
+A. He was the CEO of Deutsche Bank
+B. He was a customer of Deutsche Bank
+C. He was a member of the supervisory board of Deutsche Bank
+D. He was a co-founder of Deutsche Bank
+Answer: ",D,D,7.0285303592681885,"Adelbert_Delbr%C3%BCck, Deutsche_Bank",True
+2024-09-05 15:18:01.306871653,multi_choice,"[Example 1]
+What is the capital of Texas?
+A. Paris
+B. London
+C. Austin
+D. Houston
+Answer: C
+
+[Input Question]
+When was Zavala Monastery first mentioned?
+
+A. 1587
+B. 1514
+C. 1474
+D. 1619
+Answer: ",B,B,6.369926452636719,"Zavala_Monastery, Zavala,_Ravno",True
+2024-09-03 23:42:39.536543488,multi_choice,"[Example 1]
+What is the capital of Texas?
+A. Paris
+B. London
+C. Austin
+D. Houston
+Answer: C
+
+[Input Question]
+What type of window is located on the noble floor of Palazzo Marcello Toderini, flanked by two pairs of monoforas?
+
+A. A large central serliana
+B. A single-light window
+C. A pair of triforas
+D. A pair of biforas
+Answer: ",A,B,4.234471082687378,"Palazzo_Marcello_Toderini, Category:Palaces_in_Sestiere_Santa_Croce",False
+2024-09-04 06:38:10.372739792,multi_choice,"[Example 1]
+What is the capital of Texas?
+A. Paris
+B. London
+C. Austin
+D. Houston
+Answer: C
+
+[Input Question]
+Where did the 20th Annual Japan Record Awards take place?
+
+A. Imperial Garden Theater in Chiyoda, Tokyo
+B. Osaka Castle Hall
+C. Tokyo Dome
+D. Saitama Super Arena
+Answer: ",A,A,3.733337640762329,"20th_Japan_Record_Awards, 21st_Japan_Record_Awards",True
+2024-09-03 14:31:13.138771296,multi_choice,"[Example 1]
+What is the capital of Texas?
+A. Paris
+B. London
+C. Austin
+D. Houston
+Answer: C
+
+[Input Question]
+What is the approximate area drained by the Town Creek sub-watershed?
+
+A. 26 square miles
+B. 10 square miles
+C. 50 square miles
+D. 100 square miles
+Answer: ",A,D,4.560439348220825,"Town_Creek,_Alabama, Town_Creek_(Potomac_River_tributary)",False
+2024-09-05 08:49:25.339339520,multi_choice,"[Example 1]
+What is the capital of Texas?
+A. Paris
+B. London
+C. Austin
+D. Houston
+Answer: C
+
+[Input Question]
+In what year and location were the first African Junior Athletics Championships held?
+
+A. 1994, Cairo, Egypt
+B. 1994, Algiers, Algeria
+C. 1996, Lagos, Nigeria
+D. 1992, Tunis, Tunisia
+Answer: ",B,A,6.146936893463135,"African_U20_Championships_in_Athletics, African_Youth_Athletics_Championships",False
+2024-09-03 08:07:43.601828864,multi_choice,"[Example 1]
+What is the capital of Texas?
+A. Paris
+B. London
+C. Austin
+D. Houston
+Answer: C
+
+[Input Question]
+When was the Alternative Energy Promotion Centre (AEPC) established?
+
+A. November 3, 1996
+B. November 3, 1995
+C. November 3, 1998
+D. November 3, 1997
+Answer: ",A,A,3.9286582469940186,"Alternative_Energy_Promotion_Centre, AEPC",True
+2024-08-31 13:49:54.585477888,multi_choice,"[Example 1]
+What is the capital of Texas?
+A. Paris
+B. London
+C. Austin
+D. Houston
+Answer: C
+
+[Input Question]
+What was one of the reasons that contributed to Ray McDonald's early exit from professional football?
+
+A. Injuries and off-field issues
+B. He switched to a different sport
+C. He decided to pursue a coaching career
+D. He was drafted into military service
+Answer: ",A,A,4.660268545150757,"Ray_McDonald, Ray_McDonald_(running_back)",True
+2024-09-05 00:38:06.101665974,multi_choice,"[Example 1]
+What is the capital of Texas?
+A. Paris
+B. London
+C. Austin
+D. Houston
+Answer: C
+
+[Input Question]
+Where did Aaron Bradshaw initially attend high school?
+
+A. Camden High School
+B. Camden Catholic High School
+C. Rahway High School
+D. Roselle Catholic High School
+Answer: ",D,A,4.581922292709351,"Aaron_Bradshaw, Aaron_Bradshaw_Jr.",False
+2024-09-05 21:39:07.136315823,multi_choice,"[Example 1]
+What is the capital of Texas?
+A. Paris
+B. London
+C. Austin
+D. Houston
+Answer: C
+
+[Input Question]
+What was Mondello like until the beginning of the 20th century?
+
+A. A small fishing village surrounded by mountains
+B. An unhealthy marsh enclosed by two headlands
+C. A popular beach resort
+D. A bustling city
+Answer: ",B,A,4.451984405517578,"Mondello, Joseph_Mondello",False
+2024-09-05 05:38:51.813084672,multi_choice,"[Example 1]
+What is the capital of Texas?
+A. Paris
+B. London
+C. Austin
+D. Houston
+Answer: C
+
+[Input Question]
+Who was named the POMGOL commissioner for matters pertaining to stamp donations in 1921?
+
+A. VTsIK
+B. Central Famine Relief Committee
+C. Imperial Russia
+D. Feodor Chuchin
+Answer: ",D,D,4.403887271881104,"Pomgol, File:Pomgol-lottery.jpg",True
+2024-09-03 23:35:09.479345408,multi_choice,"[Example 1]
+What is the capital of Texas?
+A. Paris
+B. London
+C. Austin
+D. Houston
+Answer: C
+
+[Input Question]
+What is the population of Bajvand village according to the 2006 census?
+
+A. 163
+B. 100
+C. 250
+D. 500
+Answer: ",A,A,4.8672380447387695,"Bajvand, Template:Mahabad_County",True
+2024-09-04 06:01:42.015407324,multi_choice,"[Example 1]
+What is the capital of Texas?
+A. Paris
+B. London
+C. Austin
+D. Houston
+Answer: C
+
+[Input Question]
+Where is Apex Mountain Resort located?
+
+A. In the Canadian Rockies, near Banff, Alberta
+B. In the Kootenay region, near Nelson, British Columbia
+C. In the Okanagan region on Beaconsfield Mountain, near Penticton, British Columbia
+D. On Vancouver Island, near Victoria, British Columbia
+Answer: ",C,C,3.68301010131836,"Apex_Mountain_Resort, Apex_Mountain",True
+2024-09-05 13:03:50.726076365,multi_choice,"[Example 1]
+What is the capital of Texas?
+A. Paris
+B. London
+C. Austin
+D. Houston
+Answer: C
+
+[Input Question]
+How are members of the Podlaskie Voivodeship Sejmik elected?
+
+A. From single-member constituencies with formal names
+B. From five districts with numbers and territorial descriptions
+C. From five districts with formal names
+D. Through a nationwide popular vote
+Answer: ",B,D,4.57861065864563,"Coat_of_arms_of_the_Podlaskie_Voivodeship, Wyszowate,_Podlaskie_Voivodeship",False
+2024-09-01 18:00:28.291332096,multi_choice,"[Example 1]
+What is the capital of Texas?
+A. Paris
+B. London
+C. Austin
+D. Houston
+Answer: C
+
+[Input Question]
+What sparked the Michigan Wolverines to a 35-13 victory over Boston College?
+
+A. Three touchdown passes from Elvis Grbac to Ricky Powers
+B. A 176-yard rushing performance by Ricky Powers
+C. A 50-yard interception return by Lance Dottin
+D. Desmond Howard's 93-yard kickoff return for a touchdown to start the 2nd half
+Answer: ",D,B,3.697733163833618,"1995_Boston_College_Eagles_football_team, Brad_Bates",False
+2024-09-03 15:56:36.129936896,multi_choice,"[Example 1]
+What is the capital of Texas?
+A. Paris
+B. London
+C. Austin
+D. Houston
+Answer: C
+
+[Input Question]
+In which voivodeship is the village of Kalenne located?
+
+A. Masovian Voivodeship
+B. Lesser Poland Voivodeship
+C. Lublin Voivodeship
+D. Silesian Voivodeship
+Answer: ",C,C,3.675861835479736,"Kalenne, Template:Gmina_Modliborzyce",True
+2024-09-05 21:34:51.281805277,multi_choice,"[Example 1]
+What is the capital of Texas?
+A. Paris
+B. London
+C. Austin
+D. Houston
+Answer: C
+
+[Input Question]
+What social movement did Robert Milham Hartley co-found in New York?
+
+A. Temperance movement
+B. Labor rights movement
+C. Women's suffrage movement
+D. Abolitionist movement
+Answer: ",A,A,4.369800567626953,"Robert_Milham_Hartley, Robert_Hartley",True
+2024-09-03 04:24:46.144556800,multi_choice,"[Example 1]
+What is the capital of Texas?
+A. Paris
+B. London
+C. Austin
+D. Houston
+Answer: C
+
+[Input Question]
+What is the typical height of a Leucostele skottsbergii shrub?
+
+A. Up to 2 meters
+B. Up to 3 meters
+C. Up to 4 meters
+D. Up to 1 meter
+Answer: ",A,A,4.572107791900635,"Leucostele_skottsbergii, Category:Flora_of_northern_Chile",True
+2024-09-06 00:48:24.860611916,multi_choice,"[Example 1]
+What is the capital of Texas?
+A. Paris
+B. London
+C. Austin
+D. Houston
+Answer: C
+
+[Input Question]
+What is the significance of Vātsyāyana's Nyayabhasya in the context of Nyaya philosophy?
+
+A. It is a secondary commentary that builds upon earlier commentaries.
+B. It is a critique of the Nyaya sutras and presents an alternative philosophical framework.
+C. It is the first commentary on the Nyaya sutras that is still extant and sets the agenda for Nyāya's philosophical developments.
+D. It focuses primarily on the role of emotions in decision-making.
+Answer: ",C,D,4.29777455329895,"List_of_Indian_philosophers, Wikipedia:WikiProject_Hinduism/Prospectus",False
+2024-09-03 04:52:30.278227568,multi_choice,"[Example 1]
+What is the capital of Texas?
+A. Paris
+B. London
+C. Austin
+D. Houston
+Answer: C
+
+[Input Question]
+What was the purpose of the website launched in September 2005 featuring the King of All Cosmos?
+
+A. To announce the King's retirement
+B. To showcase the King's artwork
+C. To promote the upcoming release of We Love Katamari
+D. To promote Movember awareness
+Answer: ",C,C,4.706698179244995,"King_of_All_Cosmos, Katamari_Damacy",True
+2024-09-03 01:25:24.128921270,multi_choice,"[Example 1]
+What is the capital of Texas?
+A. Paris
+B. London
+C. Austin
+D. Houston
+Answer: C
+
+[Input Question]
+What is the name of the river that forms the western border of the Erzi Nature Reserve?
+
+A. Terek River
+B. Armkhi River
+C. Assa River
+D. Caspian River
+Answer: ",C,C,6.827110290527344,"Erzi_Nature_Reserve, Erzi_(village)",True
+2024-09-05 22:55:57.547959566,multi_choice,"[Example 1]
+What is the capital of Texas?
+A. Paris
+B. London
+C. Austin
+D. Houston
+Answer: C
+
+[Input Question]
+When was the Ensoniq MR61 music workstation synthesizer released?
+
+A. 2001
+B. 2005
+C. 1990
+D. 1996
+Answer: ",D,D,4.046097278594971,"Ensoniq_MR61, Category:Music_workstations",True
+2024-09-03 12:10:23.069043159,multi_choice,"[Example 1]
+What is the capital of Texas?
+A. Paris
+B. London
+C. Austin
+D. Houston
+Answer: C
+
+[Input Question]
+What award did the film 'Brother' win at the 11th Canadian Screen Awards in 2023?
+
+A. Best Feature Length Documentary
+B. Best Short Film
+C. Best Foreign Language Film
+D. Best Motion Picture
+Answer: ",D,D,4.592120170593262,"11th_Canadian_Screen_Awards, Canadian_Screen_Award_for_Best_Supporting_Performance_in_a_Film",True
+2024-09-03 20:27:04.022062063,multi_choice,"[Example 1]
+What is the capital of Texas?
+A. Paris
+B. London
+C. Austin
+D. Houston
+Answer: C
+
+[Input Question]
+What is the title of Kevin J. Swick's book that advocates for parent involvement through an empowerment model?
+
+A. Early Childhood Education and Parental Involvement
+B. Strengthening Parents and Families
+C. Child Development and Family Empowerment
+D. The Power of Parenting
+Answer: ",B,B,3.934127330780029,"Kevin_Swick, List_of_Drexel_University_alumni",True
+2024-09-02 10:33:55.406921387,multi_choice,"[Example 1]
+What is the capital of Texas?
+A. Paris
+B. London
+C. Austin
+D. Houston
+Answer: C
+
+[Input Question]
+In what year was Donatello commissioned to carve a marble statue of David?
+
+A. 1408
+B. 1415
+C. 1405
+D. 1410
+Answer: ",A,B,3.633809804916382,"David_(Donatello), David_(disambiguation)",False
+2024-09-04 01:51:23.958032640,multi_choice,"[Example 1]
+What is the capital of Texas?
+A. Paris
+B. London
+C. Austin
+D. Houston
+Answer: C
+
+[Input Question]
+Who consecrated Filippo Casoni as bishop on 4 May 1794?
+
+A. Hyacinthe-Sigismond Gerdil, Cardinal-Priest of Santa Cecilia
+B. Michele di Pietro, Titular Bishop of Isauropolis
+C. Pope Pius VI
+D. Ottavio Boni, Titular Archbishop of Nazianzus
+Answer: ",A,A,4.094513177871704,"Filippo_Casoni, Filippo_Casoni_(bishop)",True
+2024-09-05 17:55:57.641716480,multi_choice,"[Example 1]
+What is the capital of Texas?
+A. Paris
+B. London
+C. Austin
+D. Houston
+Answer: C
+
+[Input Question]
+Who designed the Ohio Theatre in Downtown Columbus?
+
+A. Thomas W. Lamb
+B. Le Corbusier
+C. Frank Lloyd Wright
+D. Anne Dornin
+Answer: ",A,A,4.242322444915772,"Ohio_Theatre_(Columbus,_Ohio), Great_Southern_Hotel_%26_Theatre",True
+2024-09-01 19:26:56.071789503,multi_choice,"[Example 1]
+What is the capital of Texas?
+A. Paris
+B. London
+C. Austin
+D. Houston
+Answer: C
+
+[Input Question]
+What was Miguel García Cuesta's profession and position at the University of Salamanca?
+
+A. Student and researcher
+B. Dean of the university
+C. Professor
+D. Chancellor of the university
+Answer: ",C,C,4.050163269042969,"Miguel_Garc%C3%ADa_Cuesta, Category:Academic_staff_of_the_University_of_Salamanca",True
+2024-09-05 07:58:03.217811108,multi_choice,"[Example 1]
+What is the capital of Texas?
+A. Paris
+B. London
+C. Austin
+D. Houston
+Answer: C
+
+[Input Question]
+Where was the 2015 Men's EuroHockey Indoor Club Champions Cup held?
+
+A. Madrid, Spain
+B. Innogy Sporthalle in Mülheim, Germany
+C. Rotterdam, Netherlands
+D. Innogy Sporthalle in Berlin, Germany
+Answer: ",B,B,4.109873056411743,"Men%27s_EuroHockey_Indoor_Club_Cup, 2024_Men%27s_EuroHockey_Indoor_Club_Cup",True
+2024-09-03 13:14:39.972937107,multi_choice,"[Example 1]
+What is the capital of Texas?
+A. Paris
+B. London
+C. Austin
+D. Houston
+Answer: C
+
+[Input Question]
+Where is the Provostry of St. Michael located?
+
+A. Langquaid in the district of Kelheim, Bavaria, Germany
+B. Langquaid in the district of Munich, Germany
+C. Munich in the district of Langquaid, Bavaria, Germany
+D. Kelheim in the district of Langquaid, Bavaria, Germany
+Answer: ",A,A,4.535649538040161,"St._Michael_Priory_(Paring), Churches_of_Busto_Arsizio",True
+2024-09-02 08:58:17.293706894,multi_choice,"[Example 1]
+What is the capital of Texas?
+A. Paris
+B. London
+C. Austin
+D. Houston
+Answer: C
+
+[Input Question]
+Which of the following artists has NOT performed at the Main Stage at the Rotary Beer Garden during Kempenfest?
+
+A. Sloan
+B. April Wine
+C. The Tragically Hip
+D. The Stampeders
+Answer: ",C,C,3.790665626525879,Kempenfest,True
+2024-09-03 02:23:56.778463232,multi_choice,"[Example 1]
+What is the capital of Texas?
+A. Paris
+B. London
+C. Austin
+D. Houston
+Answer: C
+
+[Input Question]
+What is Anju Inami's birthdate?
+
+A. January 1, 1995
+B. March 12, 1997
+C. February 7, 1996
+D. April 25, 1998
+Answer: ",C,C,4.386451482772827,"Anju_Inami, wikidata:Q22125424",True
+2024-09-03 06:56:51.903636992,multi_choice,"[Example 1]
+What is the capital of Texas?
+A. Paris
+B. London
+C. Austin
+D. Houston
+Answer: C
+
+[Input Question]
+What event occurred on September 9, 1944, in Bulgaria?
+
+A. The communist coup d'état took place
+B. The royal flags were officially redesigned
+C. The People's Republic was proclaimed
+D. The State Emblem of the Soviet Union was adopted
+Answer: ",A,A,5.366858720779419,"Bulgaria, Tsardom_of_Bulgaria_(1908%E2%80%931946)",True
+2024-09-04 14:14:57.031675904,multi_choice,"[Example 1]
+What is the capital of Texas?
+A. Paris
+B. London
+C. Austin
+D. Houston
+Answer: C
+
+[Input Question]
+When did Mariah Carey perform live at the Madison Square Garden for the 'Fantasy' concert?
+
+A. October 12, 1997
+B. October 11, 1996
+C. October 9, 1994
+D. October 10, 1995
+Answer: ",D,A,4.103466749191284,"Fantasy:_Mariah_Carey_at_Madison_Square_Garden, List_of_Mariah_Carey_live_performances",False
+2024-09-02 19:34:14.908421632,multi_choice,"[Example 1]
+What is the capital of Texas?
+A. Paris
+B. London
+C. Austin
+D. Houston
+Answer: C
+
+[Input Question]
+What is Kim Venn's current role in ACURA (Association of Canadian Universities for Research in Astronomy)?
+
+A. Member of the Mid-Term Review of the Long Range Plan
+B. Chair of the Awards committee
+C. Chair of the ACURA Board
+D. Member of the Board
+Answer: ",C,D,5.018751382827759,"Kim_Venn, Wikipedia:Historical_archive/Logs/Upload_log/August_2004_(3)",False
+2024-09-04 02:02:04.416579723,multi_choice,"[Example 1]
+What is the capital of Texas?
+A. Paris
+B. London
+C. Austin
+D. Houston
+Answer: C
+
+[Input Question]
+What is Khalid Ghuloom's position on the football field?
+
+A. Goalkeeper
+B. Winger
+C. Defender
+D. Midfielder
+Answer: ",B,D,5.832215785980225,"Khalid_Ghuloom, Category:Khor_Fakkan_Club_players",False
+2024-09-04 18:50:40.361824036,multi_choice,"[Example 1]
+What is the capital of Texas?
+A. Paris
+B. London
+C. Austin
+D. Houston
+Answer: C
+
+[Input Question]
+Where was the 2d Reconnaissance Squadron first activated in January 1941?
+
+A. March Field, California
+B. Brooks Field, Texas
+C. New Orleans Airport, Louisiana
+D. Pearl Harbor, Hawaii
+Answer: ",A,D,3.4495744705200195,"2d_Reconnaissance_Squadron, 2d_Photographic_Reconnaissance_Group",False
+2024-09-03 07:15:24.445242880,multi_choice,"[Example 1]
+What is the capital of Texas?
+A. Paris
+B. London
+C. Austin
+D. Houston
+Answer: C
+
+[Input Question]
+What was the peak position of Brandon Paris Band's single 'Somebody to Hold' on the Canadian CHR charts?
+
+A. #13
+B. #20
+C. #40
+D. #53
+Answer: ",D,D,4.531411647796631,"On_My_Own_(Brandon_Paris_Band_album), Brandon_Paris_Band",True
+2024-08-30 02:39:14.034326272,multi_choice,"[Example 1]
+What is the capital of Texas?
+A. Paris
+B. London
+C. Austin
+D. Houston
+Answer: C
+
+[Input Question]
+Where was the Treaty of Taastrup signed?
+
+A. Roskilde
+B. Copenhagen
+C. Høje Taastrup Church in Taastrup, Denmark
+D. Stockholm
+Answer: ",C,C,4.288826942443848,"Treaty_of_Taastrup, Treaty_of_Roskilde",True
+2024-09-04 16:07:42.138678528,multi_choice,"[Example 1]
+What is the capital of Texas?
+A. Paris
+B. London
+C. Austin
+D. Houston
+Answer: C
+
+[Input Question]
+What is the primary focus of Fabrizio Ruggeri's research work?
+
+A. Artificial intelligence in industrial applications
+B. Data mining and business analytics
+C. Machine learning algorithms
+D. Bayesian methods, specifically robustness and stochastic process inference
+Answer: ",D,D,3.94185471534729,"Fabrizio_Ruggeri, Fabrizio",True
+2024-09-05 05:54:50.238404608,multi_choice,"[Example 1]
+What is the capital of Texas?
+A. Paris
+B. London
+C. Austin
+D. Houston
+Answer: C
+
+[Input Question]
+What is the population of Ghaleh Arzehkhoran village according to the 2006 census?
+
+A. 177
+B. 357
+C. 477
+D. 277
+Answer: ",D,D,3.767706632614136,"Barut_Aghaji,_East_Azerbaijan",True
+2024-08-30 12:30:31.366897821,multi_choice,"[Example 1]
+What is the capital of Texas?
+A. Paris
+B. London
+C. Austin
+D. Houston
+Answer: C
+
+[Input Question]
+According to the text, what is the result of the phylogenetic analyses by Zeng et al. (2022) regarding Innovatiocaris?
+
+A. It shows an affinity with the Hurdiidae, but is more similar to non-hurdiids
+B. It is unrelated to the Hurdiidae family
+C. It is more similar to members of the Hurdiidae than to non-hurdiids
+D. It is a member of the Hurdiidae family
+Answer: ",A,D,4.357231378555298,"Innovatiocaris, File:20210624_Innovatiocaris_maotianshanensis.png",False
+2024-09-05 01:15:07.030956984,multi_choice,"[Example 1]
+What is the capital of Texas?
+A. Paris
+B. London
+C. Austin
+D. Houston
+Answer: C
+
+[Input Question]
+Where did Findlay S. Douglas learn to play golf as a boy?
+
+A. St Andrews, Scotland
+B. The University of St Andrews
+C. The United States
+D. England
+Answer: ",A,B,4.559963226318359,"Findlay_S._Douglas, Neil_Douglas_Findlay",False
+2024-09-05 15:34:27.617378235,multi_choice,"[Example 1]
+What is the capital of Texas?
+A. Paris
+B. London
+C. Austin
+D. Houston
+Answer: C
+
+[Input Question]
+What was the primary function of the Big Houses built by the Anglo-Irish class in Ireland?
+
+A. To provide public services and infrastructure for the community
+B. To demonstrate power and inspire awe among equals and deference in the lower classes
+C. To serve as centers of commerce and trade
+D. To provide housing for the lower classes
+Answer: ",B,B,5.187133073806763,"Anglo-Irish_big_house, Destruction_of_Irish_country_houses_(1919%E2%80%931923)",True
+2024-09-03 16:17:56.621842146,multi_choice,"[Example 1]
+What is the capital of Texas?
+A. Paris
+B. London
+C. Austin
+D. Houston
+Answer: C
+
+[Input Question]
+Where did Manuel A. Torres obtain his master's degree in public administration?
+
+A. Universidad del Este
+B. Sistema Universitario Ana G. Méndez
+C. University of Puerto Rico
+D. Harvard University
+Answer: ",C,B,5.113377332687378,"Manuel_I_of_Portugal, Manuel_Noriega",False
+2024-09-04 12:08:55.128667593,multi_choice,"[Example 1]
+What is the capital of Texas?
+A. Paris
+B. London
+C. Austin
+D. Houston
+Answer: C
+
+[Input Question]
+What was Jay Hunt's role at the BBC in 1999?
+
+A. Editor of Newsnight
+B. Editor of the BBC's Breakfast News
+C. Editor of the BBC's One O'Clock News
+D. Editor of the BBC's Six O'Clock News
+Answer: ",D,D,4.182042360305786,"Jay_Hunt_(television_executive), Jay_Hunt_(TV_presenter)",True
+2024-08-30 13:27:49.729376554,multi_choice,"[Example 1]
+What is the capital of Texas?
+A. Paris
+B. London
+C. Austin
+D. Houston
+Answer: C
+
+[Input Question]
+What type of compound is lactucin?
+
+A. Sesquiterpene lactone
+B. Terpene
+C. Flavonoid
+D. Alkaloid
+Answer: ",A,D,2.192960500717163,,False
+2024-09-04 15:19:20.091350079,multi_choice,"[Example 1]
+What is the capital of Texas?
+A. Paris
+B. London
+C. Austin
+D. Houston
+Answer: C
+
+[Input Question]
+What has been related to blooms of Gonyaulax membranaceae?
+
+A. Abalone mortalities
+B. Marine ecosystem degradation
+C. Increased fish populations
+D. Human illnesses from shellfish consumption
+Answer: ",A,A,5.168412923812866,"Go_(game), Go_(programming_language)",True
+2024-09-03 12:54:00.752558080,multi_choice,"[Example 1]
+What is the capital of Texas?
+A. Paris
+B. London
+C. Austin
+D. Houston
+Answer: C
+
+[Input Question]
+How far is Pityakovo from Birsk by road?
+
+A. 30 km
+B. 22 km
+C. 10 km
+D. 40 km
+Answer: ",B,B,7.341900110244751,"Pityakovo, Staropetrovo",True
+2024-09-03 18:26:40.795682669,multi_choice,"[Example 1]
+What is the capital of Texas?
+A. Paris
+B. London
+C. Austin
+D. Houston
+Answer: C
+
+[Input Question]
+How many 'Donkey Kong' cartridges did Coleco sell, according to the agreement with Nintendo?
+
+A. 10 million
+B. 3 million
+C. 6 million
+D. 1 million
+Answer: ",C,D,5.655486822128296,"Donkey_Kong_(1981_video_game), ColecoVision",False
+2024-09-04 10:29:46.021642447,multi_choice,"[Example 1]
+What is the capital of Texas?
+A. Paris
+B. London
+C. Austin
+D. Houston
+Answer: C
+
+[Input Question]
+What was the religion of Abaqa Khan?
+
+A. Buddhism
+B. Christianity
+C. Taoism
+D. Islam
+Answer: ",A,A,6.003894090652466,"Abaqa_Khan, Maria_Palaiologina",True
+2024-08-31 04:53:44.981684224,multi_choice,"[Example 1]
+What is the capital of Texas?
+A. Paris
+B. London
+C. Austin
+D. Houston
+Answer: C
+
+[Input Question]
+What are some of the products that Samsung Electronics used to produce?
+
+A. Cameras and gaming consoles
+B. Automobiles and motorcycles
+C. Home appliances and furniture
+D. Hard-drives and printers
+Answer: ",D,D,4.99211859703064,"Samsung_Electronics, Samsung",True

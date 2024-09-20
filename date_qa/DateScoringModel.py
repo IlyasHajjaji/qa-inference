@@ -88,6 +88,7 @@ def rouge_score(reference, completion, rouge):
 #*******************************************************************************************************************
 
 df_score = pd.read_csv("empty_data1.csv")
+#df_score = df_score[:200]
 
 df_score["DATE_SCORE"] = None
 
@@ -102,4 +103,5 @@ for i in range(len(df_score)) :
 
 df_score = df_score.dropna(subset=["result_model"]).reset_index(drop=True)
 print("DATE SCORE :",sum(df_score.loc[:, "DATE_SCORE"])/len(df_score))
-df_score.to_csv("model_score_date_qa_vvalhalle_Nabil.csv", index=False)
+df_score.to_csv("model_score_date_qa_vvalhalle11111.csv", index=False)
+

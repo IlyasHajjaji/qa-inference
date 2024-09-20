@@ -191,7 +191,7 @@ def write_to_csv(list_input):
     # Extract data without index and convert to list
     row_data_no_index = list_input.values.tolist()
 
-    with open('empty_data1.csv', mode='a', newline='') as file:
+    with open('empty_data2.csv', mode='a', newline='') as file:
         writer = csv.writer(file)
         writer.writerow(row_data_no_index)
 

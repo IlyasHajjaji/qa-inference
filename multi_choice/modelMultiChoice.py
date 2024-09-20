@@ -165,34 +165,32 @@ def clean_query(query) :
     return query
 
 def combine_wikipedia_titles_and_sections(question, API_KEY, CX):
-
-    CONTEXT = " No CONTEXT"
+    CONTEXT = question
     combined_set = []
-    search_results = search_google(question, API_KEY, CX)
+    
+    keywords_transformers = unidecode(extract_query_from_question_transformers(question))
+    print("keywords_transformers*************",keywords_transformers)
     wiki_items = []
-    if "items" in search_results :
-        print("Methode : Google API")
-        wiki_items = search_results["items"]
-    else :  
+    if keywords_transformers:
         print("Methode : extract_query_from_question_transformers")
-        keywords_transformers = unidecode(extract_query_from_question_transformers(question))
         search_results = search_google(keywords_transformers, API_KEY, CX)
-        if "items" in search_results :
+        if "items" in search_results:
             wiki_items = search_results["items"]
-        else :     
+        else :
             print("Methode : keyword_nabil")
             keywords_transformers = unidecode(keyword_generator(question))
             search_results = search_google(keywords_transformers, API_KEY, CX)
             if "items" in search_results :
                 wiki_items = search_results["items"]
-            else : 
-                print("Methode : Nan")
-                return CONTEXT ,combined_set
-                
-                
-    CONTEXT = ""
-    combined_set = []
-    
+            else :
+                print("Methode : Google API")
+                search_results = search_google(question, API_KEY, CX)
+                if "items" in search_results :
+                    wiki_items = search_results["items"]   
+                else : 
+                    print("Methode : Nan")
+                    return CONTEXT,combined_set
+
     for element in wiki_items :
         wiki_url = element['link']
         title = wiki_url.replace('https://en.wikipedia.org/wiki/', '')
@@ -298,7 +296,7 @@ stop_words = set(stopwords.words('english'))
 ner = pipeline("ner", model="dbmdz/bert-large-cased-finetuned-conll03-english", aggregation_strategy="simple")
 
 # Your Google Custom Search Engine credentials
-API_KEY = ''
+API_KEY = 'AIzaSyD_tquylmyhRpoGqBHMFh3HeMC-kLy1Z1U'
 CX='5607d294a06a04e49'
 
 #Multichoice
@@ -340,5 +338,10 @@ for i in range(200):
     write_to_csv(list_input)
 
 
-model_data_input.to_csv("model_predict_multichoice_potsawee.csv", index=False)
+model_data_input.to_csv("model_predict_multichoice_potsawee2.csv", index=False)
 print("Timing globale for running  is :", time.time() - start_date_globale)
+
+
+# Avant Google API puis Trans puis Spacy  2  SUCCESS RATIO : 64.82412060301507 %
+# Mtn avec Trans puis Spacy puis Google API 1 SUCCESS RATIO : SUCCESS RATIO : 64.0 %
+# Mtn avec Trans puis Google API puis Spacy 3 SUCCESS RATIO : 62.5 %

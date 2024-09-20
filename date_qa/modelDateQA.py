@@ -117,30 +117,31 @@ def get_article_sections(title) :
 
 
 def combine_wikipedia_titles_and_sections(question):
-    CONTEXT = "No  CONTEXT"
+    CONTEXT = question
     combined_set = []
-
-    search_results = search_google(question)
+    
+    keywords_transformers = unidecode(extract_query_from_question_transformers(question))
+    print("keywords_transformers*************",keywords_transformers)
     wiki_items = []
-    if "items" in search_results :
-        print("Methode : Google API")
-        wiki_items = search_results["items"]
-    else :  
+    if keywords_transformers:
         print("Methode : extract_query_from_question_transformers")
-        keywords_transformers = unidecode(extract_query_from_question_transformers(question))
         search_results = search_google(keywords_transformers)
-        if "items" in search_results :
+        if "items" in search_results:
             wiki_items = search_results["items"]
-        else :     
+        else :
             print("Methode : keyword_nabil")
             keywords_transformers = unidecode(keyword_nabil(question))
             search_results = search_google(keywords_transformers)
             if "items" in search_results :
-                wiki_items = search_results["items"]
-            else : 
-                print("Methode : Nan")
-                return CONTEXT,combined_set
-                    
+                wiki_items = search_results["items"]  
+            else :
+                print("Methode : Google API")
+                search_results = search_google(question)
+                if "items" in search_results :
+                    wiki_items = search_results["items"]     
+                else : 
+                    print("Methode : Nan")
+                    return CONTEXT,combined_set
 
     for element in wiki_items :
         wiki_url = element['link']
@@ -223,15 +224,12 @@ stop_words = set(stopwords.words('english'))
 ner = pipeline("ner", model="dbmdz/bert-large-cased-finetuned-conll03-english", aggregation_strategy="simple")
 
 # Your Google Custom Search Engine credentials
-API_KEY = ''
+API_KEY = 'AIzaSyD_tquylmyhRpoGqBHMFh3HeMC-kLy1Z1U'
 CX = '5607d294a06a04e49'
 
 
 
 ckpt = "valhalla/longformer-base-4096-finetuned-squadv1"
-#tokenizer = AutoTokenizer.from_pretrained(ckpt)
-#model = AutoModelForQuestionAnswering.from_pretrained(ckpt)
-
 tokenizer = AutoTokenizer.from_pretrained(ckpt)
 model = AutoModelForQuestionAnswering.from_pretrained(ckpt)
 
@@ -244,7 +242,7 @@ df = pd.read_csv("../model_sample_qa.csv")[['date','task', 'challenge', 'referen
 date_df = df[df['task'] == 'date_qa'].reset_index(drop=True)
 
 # Generate emptybackup
-generat_empty_backup(False)
+generat_empty_backup(True)
 
 model_data_input = date_df.copy()
 model_data_input["result_model"] = None
@@ -252,7 +250,7 @@ model_data_input["Time_elapsed"] = None
 model_data_input['Titles'] = None
 
 start_date_globale = time.time()
-for i in range(105,200):
+for i in range(198,200):
     print("Steps :",str(i))
     start_date = time.time()
    
@@ -263,7 +261,7 @@ for i in range(105,200):
 
     end_date = time.time()
     model_data_input.loc[i, "Time_elapsed"] = end_date - start_date
-    model_data_input.loc[i, "result_model"] = answer
+    model_data_input.loc[i, "result_model"] = CONTEXT
     model_data_input.loc[i, "Titles"] = ', '.join([x for x in combined_set])
     
     list_input = model_data_input.iloc[i]
@@ -276,4 +274,6 @@ print("Timing globale for running  is :", time.time() - start_date_globale)
 
 # DATE SCORE : 0.5997401300927698 (valhalla/longformer-base-4096-finetuned-squadv1) avec script modelDateQA plus temps execu long enr in model_predict_date_qa
 # DATE SCORE : 0.6352899107281648 (valhalla/longformer-base-4096-finetuned-squadv1) enr in model_predict_date_qa_1
-#  DATE SCORE : 0.5622530140640416 "mrm8488/longformer-base-4096-finetuned-squadv2" enr in model_predict_date_qa_2
+# DATE SCORE : 0.5622530140640416 "mrm8488/longformer-base-4096-finetuned-squadv2" enr in model_predict_date_qa_2
+# DATE SCORE : 0.7753635866466402 nouveau
+# DATE SCORE : 0.6368442373650793 ancien

@@ -1,0 +1,19 @@
+date,task,challenge,reference,result_model,Time_elapsed,Titles,DATE_SCORE
+2024-09-03 15:56:36.597929716,date_qa,"
+
+Here is a question about Parides klagesi that would have <date> as the answer:
+
+In what year was the male Parides klagesi butterfly specimen, characterized by an entirely black abdomen, captured and described by Racheli and Pischedda?",1983,1983,2.198035478591919,"Parides_klagesi, Parides_erithalion",0.9999999984999999
+2024-09-01 22:16:32.037500416,date_qa,"
+
+Here is a question that would have <date> as the answer:
+
+In what year did Sam Rowley's photograph ""Station Squabble"" win the Natural History Museum's Wildlife Photographer of the Year People's Choice Award?",2019,2019,1.0667810440063477,"Sam_Rowley, Station_Squabble",0.9999999984999999
+2024-09-05 07:11:04.929620480,date_qa,"
+
+In what year was Turkish academic and the first female president of the Constitutional Court of Turkey, Gülsün Salamer, born in Trabzon?",1945,2016,2.428229093551636,"Women_in_Turkey, 2010_Turkish_constitutional_referendum",0.0
+2024-09-04 20:09:12.942332672,date_qa,"
+
+Here is a question that would have <date> as the answer:
+
+In what year was the decision made by the City Council to establish Strandboulevarden, which was later opened in 1897 in connection with the establishment of the Freeport of Copenhagen?",1894,1894,1.2626256942749023,"Strandboulevarden, Listed_buildings_in_%C3%98sterbro",0.9999999984999999

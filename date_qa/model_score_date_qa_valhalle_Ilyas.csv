@@ -1,0 +1,1365 @@
+date,task,challenge,reference,result_model,Time_elapsed,Titles,DATE_SCORE
+2024-09-06 03:43:08.798979521,date_qa,"
+
+What is the birthdate of Lawrence Kip?","
+
+September 17, 1836","September 17, 1836 – November 17, 1899)[1] was an American soldier, author, and sportsman who was prominent in New York society during the Gilded Age.
+
+
+Early life
+Kip was born on September 17, 1836",1.7806541919708252,"Lawrence_Kip, William_Ingraham_Kip",0.7580645156045785
+2024-09-02 19:42:04.687686682,date_qa,"
+
+Here is a question about Charles Leach with the answer <date>:
+
+In what year was Charles Leach sent to Sheffield as a 'preacher on trial', with responsibility for Attercliffe chapel, and also attended Ranmoor Theological College?","
+
+1873", 1873,0.9534015655517578,Charles_Leach,0.9999999984999999
+2024-09-02 13:15:01.762624502,date_qa,"
+
+Here is a question that fits the context:
+
+When was the Human Development and Capabilities Association launched with conferences in the UK at Cambridge and in Italy at Pavia?
+
+(This question should elicit the answer <date>)","
+
+2004", 2004,1.564103603363037,"Human_Development_and_Capabilities_Association, Electromagnetism",0.9999999984999999
+2024-09-02 05:07:56.862957716,date_qa,"
+
+Here is a question that would have the answer as a date:
+
+In what year did English publishers begin producing various charts and pilot books for North American waters?","
+
+1671", 1776,1.602823257446289,"North_American_English, British_North_America",0.0
+2024-08-30 17:29:18.049643520,date_qa,"
+
+Here is a question that would have <date> as the answer:
+
+In what year was Today Is Vintage founded by Swedish artist Rebstar to serve as a platform for creative minds with international potential?","
+
+2012", 2012,1.3703012466430664,"Rebstar, Today_Is_Vintage",0.9999999984999999
+2024-09-01 20:25:22.996026368,date_qa,"
+
+Here's a question about Fair Charlotte that would have the answer <date>:
+
+On what date was the poem ""A Corpse Going To A Ball"", which the ballad of ""Fair Charlotte"" is based on, first published in The Rover, a Maine newspaper?","
+
+December 28, 1843"," December 28, 1843",1.7048020362854004,"Fair_Charlotte, List_of_American_novelists",0.9999999984999999
+2024-09-04 22:23:47.553454161,date_qa,"
+
+Here is a question about Annika Söder with the answer <date>:
+
+What is the birthdate of Annika Söder, the daughter of Swedish politician Gunnar Söder and former Minister for Foreign Affairs Karin Söder?","
+
+22 June 1955", 22 June 1955,1.4325029850006104,"Annika_S%C3%B6der, Category:Swedish_Social_Democratic_Party_politicians",0.9999999984999999
+2024-08-30 06:12:21.880024832,date_qa,"
+
+Here is a question that would have <date> as the answer:
+
+What year did Mohamed Sakho represent Étoile du Sahel at the World Club Championship in Japan, capping off a season in which the team won both the CAF Champions League and the Tunisian league title?","
+
+2007", 2007,2.181494951248169,"Mohamed_Sakho, 2018_FIFA_World_Cup_squads",0.9999999984999999
+2024-08-31 00:06:59.308612864,date_qa,"
+
+When was Stephen K. Sanderson, the American sociologist, born?","
+
+November 15, 1945"," November 15, 1945",1.5092709064483645,"Stephen_K._Sanderson, Category:American_sociologist_stubs",0.9999999984999999
+2024-08-29 08:36:39.874630451,date_qa,"
+
+Here is a question that would have <date> as the answer:
+
+What year was the Intel 4040 microprocessor released, which was designed to be used in an electronic calculator and had many design notes related to this role?
+
+Answer: <date>","
+
+1971", 1975,2.1175453662872314,"Intel_4040, List_of_Intel_processors",0.0
+2024-09-05 13:15:24.445574284,date_qa,"
+
+When was the post office in Aleppo, Pennsylvania first established?","
+
+The post office in Aleppo, Pennsylvania was first established in 1869.", 1869,1.4620733261108398,"Aleppo,_Pennsylvania, Aleppo_Township,_Greene_County,_Pennsylvania",0.7545454540495867
+2024-09-02 02:16:14.801814556,date_qa,"
+
+When was the prototype of the ST Aero MAV-1 unveiled at the Asian Aerospace exhibition?","
+
+The prototype of the ST Aero MAV-1 was unveiled at the Asian Aerospace exhibition in 2004.", 2004,1.2427728176116943,"ST_Aero_MAV-1, Micro_air_vehicle",0.7374999996484375
+2024-09-03 09:54:45.146859169,date_qa,"
+
+What year did the 56th edition of England's premier rugby union club competition take place, according to the context?","
+
+1955", 1966,2.69716215133667,"England, England_national_football_team",0.0
+2024-09-02 13:46:36.037999104,date_qa,"
+
+When was Joseph Platt, a member of the House of Representatives of the Colony of Connecticut from Norwalk, born?","
+
+Joseph Platt was born on February 17, 1672.","February 17, 1672",0.7090804576873779,"Joseph_Platt_(politician), James_Brown_(Connecticut_politician)",0.863636362446281
+2024-09-06 10:08:46.357801199,date_qa,"
+
+Here is a question about Thakurgaon-3 that would have <date> as the answer:
+
+When did the Thakurgaon-3 constituency become vacant?","
+
+6 August 2024", 6 August 2024,0.7877907752990723,"Thakurgaon-3, Hafiz_Uddin_Ahmed",0.9999999984999999
+2024-09-04 13:47:43.566485405,date_qa,"
+
+What date did a series of explosions occur at a gold mine in Gbomblora, Burkina Faso, resulting in the deaths of around 60 people and injuring over 100 others?","
+
+21 February 2022", 21 February 2022,0.6960570812225342,"Gbomblora_Department, Gbomblora_explosion",0.9999999984999999
+2024-09-05 17:09:03.032615422,date_qa,"
+
+Here is a question that would have <date> as the answer:
+
+In what year did Rosemary win the Logie Award for Best Female Television Personality (NSW) for her work on Good Morning?","
+
+1970", 1970,0.7542035579681396,"Good_Morning_with_Rosemary, Georgie_Parker",0.9999999984999999
+2024-09-04 07:55:23.809252977,date_qa,"
+
+Here is a question that would have the answer as a date:
+
+In what year did Jovanice Twinobusingye win the national elections to become the woman representative member of parliament for Kiruhura District in the eleventh Parliament of Uganda?","
+
+2021", 2021,1.4463751316070557,"Jovanice_Twinobusingye, List_of_members_of_the_eleventh_Parliament_of_Uganda",0.9999999984999999
+2024-09-05 21:11:07.229750633,date_qa,"
+
+What is the year in which Əlvənd, a village in the Shamakhi Rayon of Azerbaijan, reported a population of 1,453 residents?","
+
+1012", second millennium BC,2.039067029953003,"Azerbaijan, Azerbaijani_wine",0.0
+2024-09-04 09:30:23.335507870,date_qa,"
+
+Here is a question about Jerguš Pecháč that would have <date> as the answer:
+
+In what year did Jerguš Pecháč come third in the U-12 European Youth Chess Championship in Prague?
+
+(Answer would be the date mentioned in the context)","
+
+2012", 2012,0.971033811569214,Jergu%C5%A1_Pech%C3%A1%C4%8D,0.9999999984999999
+2024-09-04 06:33:26.973273516,date_qa,"
+
+Here is a question that would have the answer <date> based on the context:
+
+What year did Metro launch the safety campaign ""Dumb Ways to Die"" in Melbourne, which became a global viral video hit?","
+
+2012", 1999,0.7707982063293457,"Dumb_Ways_to_Die, Ollie_McGill",0.0
+2024-09-02 16:09:38.426328064,date_qa,"
+
+In what year was a post office called Air Line established in Air Line, Georgia?","
+
+1856", 1856,1.0802042484283447,"Air_Line,_Georgia, Delta_Air_Lines",0.9999999984999999
+2024-09-02 19:18:34.840357376,date_qa,"
+
+Here is a question about Shigeharu Matsumoto that would have the answer <date>:
+
+When did Shigeharu Matsumoto have his first real reporting experience with his report of the Xi'an incident?","
+
+1936", 1936,1.0567255020141602,"Shigeharu_Matsumoto, Takehito_Koyasu",0.9999999984999999
+2024-09-04 16:28:57.667981863,date_qa,"
+
+Here is a question that would have <date> as the answer:
+
+In what year was Francis Boardman Crowninshield born in New York City?","
+
+1869", 1869,0.7697556018829346,"Francis_Boardman_Crowninshield, Louise_E._du_Pont_Crowninshield",0.9999999984999999
+2024-09-05 18:08:38.915527105,date_qa,"
+
+When was Enrico Golisciani, the Italian author born in Naples, born?","
+
+Enrico Golisciani, the Italian author born in Naples, was born on 25 December 1848.",25 December 1848,0.7867059707641602,"Enrico_Golisciani, I_gioielli_della_Madonna",0.8124999990859375
+2024-09-05 02:11:54.069707155,date_qa,"
+
+Here's a question about Kostas Petropoulos that would have <date> as the answer:
+
+In what year did Kostas Petropoulos play for Greece's junior national team at the FIBA Europe Under-16 Championship?","
+
+1973", 1973,1.0020599365234375,"Kostas_Petropoulos, Greece_men%27s_national_basketball_team",0.9999999984999999
+2024-09-02 15:49:00.981865406,date_qa,"
+
+Here is a question about The Centaurus that would have the answer as the date:
+
+What was the expected opening quarter for the Centaurus Mövenpick Hotel, according to initial plans?","
+
+2018","<s>What was the expected opening quarter for the Centaurus Movenpick Hotel, according to initial plans?</s></s>No  CONTEXTM%C3%B6venpick_Hotels_%26_Resorts :
+Contents
+
+Mövenpick Hotels & Resorts (German pronunciation: [ˈmøːvənpɪk]; English: /ˈmuːvənˌpɪk/) is a Swiss hotel management company headquartered in Baar, Switzerland. It is fully owned by Accor since the September 2018 acquisition from former shareholders Mövenpick Holding (66.7%) and the Saudi-based Kingdom Group (33.3%). It operates over 80 properties, including hotels, resorts and Nile cruisers, with another 30 resorts planned or under construction across the Middle East and Asia.[1] The hotel chain serves 5.8 million people per year.[citation needed]
+
+
+Mövenpick Group
+Mövenpick Hotels & Resorts traces its roots back to the privately owned Mövenpick Group, which was founded by Ueli Prager in 1948 when he opened his first restaurant in Zürich. The name was apparently inspired by the feeding action of a gull (in German, a Möwe) and how its simple movements reflected the restaurant’s theme of food served as quickly as possible.[2]
+
+
+Mövenpick Hotels & Resorts
+The official launch of Mövenpick Hotels & Resorts was marked by the opening of two hotels at Zurich Airport and Zürich-Regensdorf. Expansion beyond Europe started in 1976 with the opening in Cairo of the Mövenpick Hotel Jolie Ville",1.0233280658721924,"M%C3%B6venpick_Hotels_%26_Resorts, Truman_Capote",0.7040540540137874
+2024-09-03 14:46:08.066093206,date_qa,"
+
+When was Abay ""Amha"" Tsehaye, the Ethiopian politician, born?","
+
+Abay ""Amha"" Tsehaye, the Ethiopian politician, was born on 29 April 1953.", 29 April 1953,0.7534141540527344,"Abay_Tsehaye, Category:Mid-importance_Ethiopia_articles",0.81999999904
+2024-09-03 11:09:14.556364536,date_qa,"
+
+Here's a question about Cartier Island Marine Park with the answer being a date:
+
+What year was the Cartier Island Marine Reserve originally proclaimed under the National Parks and Wildlife Conservation Act, before it was later renamed Cartier Island Marine Park in 2017?
+
+Answer: 2000","
+
+The answer is 2000.", 21 June 2000,1.0141172409057615,"Cartier_Island_Marine_Park, Ashmore_and_Cartier_Islands",0.785714284244898
+2024-09-05 00:50:49.424801280,date_qa,"
+
+What year was ZhL certified ""Halal"" a portion of its range?","
+
+2012", 2012,0.9345502853393556,"ZhL, Qawwali",0.9999999984999999
+2024-09-04 13:25:59.727834463,date_qa,"
+
+Here is a question about Lola T93/30 that would have the answer <date>:
+
+What was the date of the Brazilian Grand Prix that marked the first race of the Scuderia Italia team, which previously used Dallara-designed cars before switching to the Lola T93/30?","
+
+1988", 1988,0.8888587951660156,"Lola_T93/30, BMS_Scuderia_Italia",0.9999999984999999
+2024-09-01 17:53:51.210905344,date_qa,"
+
+Here's a question about Dirt track racing in Australia that would have the answer <date>:
+
+What year is often considered the birth year of motorcycle speedway in Australia, a country that has since produced several world-class riders and champions in the sport?","
+
+1923", 2021,1.465314865112305,"Australia, Australasia",0.0
+2024-09-03 00:36:39.960117340,date_qa,"
+
+When was Larry Anthony Weir, the American songwriter, composer, and managing editor of New Music Weekly magazine, born?","
+
+April 11, 1952"," April 11, 1952",0.8071310520172119,"Larry_Weir, Larry_Weir_production_discography",0.9999999984999999
+2024-09-01 16:47:32.783044100,date_qa,"
+
+Here is a question that would have the answer <date>:
+
+In what year was the Japanese Esperanto Institute established by Osaka Kenzi and others?","
+
+1919", 1919,0.9654555320739746,"Japanese_Esperanto_Institute, Expo_%2770",0.9999999984999999
+2024-08-30 16:18:47.979011840,date_qa,"
+
+Here is a question that would have the answer as the date:
+
+What year did Ernie Wilkins record the album Top Brass Featuring 5 Trumpets with a quintet of trumpeters, including Ray Copeland, Idrees Sulieman, Donald Byrd, Ernie Royal and Joe Wilder?","
+
+1955", 1955,0.8214993476867676,Top_Brass,0.9999999984999999
+2024-09-03 11:06:20.878255129,date_qa,"
+
+Here is a question that would have the answer as the date:
+
+What year did the failed 20 July plot to assassinate Adolf Hitler, led by Claus von Stauffenberg, occur, as described in Ian Kershaw's book ""The End: Hitler's Germany""?","
+
+1944", 1944,1.990515947341919,"The_End:_Hitler%27s_Germany,_1944%E2%80%9345, Claus_von_Stauffenberg",0.9999999984999999
+2024-09-03 05:09:47.754028082,date_qa,"
+
+Here is a question about Christopher Fowler that would have <date> as the answer:
+
+When did Christopher Fowler, a United States Navy sailor and Medal of Honor recipient, die?","
+
+1850"," May 11, 1874",1.7787795066833496,"Christopher_Fowler_(Medal_of_Honor), Christopher_Fowler_(disambiguation)",0.0
+2024-09-03 11:09:14.556364544,date_qa,"
+
+Here's a question about Cartier Island Marine Park with the answer being a date:
+
+What year was the Cartier Island Marine Reserve originally proclaimed under the National Parks and Wildlife Conservation Act, before it was later renamed Cartier Island Marine Park in 2017?
+
+Answer: 2000","
+
+The answer is 2000.", 21 June 2000,1.5650081634521484,"Cartier_Island_Marine_Park, Ashmore_and_Cartier_Islands",0.785714284244898
+2024-08-30 09:52:42.983018752,date_qa,"
+
+When was Jiguli Dairabaev born?","
+
+Jiguli Dairabaev was born on 29 October 1954.", 29 October 1954,1.6143946647644043,"Jiguli_Dairabaev, Jiguli_Dairabaev_2022_presidential_campaign",0.863636362446281
+2024-08-29 13:35:21.018906624,date_qa,"
+
+Here is a question about Mathieu Laplante that would have the answer as a date:
+
+What year was Mathieu Laplante hired to create the show concept for Cirque Hawaii, overseeing casting, music, and scenery creation?
+
+(Answer: <date>)","
+
+2005", 2005,2.4809317588806152,"Mathieu_Laplante, Cirque_du_Soleil",0.9999999984999999
+2024-09-01 18:51:13.399574518,date_qa,"
+
+What year was a museum established at Mississauga's Benares Historic House, as a result of additions designed by Henry Sears?","
+
+1995", 1995,1.118826389312744,Henry_Sears_(architect),0.9999999984999999
+2024-09-05 13:13:48.089522839,date_qa,"
+
+Here is a question that would have the answer <date>:
+
+In what month and year was William Broughton baptised at Chatham, Kent?","
+
+November 1768", November 1768,1.4156064987182615,"William_Broughton_(magistrate), HMS_Chatham_(1788)",0.9999999984999999
+2024-08-30 05:17:51.179388046,date_qa,"
+
+When did the construction of the East Klang Valley Expressway begin?","
+
+The construction of the East Klang Valley Expressway began on 1 September 2015.", 1 September 2015,1.9359829425811768,"East_Klang_Valley_Expressway, https://en.wikipedia.org/?title=Kuala_Lumpur_North_Dispersal_Expressway&redirect=no",0.8124999990859375
+2024-09-02 17:09:36.087955713,date_qa,"
+
+What is the year in which the population of Mian Darreh, Mazandaran was 195, in 52 families, according to the census?","
+
+The year in which the population of Mian Darreh, Mazandaran was 195, in 52 families, according to the census, is 2006.", 2006,2.4038896560668945,"Mian_Darreh,_Mazandaran, List_of_cities,_towns_and_villages_in_Mazandaran_province",0.729999999715
+2024-09-04 02:22:47.323926528,date_qa,"
+
+What is the birthdate of Dr Patricia Rashbrook, the oldest woman to give birth in the United Kingdom?","
+
+1943", 1943,1.794973373413086,"Patricia_Rashbrook, Category:Maternity_in_the_United_Kingdom",0.9999999984999999
+2024-09-02 15:49:50.038868904,date_qa,"
+
+Here is a question about Chaudhry Aslam Khan that would have the answer as a specific date:
+
+In what year did Chaudhry Aslam Khan join the Sindh Police force as an Assistant sub-inspector?
+
+Answer: <date>","
+
+1984", 1984,1.6578669548034668,"Chaudhry_Aslam_Khan, Operation_Lyari",0.9999999984999999
+2024-09-03 13:11:04.924711168,date_qa,"
+
+When was Benito Pavoni born?","
+
+Benito Pavoni was born on 19 July 1936.",19 July 1936,1.4193203449249268,"Benito_Pavoni, Category:Deputies_of_Legislature_X_of_Italy",0.863636362446281
+2024-09-06 02:07:24.964613676,date_qa,"
+
+When did Zeno Graton's debut feature film The Lost Boys (Le Paradis) premiere at the Berlin International Film Festival?","
+
+The Lost Boys (Le Paradis) premiered at the Berlin International Film Festival in 2023.", 2023,1.4278764724731443,"The_Lost_Boys_(2023_film), Zeno_Graton",0.7399999996266666
+2024-09-05 15:40:19.093578339,date_qa,"
+
+Here is a question that would have the answer as a date:
+
+In what year was the Companies Act under which the Association of Accounting Technicians of Sri Lanka (AAT Sri Lanka) was initially registered?","
+
+1982", 1982,1.9466679096221924,"Association_of_Accounting_Technicians_of_Sri_Lanka, Accounting_in_Sri_Lanka",0.9999999984999999
+2024-09-03 12:29:20.887606382,date_qa,"
+
+What year did B.Z. (newspaper) have a circulation of around 200,000?","
+
+The year B.Z. (newspaper) had a circulation of around 200,000 was 2010.", 2000,2.058405637741089,"B%27z, Eleven_(B%27z_album)",0.0
+2024-09-05 08:51:06.925516800,date_qa,"
+
+Here is a question that would have the answer <date> based on the provided context:
+
+What is the effective date of the eligibility requirements for Hamburg Parliament candidates, which include being at least 18 years old and not being barred from voting due to certain legal restrictions?","
+
+2008", 2008,2.066548585891724,"Hamburg_Parliament, President_of_the_Hamburg_Parliament",0.9999999984999999
+2024-09-03 01:07:24.154218674,date_qa,"
+
+Here is a question about Springs Christian Academy with the answer <date>:
+
+When was Springs Christian Academy founded by Springs of Living Water Church (now Springs Church) in Winnipeg?","
+
+1989", 1989,1.6606075763702393,"Springs_Christian_Academy, Twelve_Tribes_communities",0.9999999984999999
+2024-09-05 00:57:30.945903872,date_qa,"
+
+What year was the Max and Claire Brombacher House built?","
+
+The Max and Claire Brombacher House was built in 1940.",2017,3.186296224594116,"List_of_authors_by_name:_B, Wikipedia:WikiProject_Women_in_Red/Metrics/August_2017",0.0
+2024-09-03 19:39:56.736884992,date_qa,"
+
+When did Mbali Dlamini join the EFF while she was a student at the Tshwane University of Technology?","
+
+Mbali Dlamini joined the EFF in 2014 while she was a student at the Tshwane University of Technology.", 2014,1.0644054412841797,Mbali_Dlamini,0.7333333330185184
+2024-09-03 14:15:30.336388826,date_qa,"
+
+What was the month and year when Belladonna was listed among the top six bestselling books in the United States in The Bookman issue, where it was ranked sixth?","
+
+December 1909", December 1909,1.5324254035949707,"Bella_Donna_(novel), The_Fantastic_Flying_Journey",0.9999999984999999
+2024-09-06 11:31:07.115840435,date_qa,"
+
+Here's a question that would have ""2018"" as the answer:
+
+What year did the Incarnate Word Cardinals women's basketball team finish the season 5-24, with a 4-14 record in Southland play?","
+
+2018",No,1.2914063930511477,"Incarnate_Word_Cardinals, Incarnate_Word_Cardinals_football",0.0
+2024-08-29 04:38:35.839523072,date_qa,"
+
+Here is a question that would have the answer <date>:
+
+In what year was the project of establishing a Cadet College in Balochistan conceived?","
+
+1976", 1976,1.6334264278411863,"Cadet_College_Mastung, Cadet_College_Ormara",0.9999999984999999
+2024-09-03 10:11:26.712572336,date_qa,"
+
+Here is a question that would have <date> as the answer:
+
+When was German mathematician Karl-Otto Stöhr, known for his contributions to algebraic geometry, born?","
+
+9 May 1942", 9 May 1942,1.6799664497375488,"Karl-Otto_St%C3%B6hr, Wolfgang_Krull",0.9999999984999999
+2024-09-04 00:23:32.491925716,date_qa,"
+
+When was the Velká Deštná observation tower opened?","
+
+The Velká Deštná observation tower was opened in 2019."," 2022 the best alternatives are unclear.[156]
+
+
+International relations
+Control of petroleum production has been a significant driver of international relations during much of the 20th and 21st centuries.[157] Organizations like OPEC have played an outsized role in international politics. Some historians and commentators have called this the ""Age of Oil""[157] With the rise of renewable energy and addressing climate change some commentators expect a realignment of international power away from petrostates.[citation needed]
+
+
+Future production
+Consumption in the twentieth and twenty-first centuries has been abundantly pushed by automobile sector growth. The 1985–2003 oil glut even fueled the sales of low fuel economy vehicles in OECD countries. The 2008 economic crisis seems to have had some impact on the sales of such vehicles; still, in 2008 oil consumption showed a small increase.
+
+
+Hydrocarbons on other worlds
+On Saturn's largest moon, Titan, lakes of liquid hydrocarbons comprising methane, ethane, propane and other constituents, occur naturally. Data collected by the space probe Cassini–Huygens yield an estimate that the visible lakes and seas of Titan contain about 300 times the volume of Earth's proven oil reserves.[189][190] Drilled samples from the surface of Mars taken in 2015 by the Curiosity rover's Mars Science Laboratory have found organic molecules of benzene and propane in 3-billion-year-old rock samples in Gale Crater.[191]
+
+
+In fiction
+
+
+
+See also
+
+
+
+Explanatory footnotes
+
+
+
+Citations
+
+
+
+Vieques,_Puerto_Rico :
+Contents
+
+
+
+History
+Archaeological evidence suggests that Vieques was first inhabited by ancient Indigenous peoples of the Americas who traveled mostly from South America perhaps between 3000 BCE and 2000 BCE. Estimates of these prehistoric dates of inhabitation vary widely. These tribes had a Stone Age culture and were probably fishermen and hunter-gatherers.
+
+
+Government
+Vieques is a municipio of Puerto Rico, translated as ""municipality"" and in this context roughly equivalent to ""township"". It is in the Puerto Rican electoral district of Carolina. Local government is under the leadership of a mayor, presently Junito Corcino.
+
+
+Geography
+Vieques measures about 21 miles (34 km) east-west, and three to four miles (6.4 km) north-south. It has a land area of 52 square miles (130 km2) and is located about ten miles (16 km) to the east of Puerto Rico. To the north of Vieques is the Atlantic Ocean, and to the south, the Caribbean. The island of Culebra is about 10 miles (16 km) north of Vieques, and the United States Virgin Islands lie to the east. Vieques and Culebra, together with various small islets, make up the Spanish Virgin Islands, sometimes known as the Passage Islands.[citation needed][40]
+
+
+Demographics
+According to the 2020 Census, Vieques is the third-least populous municipality (after Maricao and Culebra) with a population of 8,249.[55]
+
+
+Economy
+The sugar industry, once the mainstay of the island's economy, declined during the early 20th century, and finally collapsed in the 1940s when the US Navy took over much of the land on which the sugar cane plantations stood. After an initial naval construction phase, opportunities to make a living on the island were increased to include not only fishing or subsistence farming, but also Naval jobs. Crops grown on the island include avocados, bananas, coconuts, grains, papayas and sweet potatoes. A number of permanent local jobs were provided by the US Navy, and their economy benefited. Starting in the 1970s General Electric had employed a few hundred workers at a manufacturing plant but that plant subsequently closed.  Unemployment was widespread, with consequent social problems. The 2000 US census reported a median household income in 1999 dollars of $9,331 (compared to $41,994 for the US as a whole), and 35.8% of the population of 16 years and over in the labor force (compared to 63.9% for the US as a whole).[57]
+
+
+Tourism
+For sixty years the majority of Vieques was closed off by the US Navy, and the island remained almost entirely undeveloped for tourism. This lack of development is now marketed as a key attraction. Vieques is promoted under an ecotourism banner as a sleepy, unspoiled island of rural bucolic charm and pristine deserted beaches, and is rapidly becoming a popular destination.
+
+
+Culture
+Vieques celebrates its patron saint festival in July",1.925520896911621,"Petroleum, Vieques,_Puerto_Rico",0.004128440245675873
+2024-09-04 02:26:24.530028819,date_qa,"
+
+Here's a question that would have the answer <date>:
+
+What year did the Indian census report Shevgaon's population as 38,375, consisting of 19,442 males and 18,993 females?","
+
+2011", 2011,1.382880926132202,"Shevgaon, Ahmednagar_Lok_Sabha_constituency",0.9999999984999999
+2024-09-02 13:28:12.905660391,date_qa,"
+
+Here is a question that would have the answer as a specific date:
+
+In what year did Polikarp Lukšić Ljubetić, the Croatian immigrant father of Andrónico Luksic, arrive in Chile from the Adriatic island of Brač?","
+
+1910",</s>,1.700535535812378,,0.0
+2024-09-03 04:54:37.364432896,date_qa,"
+
+Here is a question about SUNSAT that would have the answer as a date:
+
+What year did the Stellenbosch University SATellite, or SUNSAT, become the first launched South African satellite, after being launched aboard a Delta II rocket from the Vandenberg Air Force Base on February 23rd of that year?","
+
+1999", 1999,1.7947847843170166,"SUNSAT, List_of_first_satellites_by_country",0.9999999984999999
+2024-09-01 22:31:50.451468229,date_qa,"
+
+Here is a question about Lisa MacLeod that would have the answer as the date:
+
+What date did Lisa MacLeod win the election in the Ottawa-area riding of Nepean—Carleton by a margin of 6,000 votes over her Liberal opponent Brian Ford?","
+
+March 30, 2006"," March 30, 2006",2.4091408252716064,"Lisa_MacLeod, Brian_Ford_(police_officer)",0.9999999984999999
+2024-09-03 06:26:08.064528640,date_qa,"
+
+Here is a question that would have the answer <date>:
+
+When was Robert Waldmire, the American artist and cartographer known for his artwork of U.S. Route 66, born?","
+
+April 19, 1945","April 19, 1945",1.4351701736450195,"Bob_Waldmire, Meteor_City,_Arizona",0.9999999984999999
+2024-09-01 14:59:04.162774784,date_qa,"
+
+Here is a question that would have <date> as the answer:
+
+What was the year in which the National Census reported the population of Sara Rural District to be 12,408 in 2,491 households?","
+
+2006", 2006,2.877414464950561,"Sara_Rural_District, Khotbeh_Sara_Rural_District",0.9999999984999999
+2024-09-03 12:38:51.636859136,date_qa,"
+
+What year did American forces land on Agat Invasion Beach as part of the Battle of Guam to retake the island from Japanese occupation?","
+
+1944", 1944,1.7573764324188232,"Agat_Invasion_Beach, Battle_of_Guam_(1944)",0.9999999984999999
+2024-09-04 07:20:20.645754112,date_qa,"
+
+Here is a question that would have the answer <date>:
+
+In what year did V. N. Parameswaran Pillai take command and oversee the partial absorption of the Travancore Army into the Indian Army?","
+
+1945", 1945,1.4149200916290283,"V._N._Parameswaran_Pillai, Nair_Brigade",0.9999999984999999
+2024-09-03 15:24:41.967031040,date_qa,"
+
+Here is a question that would have <date> as the answer:
+
+On what date did Reinoud III marry Marie of Brabant, lady of Turnhout, in Tervuren?","
+
+1 July 1347", 1311,1.130769968032837,"John_III,_Duke_of_Brabant",0.0
+2024-08-31 04:33:39.921182976,date_qa,"
+
+When was the single ""Promise You This"" from Snoop Dogg's album Neva Left released?","
+
+March 1, 2017"," March 1, 2017",2.53338623046875,"Neva_Left, Snoop_Dogg_discography",0.9999999984999999
+2024-09-05 18:30:30.109359026,date_qa,"
+
+Here is a question with the answer <date>:
+
+In what year did Alexander Breckenridge, the grandfather of John Breckinridge, immigrate from Ireland to Bucks County, Pennsylvania?","
+
+1728", 1728,2.0347940921783447,"John_Breckinridge_(U.S._Attorney_General), Wikipedia:0.7/0.7alpha/B4",0.9999999984999999
+2024-08-30 18:25:59.973518336,date_qa,"
+
+Here is a question about Lincoln House Club with the answer <date>:
+
+In what year was the Lincoln House Club, a Shingle style structure part of the ""fresh air"" movement, built by the Lincoln Club of Boston near the Grand Island Bridge?","
+
+1899", 1899,2.2288177013397217,"Lincoln_House_Club, List_of_unsolved_murders_(1980%E2%80%931999)",0.9999999984999999
+2024-09-01 10:07:31.785230398,date_qa,"
+
+Here is a question with the answer <date>:
+
+What was the birthdate of John Gude Wenman, the English professional cricketer?","
+
+11 August 1803",11 August 1803,1.3781943321228027,"John_Wenman, George_Wenman",0.9999999984999999
+2024-09-05 06:06:05.378763914,date_qa,"
+
+Here is a question about Saint Spyridon Church that would have the answer <date>:
+
+In what year did the construction of Saint Spyridon Church begin, a building project that would take place in stages in the Byzantine Basilica style?","
+
+1961", 1961,2.056020736694336,"Saint_Spyridon_Church, St._Spyridon_Parish_of_South_East_Sydney",0.9999999984999999
+2024-09-04 16:12:38.871231488,date_qa,"
+
+What year is commonly cited as the birth year of Italian Mannerist painter Gianserio Strafella, although some sources also mention an alternative birth year of 1506?","
+
+1520"," 1520–1573, according to some sources; 1506–1577",1.3189702033996582,"Gianserio_Strafella, Copertino_Castle",0.7
+2024-09-02 18:25:37.577455104,date_qa,"
+
+Here is a question that would have <date> as the answer:
+
+In what year was Wilkinson House constructed by its original builder, J.?","
+
+1888", 2004,2.251889944076538,"J._Harvie_Wilkinson_III, Wilkinson-Hawkinson_House",0.0
+2024-09-05 12:44:56.039234638,date_qa,"
+
+What year was Asbjørn Øksendal born?","
+
+Asbjørn Øksendal was born in the year 1922.", 1922,1.2243895530700684,"Asbj%C3%B8rn_%C3%98ksendal, %C3%98ksendal_(surname)",0.7666666660740741
+2024-09-03 15:56:36.597929716,date_qa,"
+
+Here is a question about Parides klagesi that would have <date> as the answer:
+
+In what year was the male Parides klagesi butterfly specimen, characterized by an entirely black abdomen, captured and described by Racheli and Pischedda?","
+
+1983", 1983,2.378185272216797,"Parides_klagesi, Parides_erithalion",0.9999999984999999
+2024-09-05 23:46:56.701732635,date_qa,"
+
+Here is a question with the answer <date> about Lesetja Kganyago:
+
+In what year did Lesetja Kganyago start serving as the Director of the South African National Treasury, a position he held until 1998?","
+
+1996", 1996,1.7428512573242188,"Lesetja_Kganyago, South_African_Reserve_Bank",0.9999999984999999
+2024-09-04 02:52:18.134528256,date_qa,"
+
+What was the year the Vietnam Open tennis tournament was played on hard courts?","
+
+2015", 2023,3.479461669921875,"Vietnam_Open_(badminton), 2023_Vietnam_Open",0.0
+2024-09-02 11:06:58.080021760,date_qa,"
+
+Here's a question that would have the answer <date>:
+
+When was Khaled Akil, a Syrian artist based in Istanbul, born in Aleppo?","
+
+1986", 1986,1.4138619899749756,Khaled_Akil,0.9999999984999999
+2024-09-05 17:46:35.688769102,date_qa,"
+
+When was Ahmadou Kourouma, the eldest son of a distinguished Malinké family, born in Boundiali, Côte d'Ivoire?","
+
+Ahmadou Kourouma was born in 1927 in Boundiali, Côte d'Ivoire.", 1927,1.0347318649291992,Ahmadou_Kourouma,0.75999999946
+2024-08-30 18:39:14.585205555,date_qa,"
+
+Here is a question that would have the answer <date>:
+
+In what year was American sprint canoeist Stephen Macknowski born?","
+
+February 16, 1922", 1922,1.3187899589538574,"Stephen_Macknowski, Steven_Lysak",0.23435890046710456
+2024-09-06 06:10:43.182199240,date_qa,"
+
+What year was the magazine Hans established by Premchand?","
+
+Hans magazine was established by Premchand in the year 1930.", 1930,1.5805015563964844,"Hans_(magazine), Premchand",0.7545454540495867
+2024-08-31 10:57:02.114800215,date_qa,"
+
+What year was Karl August Auberlen born in Fellbach, near Stuttgart?","
+
+Karl August Auberlen was born in Fellbach, near Stuttgart, in the year 1824.", 1824,1.6392908096313477,"Karl_August_Auberlen, Fellbach",0.7461538457278106
+2024-09-02 17:12:32.264491796,date_qa,"
+
+Here's a question about Goose River with the answer <date>:
+
+What year did the officially recognized name ""Goose River"" become adopted?
+
+(Answer: 1948)","
+
+The officially recognized name ""Goose River"" was adopted in the year 1948.","
+
+",1.386158466339111,"Goose_River, Goose_River_(North_Dakota)",0.0
+2024-09-03 15:33:05.531872988,date_qa,"
+
+Here is a question that would have the answer <date>:
+
+In what year did residents of Memphis, Tennessee vote to dissolve the charter for Memphis City Schools, paving the way for a merger with the Shelby County School District?","
+
+2011", 2011,1.5540778636932373,"Memphis_City_Schools, Memphis-Shelby_County_Schools",0.9999999984999999
+2024-09-04 20:09:12.942332672,date_qa,"
+
+Here is a question that would have <date> as the answer:
+
+In what year was the decision made by the City Council to establish Strandboulevarden, which was later opened in 1897 in connection with the establishment of the Freeport of Copenhagen?","
+
+1894", 1894,2.651679277420044,"Strandboulevarden, Listed_buildings_in_%C3%98sterbro",0.9999999984999999
+2024-09-01 13:16:33.083261251,date_qa,"
+
+What date did the 2010 Comerica Bank Challenger tennis tournament take place, a professional tennis tournament played on hard court?","
+
+The 2010 Comerica Bank Challenger tennis tournament took place between 12 July and 18 July 2010."," 16 September 2024.[2]
+
+
+Personal life
+Originally from Canada,[4] Draxl's father is Brian Draxl who serves as the head tennis pro at the Newmarket Community Tennis Club[5] and played collegiate tennis for the University of Toledo on a tennis scholarship.[citation needed]
+
+
+College career
+Draxl plays college tennis at the University of Kentucky and is currently a Junior.[6] He compiled 14–8 record in Singles as a Freshman and 25-3 as a sophomore.[7]
+
+
+Professional career
+He turned pro in June 2023 and in November reached his first singles final, winning the 2023",1.678966045379639,"Lexington_Challenger, Liam_Draxl",0.014814813957018795
+2024-09-03 03:03:32.399196863,date_qa,"
+
+What date is often given as the birth date of pianist Raymond Lewenthal, although it is actually three years later than his true birth year of 1923?","
+
+1926", 1926,1.758928298950195,"Raymond_Lewenthal, Charles-Valentin_Alkan",0.9999999984999999
+2024-09-01 02:06:47.036943104,date_qa,"
+
+Here is a question that would have the answer <date>:
+
+What year did Charles Rafter's accomplishments first receive recognition with the conferment of the King's Police Medal (KPM) by the King at Marlborough House?","
+
+1910", 1910,0.980720043182373,Charles_Rafter,0.9999999984999999
+2024-09-06 04:54:03.977497578,date_qa,"
+
+Here is a question about Patrick Pietropoli that would have <date> as the answer:
+
+When did Patrick Pietropoli begin exhibiting his art in France, marking the start of his successful career as an artist?","
+
+1983", 1983,1.511097431182861,"Patrick_Pietropoli, List_of_painters_by_name_beginning_with_%22P%22",0.9999999984999999
+2024-09-02 21:31:33.292299776,date_qa,"
+
+Here is a question that would have the answer as a date:
+
+When was Chien Yu-hsiu, the former badminton player from the Republic of China, born?","
+
+29 February 1980", 29 February 1980,1.538093328475952,"Chien_Yu-hsiu, Huang_Shih-chung",0.9999999984999999
+2024-08-30 10:34:39.523616768,date_qa,"
+
+What year did the census take place in which Mij, Iran had a population of 802 people in 185 families?","
+
+2006", 2006,1.2200491428375244,"Mij,_Mazandaran, Mij,_Iran",0.9999999984999999
+2024-09-05 01:50:27.333222151,date_qa,"
+
+What is the release date of the box set A Taste of Strawbs, which includes an alternative mix of the song The Man Who Called Himself Jesus by Strawbs?","
+
+2006", 2006,1.440410614013672,"The_Man_Who_Called_Himself_Jesus, Oh_How_She_Changed",0.9999999984999999
+2024-09-03 10:12:44.955057859,date_qa,"
+
+Here is a question that would have the answer <date> based on the context:
+
+What year did the village of Benediktbeuern have a population of 3,602 residents?","
+
+2019", 2019,2.019895076751709,"Benediktbeuern, Benediktbeuern_Abbey",0.9999999984999999
+2024-09-04 19:23:18.059078400,date_qa,"
+
+What year did the Inquisito post mortem reveal that the manor of Pen-y-Clawdd Court was in the possession of Laurence Hastings, 1st Earl of Pembroke, during the 22nd year of the reign of Edward III?","
+
+The Inquisito post mortem in 1349 revealed that the manor of Pen-y-Clawdd Court was in the possession of Laurence Hastings, 1st Earl of Pembroke, during the 22nd year of the reign of Edward III.", 1349,2.0876564979553223,"Pen-y-Clawdd_Court, Wales",0.7222222220082304
+2024-09-01 19:47:29.873750687,date_qa,"
+
+What date did the singer perform the song at the FIVB Volleyball Men's World Championship opening ceremony prior to the Poland v match at the National Stadium, Warsaw?","
+
+August 30, 2014", Margaret,2.872644186019897,"Kazimierz_G%C3%B3rski_National_Stadium, 2014_FIVB_Men%27s_Volleyball_World_Championship",0.0
+2024-09-03 20:22:15.066762240,date_qa,"
+
+Here is a question about Anita Doherty with the answer <date>:
+
+In what year was Bahamian athlete, educator, and philanthropist Anita Louise Doherty (née deGregory) born?","
+
+1949", 1949,1.103454351425171,Anita_Doherty,0.9999999984999999
+2024-09-02 19:11:00.454283476,date_qa,"
+
+Here is a question about Adela Forestello that would have <date> as the answer:
+
+On what date was Argentine actress Adela Forestello born in Posadas, Misiones Province?","
+
+31 January 1923", 31 January 1923,3.568010091781616,"Adela_Forestello, Wikipedia:Interwiki_Women_Collaboration/Women_from_Argentina_missing_in_hywiki",0.9999999984999999
+2024-09-03 23:28:31.736395597,date_qa,"
+
+Here's a question that would have <date> as the answer:
+
+As of what date did the Santomean passport rank 77th in terms of travel freedom, with its citizens having visa-free or visa on arrival access to 58 countries and territories, according to the Henley Passport Index?","
+
+1 January 2018", 1 January 2018,2.382490396499634,"Santomean_passport, Visa_requirements_for_Santomean_citizens",0.9999999984999999
+2024-09-03 17:45:50.239786386,date_qa,"
+
+What was the birth year of Swedish cross-country skier Torkel Persson, who competed in the 1924 Winter Olympics?","
+
+1894", 1894,1.8467204570770264,"Torkel_Persson, Sweden_at_the_1924_Winter_Olympics",0.9999999984999999
+2024-09-02 11:15:34.767924309,date_qa,"
+
+What year did the census take place in which the population of Bid-e Shirin, Kerman was recorded as 86 people in 21 families?","
+
+2006", 2006,1.923849105834961,"Bid-e_Shirin,_Kerman, Bid_Shirin",0.9999999984999999
+2024-09-02 15:48:20.431067136,date_qa,"
+
+Here is a question about Georgia State Patrol with the answer as a date:
+
+What year did Governor E.D. Rivers appoint Philip H. as the first director of the Georgia State Patrol?","
+
+1937", 1937,1.9589357376098635,"Georgia_State_Patrol, Philip_Sheridan",0.9999999984999999
+2024-08-31 01:16:40.842027664,date_qa,"
+
+Here is a question with the answer <date>:
+
+In what year was Farm to Market Road constructed, along which the community of Midway in Titus County, Texas is situated?","
+
+The answer is 1930."," Harts Bluff Farm to Market Road,[1] the district is surrounded by the Mount Pleasant Independent School District.
+
+
+History
+The Nevill's Chapel Common School District and the Oak Grove Common School District merged into Harts Bluff ISD in 1959 due to declining enrollment in Oak Grove. The campus was built equally between the two consolidated schools. The Midway School District later merged into Harts Bluff ISD.[1]
+
+
+List_of_Farm_to_Market_Roads_in_Texas_(100%E2%80%93199) :
+Contents
+
+
+
+FM 100
+Farm to Market Road 100 (FM 100) is located in Fannin County.
+
+
+FM 101
+Farm to Market Road 101 (FM 101) is located in Eastland County. The road begins at SH 112 in Morton Valley and continues eastward to Loop 254 in Ranger.
+
+
+FM 102
+Farm to Market Road 102 (FM 102) is located in Wharton and Colorado counties. It runs from SH 60 in Wharton to I-10 near Alleyton.
+
+
+FM 103
+Farm to Market Road 103 (FM 103) is located in northern Montague County. Beginning at US 82 in Nocona, it runs north, east, and south to FM 2953 northeast of Lake Nocona.[7][8][9] A 0.3-mile-long (0.5 km) spur connection is located in the unincorporated community of Spanish Fort.
+
+
+FM 104
+Farm to Market Road 104 (FM 104) is located in Cottle and Hardeman counties. It begins east of Paducah at US 70 and runs north and then east to SH 6 at Quanah.
+
+
+FM 105
+Farm to Market Road 105 (FM 105) is located in Jasper and Orange counties. The road runs from US 96 to FM 1006.
+
+
+FM 106
+Farm to Market Road 106 (FM 106) is located in Cameron County. It runs from Loop 499 to FM 510.
+
+
+FM 107
+Farm to Market Road 107",1.8717865943908687,"Harts_Bluff_Independent_School_District, List_of_Farm_to_Market_Roads_in_Texas_(100%E2%80%93199)",0.008695652005040959
+2024-09-05 04:49:58.223585536,date_qa,"
+
+What date was Italian cinematographer Ubaldo Arata born?","
+
+Ubaldo Arata was born on 23 March 1895.",23 March 1895,1.337888240814209,"Ubaldo_Arata, Category:Italian_cinematographers",0.863636362446281
+2024-09-03 23:38:03.071248640,date_qa,"
+
+Here is a question with the answer <date>:
+
+What year is the earliest written reference to St. Peter's Church on Bornholm, one of the oldest churches in Denmark?","
+
+1429", 1429,2.121790647506714,"St._Peter%27s_Church,_Bornholm, St._Peter%27s_Church",0.9999999984999999
+2024-09-02 20:44:54.667665152,date_qa,"
+
+When was Stephen J. Wojtkowiak born in Buffalo, New York?","
+
+July 20, 1895"," July 20, 1895",1.265249252319336,"Stephen_J._Wojtkowiak, Edmund_P._Radwan",0.9999999984999999
+2024-09-03 10:11:26.712572416,date_qa,"
+
+Here is a question that would have <date> as the answer:
+
+When was German mathematician Karl-Otto Stöhr, known for his contributions to algebraic geometry, born?","
+
+9 May 1942", 9 May 1942,1.6282694339752195,"Karl-Otto_St%C3%B6hr, Wolfgang_Krull",0.9999999984999999
+2024-08-28 19:33:58.807632128,date_qa,"
+
+Here is a question that would have <date> as the answer:
+
+When was German biathlete Hanna Kebinger born?","
+
+Hanna Kebinger was born on 26 November 1997.", 26 November 1997,1.6443567276000977,"Hanna_Kebinger, Category:German_female_biathletes",0.863636362446281
+2024-09-03 05:31:06.070574760,date_qa,"
+
+Here is a question that would have the answer as the date:
+
+What year was the Mexican film ""The Spot of the Family"" (Spanish: El lunar de la familia) released?","
+
+1953", 1953,1.524932622909546,"The_Spot_of_the_Family, Gabriel_Garc%C3%ADa_M%C3%A1rquez",0.9999999984999999
+2024-09-03 07:13:27.901265383,date_qa,"
+
+Here is a question with the answer <date>:
+
+What year did Morakot Sangtaweep win the title of Miss Thailand Universe?","
+
+2004", 2004,1.6363329887390137,"Morakot_Sangtaweep, Category:Miss_Universe_Thailand_winners",0.9999999984999999
+2024-09-04 07:39:04.507641554,date_qa,"
+
+Here is a question about Loring Hall Cinema that would have the answer as the date:
+
+In what year was Loring Hall originally opened as a meeting hall to host lectures, picnics, and social meetings?","
+
+1852", 1852,1.845324277877808,"Loring_Hall, Loring_Hall_Cinema",0.9999999984999999
+2024-09-05 20:06:07.909416199,date_qa,"
+
+Here is a question that would have the answer <date>:
+
+When was Henry Edmund Donnelly ordained a priest for the Archdiocese of Detroit?","
+
+August 17, 1930"," August 17, 1930",1.7407503128051758,"Henry_Edmund_Donnelly, Category:Roman_Catholic_Archdiocese_of_Detroit",0.9999999984999999
+2024-09-04 10:33:46.011657216,date_qa,"
+
+Here's a question that would have the answer <date>:
+
+On what date did the first hot air balloon, carrying a duck, a rooster, and a lamb, set off from the Chateau de Versailles before landing in Vaucresson?","
+
+19 September 1783", 19 September 1783,1.644965648651123,"Vaucresson, Ch%C3%A2teau_de_Monte-Cristo",0.9999999984999999
+2024-09-04 09:45:29.125872384,date_qa,"
+
+Here is a question that would have the answer <date> based on the context:
+
+In what year was the English painter Joseph Southall, known for his landscapes and portraits, born to a Quaker family in Nottingham?","
+
+1861", 1861,1.3165581226348877,"Joseph_Southall, Maxwell_Armfield",0.9999999984999999
+2024-09-03 02:01:46.555493888,date_qa,"
+
+When was Macedonian footballer Vesna Vitanova born?","
+
+Vesna Vitanova was born on 27 January 1987.", 27 January 1987,1.4384746551513672,"Vesna_Vitanova, Category:Macedonian_women%27s_footballers",0.863636362446281
+2024-09-03 20:20:37.692422400,date_qa,"
+
+Here's a question about Henry Stark Howland with the answer <date>:
+
+What year was Henry Stark Howland born?","
+
+August 2, 1824","August 2, 1824",2.2416205406188965,"Henry_Stark_Howland, Imperial_Bank_of_Canada",0.9999999984999999
+2024-09-03 19:28:29.615859270,date_qa,"
+
+Here is a question about Yukiya Yokoyama that would have the answer <date>:
+
+When was Japanese former Nippon Professional Baseball pitcher Yukiya Yokoyama born?","
+
+June 1, 1977"," June 1, 1977",1.648087739944458,"Yukiya_Yokoyama, Category:Sports_articles_needing_translation_from_Japanese_Wikipedia",0.9999999984999999
+2024-09-02 13:48:49.453998592,date_qa,"
+
+What year did The Collingswood Story screen at film festivals including Frightfest in London, The Festival of Fantastic Films in Manchester, and the Fearless Tales Film Festival in San Francisco?","
+
+2005", 2005,1.0319530963897705,The_Collingswood_Story,0.9999999984999999
+2024-09-05 23:58:32.057287216,date_qa,"
+
+What year was the first meeting house in the Fallsington Historic District built?","
+
+1690", 1690,2.044942855834961,"Fallsington_Historic_District, Fallsington,_Pennsylvania",0.9999999984999999
+2024-09-06 01:21:20.671030045,date_qa,"
+
+Here is a question about Prince Edward Island (PEI) that would have the answer as the date:
+
+What year did Prince Edward Island have a population of 1,771?","
+
+2000", 2001,2.1073014736175537,"Prince_Edward_Island, Prince_Edward_Islands",0.0
+2024-09-02 00:20:42.732359168,date_qa,"
+
+Here is a question with the answer <date>:
+
+When did Eric Berthel begin representing Connecticut's 32nd State Senate district?","
+
+2017", 2017,1.3884258270263672,"Eric_Berthel, Connecticut%27s_32nd_State_Senate_district",0.9999999984999999
+2024-09-04 14:31:59.259192576,date_qa,"
+
+When was Kevin Ojinga Kaala elected as a woman representative in parliament for Palisa district during the Ugandan general election?","
+
+Kevin Ojinga Kaala was elected as a woman representative in parliament for Palisa district during the 2021 Ugandan general election.", 2021,1.3880915641784668,"Kevin_Ojinga_Kaala, Faith_Alupo",0.7285714282993196
+2024-09-03 08:43:21.488716364,date_qa,"
+
+Here is a question with the answer <date> using the context:
+
+What is the year in which the population of Tepebağ neighbourhood in Adana Province, Turkey was recorded as 903?","
+
+The year in which the population of Tepebağ neighbourhood in Adana Province, Turkey was recorded as 903 is 2022.",2022,1.0284664630889893,Tepeba%C4%9F,0.7315789470692521
+2024-09-02 23:17:12.280590080,date_qa,"
+
+Here is a question about Thep Mongkhon that would have the date as the answer:
+
+In what year did Thep Mongkhon have a total population of 3,851 people?","
+
+2017", 2017,1.8670735359191892,"Thep_Mongkhon, Sai_Ngam,_Kamphaeng_Phet",0.9999999984999999
+2024-09-01 18:08:00.142712320,date_qa,"
+
+Here is a question that would have the answer <date>:
+
+What year was the Draft Environmental Study for the Second Avenue Subway's section between 34th Street and 126th Street released, estimating a cost of $381 million and later receiving a $25 million grant from UMTA?
+
+Answer: <date>","
+
+1972", 1972,2.269972085952759,"Second_Avenue_Subway, Unbuilt_plans_for_the_Second_Avenue_Subway",0.9999999984999999
+2024-09-02 20:53:18.712369408,date_qa,"
+
+Here is a question that would have the answer as a date:
+
+In what year did the Geneseo Collegiate Institute, which built Atkinson Hall in 1892 for its music department, first open its doors to students?","
+
+1884", 1884,1.4395527839660645,"Atkinson_Hall_(Geneseo,_Illinois), Atkinson_Hall",0.9999999984999999
+2024-09-03 10:34:56.864803584,date_qa,"
+
+Here is a question with the topic of Yanda Li that would have the answer as a date:
+
+In what year was Yanda Li from Tsinghua University, Beijing, China, named Fellow of the Institute of Electrical and Electronics Engineers (IEEE) for his contributions to signal processing and bioinformatics?","
+
+2013", 2013,0.9239532947540284,Yanda_Li,0.9999999984999999
+2024-09-03 16:16:42.981582592,date_qa,"
+
+When was Philippe Marçais, the French Arabist and politician, born?","
+
+Philippe Marçais, the French Arabist and politician, was born on 16 March 1910.",6 November 1872,2.227979183197021,"William_Mar%C3%A7ais, Tunisian_Arabic",0.0
+2024-09-05 20:56:57.036402941,date_qa,"
+
+Here is a question about Garçonne (magazine) with the answer <date>:
+
+What year was the magazine Frauenliebe first published, a year that also saw the rise of competing lesbian periodicals such as Garçonne and Die Freundin in Berlin?","
+
+1926", 1926,1.694591760635376,"Gar%C3%A7onne_(magazine), Die_Freundin",0.9999999984999999
+2024-09-04 17:02:13.815559149,date_qa,"
+
+Here is a question that would have the answer as a date:
+
+When was Aureliano Blanquet, a general of the Federal Army during the Mexican Revolution, born?","
+
+31 December 1849",31 December 1849,1.532907009124756,"Aureliano_Blanquet, Ten_Tragic_Days",0.9999999984999999
+2024-09-01 15:33:33.699795485,date_qa,"
+
+Here is a question that would have <date> as the answer:
+
+In what year was the Kan-O-Tex Service Station in Galena, Kansas originally built to serve U.S. Route 66 motorists?","
+
+1934", 1934,2.1230857372283936,"Kan-O-Tex_Service_Station, File:4_Women_on_the_Route.jpg",0.9999999984999999
+2024-09-03 20:01:07.781115294,date_qa,"
+
+Here's a question about Rokken Station (Mie) that would have the answer as the date:
+
+What is the opening date of the Sangū Railway line between Tsu Station and Miyagawa Station, which also serves Rokken Station in Mie Prefecture?","
+
+December 31, 1893"," December 31, 1893",1.5408391952514648,"Rokken_Station_(Mie), Takachaya_Station",0.9999999984999999
+2024-09-04 16:54:37.414217710,date_qa,"
+
+When did Sabata premiere in Italy, preceding its US release by almost a year?","
+
+September 1969", September 1969,1.6378722190856934,"Antonio_Sab%C3%A0to_Jr., Sabata_(film)",0.9999999984999999
+2024-09-05 04:45:06.993295360,date_qa,"
+
+What is the release date of the second album ""Finsternis"" by German musical project E Nomine?","
+
+The release date of the second album ""Finsternis"" by German musical project E Nomine is 2002.", 2002,1.4358792304992676,"Finsternis, E_Nomine",0.7352941173148788
+2024-09-05 14:36:21.096779823,date_qa,"
+
+Here's a question with the answer <date>:
+
+In what year did the Rumpler C.I, a two-seater single-engine reconnaissance biplane, enter service?","
+
+In 1915",No,1.9349076747894287,"Rumpler_C.IV, Category:Rumpler_aircraft",0.0
+2024-09-02 21:54:15.222560512,date_qa,"
+
+In what year was Melba Moore's third album, Melba Moore Live, released?","
+
+1972", 1972,1.780477523803711,"Melba_Moore_Live!, Melba_Moore",0.9999999984999999
+2024-09-04 12:10:34.977241039,date_qa,"
+
+What is the birthdate of Croatian footballer Gordon Schildenfeld, formerly known as Gordon Lederer?","
+
+The birthdate of Croatian footballer Gordon Schildenfeld, formerly known as Gordon Lederer, is 21 April 1958.",</s>,1.4844939708709717,,0.0
+2024-09-03 14:34:36.562107086,date_qa,"
+
+In what year did author Dave Thompson write in his book Alternative Rock that the album Love by Aztec Camera was a ""backward step into pop cliché, an attempt to make a record which would work on American radio""?","
+
+2000",2000,2.5734965801239014,"Love_(Aztec_Camera_album), Stray_(album)",0.9999999984999999
+2024-09-02 18:41:30.696698112,date_qa,"
+
+Here's a question about Arctic Predators that would have the answer as a date:
+
+What year did the Ogden Knights, a minor league ice hockey team, fold due to financial trouble, causing the Arctic Predators, a fictional team in the same league, to gain a spot in the playoffs?
+
+Answer: <date>","
+
+2010", 2010,2.044461965560913,"Arctic_Predators, Category:American_Indoor_Football_Association_teams",0.9999999984999999
+2024-08-31 22:35:51.928452096,date_qa,"
+
+Here is a question that would have the answer <date>:
+
+On what date was the USNS Haiti Victory, formerly known as Longview, sold for scrapping to American Ship Dismantlers?","
+
+27 April 1976", 27 April 1976,1.6790733337402344,USNS_Haiti_Victory,0.9999999984999999
+2024-09-05 16:22:15.101994991,date_qa,"
+
+Here is a question about Wilfred Hudson Osgood that would have the answer as a date:
+
+In what year did Wilfred Hudson Osgood's family move to California, where he would later study in Santa Clara and San Jose?","
+
+Wilfred Hudson Osgood's family moved to California in 1888.", 1888,2.3244454860687256,"Wilfred_Hudson_Osgood, Rollo_Beck",0.75999999946
+2024-09-03 22:20:55.104427776,date_qa,"
+
+What year did the Christian Democratic Party (PDC) win 40 percent of the vote but not a controlling majority in the legislature, a victory largely due to the popularity of its leader José Napoleón Duarte, who would later be elected president, but was opposed by the ARENA party, led by Roberto D'Aubuisson?","
+
+1982", 1984,2.1469554901123047,"Jos%C3%A9_Napole%C3%B3n_Duarte, 1984_Salvadoran_presidential_election",0.0
+2024-09-05 04:13:56.040378332,date_qa,"
+
+Here is a question that would have the answer <date>:
+
+In what year did Paul McGillion make his first appearance in the Stargate franchise, playing the role of young Dr. Ernest Littlefield in the episode ""The Torment of Tantalus""?","
+
+1997", 1997,1.5420353412628174,"Carson_Beckett, Paul_McGillion",0.9999999984999999
+2024-08-30 03:59:41.110097408,date_qa,"
+
+What date was the Mard soundtrack album, featuring the song Hum to tamboo mein bamboo lagaye baithe, released on T-Series?","
+
+The Mard soundtrack album, featuring the song ""Hum to tamboo mein bamboo lagaye baithe"", was released on T-Series on 7 June 1985.", 11 July,1.8526127338409424,"T-Series_(company), Main_Kuch_Bhi_Kar_Sakti_Hoon",0.0
+2024-09-03 00:45:57.940561056,date_qa,"
+
+Here is a question that would have the answer <date>:
+
+In what year did French zoologist Mathurin Jacques Brisson establish the genus Balearica, naming the black crowned crane as the type species?","
+
+1760", 1760,2.044813394546509,"Grus_(genus), Balearica",0.9999999984999999
+2024-09-04 07:19:27.968923330,date_qa,"
+
+What is the release year of Buddy Guy's album ""Born to Play Guitar"", which reached No. 1 on the Billboard Blues Albums chart on August 22 of the same year?","
+
+2015", 2015,1.666325569152832,"Born_to_Play_Guitar, Buddy_Guy",0.9999999984999999
+2024-09-06 03:03:14.775371313,date_qa,"
+
+Here is a question about Grand Slam that would have the answer as a date:
+
+In what year did All Elite Wrestling (AEW) start producing its annual television special Grand Slam, which is held every September?","
+
+2021", 2021,1.5960614681243896,"AEW_Grand_Slam, Grand_Slam_(2024)",0.9999999984999999
+2024-09-03 15:57:18.613860608,date_qa,"
+
+Here is a question about Werder with the answer <date>:
+
+What year was the Werder pistol model invented by Johann Ludwig Werder in Bavaria, based on his rifle design of 1868?","
+
+1869", 1868,1.489865779876709,"Werder_pistol_model_1869, German_military_rifles",0.0
+2024-09-03 01:01:21.067536116,date_qa,"
+
+Here's a question that would have the answer ""<date>"" using the context:
+
+What was the date of the last battle between Native Americans and the United States Army in the state of Kansas, also known as the Battle of Punished Woman's Fork?","
+
+27 September 1878",27 September 1878,1.8046042919158936,"Battle_of_Punished_Woman%27s_Fork, Northern_Cheyenne_Exodus",0.9999999984999999
+2024-09-03 20:15:32.579914331,date_qa,"
+
+When did Citibank Vietnam set its first footprint in the country, marking the beginning of its operations in Vietnam?","
+
+Citibank Vietnam set its first footprint in Vietnam in 1975.", 1975,2.274824380874634,"Citibank_Vietnam, John_Riordan_(banker)",0.7666666660740741
+2024-09-04 12:26:08.315263232,date_qa,"
+
+What is the approximate date of the establishment of Old Gwernyfed in Wales, a location that has been documented as far back as the early Middle Ages?","
+
+The approximate date of the establishment of Old Gwernyfed in Wales is around 1050.", 1346,2.798860788345337,"Gwernyfed_High_School, List_of_Roman-to-modern_scheduled_monuments_in_Powys_(Brecknockshire)",0.0
+2024-08-30 21:03:19.855881453,date_qa,"
+
+What date did the number of electoral wards for Wrexham County Borough Council change to forty-nine, with seven wards having two councillors, as a result of a boundary change that came into effect in May of that year?","
+
+May 2022", 13 December 2004,2.512500047683716,"Cyprus, Qambar_Shahdadkot_District",0.0
+2024-09-06 07:46:48.039055109,date_qa,"
+
+Here's a question that would have the answer <date>:
+
+What year did Keith Warwick land a small role in the BBC drama ""Knowing The Score"" with Andrew Keir, a production that followed his involvement with Strathclyde University Theatre Group?","
+
+1986", 1986,1.2259445190429688,Keith_Warwick,0.9999999984999999
+2024-09-01 02:50:57.072100608,date_qa,"
+
+Here is a question that would have the answer as a date:
+
+What date did German submarine U-966 come under attack by an RAF Wellington and US Navy B-24 Liberators?","
+
+10 November 1943", 8 August 1934,2.3429079055786133,"Boeing_B-17_Flying_Fortress, Battle_of_the_Atlantic",0.0
+2024-09-05 07:11:04.929620480,date_qa,"
+
+In what year was Turkish academic and the first female president of the Constitutional Court of Turkey, Gülsün Salamer, born in Trabzon?","
+
+1945", 2016,2.6064367294311523,"Women_in_Turkey, 2010_Turkish_constitutional_referendum",0.0
+2024-09-04 13:47:51.031005383,date_qa,"
+
+What date did the members of Wolnościowcy leave the Confederation Liberty and Independence coalition and parliamentary group, following Artur Dziambor being kicked out of the Confederation by the party court?","
+
+The members of Wolnościowcy left the Confederation Liberty and Independence coalition and parliamentary group on 13 February 2023, following Artur Dziambor being kicked out of the Confederation by the party court.", 13 February 2023,0.9519875049591064,Wolno%C5%9Bciowcy,0.7413793097883472
+2024-09-05 07:54:11.961897728,date_qa,"
+
+When was Luis Lucia Mingarro, a Spanish film director and screenwriter, born in Valencia?","
+
+24 May 1914",24 May 1914,1.138960599899292,Luis_Lucia,0.9999999984999999
+2024-09-06 05:21:30.981786251,date_qa,"
+
+Here is a question about Pierre Cao that would have the answer <date>:
+
+What year did Pierre Cao serve as musical director for the Eurovision Song Contest held at the Nouveau Theatre in the Grand Duchy, in addition to the 1984 contest?","
+
+1973", 1973,2.012462854385376,"Pierre_Cao, Luxembourg_in_the_Eurovision_Song_Contest",0.9999999984999999
+2024-09-05 06:21:53.069783449,date_qa,"
+
+What year was Dhanpat Rai Nahar born?","
+
+Dhanpat Rai Nahar was born in 1919.",1919,1.6539199352264404,"Dhanpat_Rai_Nahar, Nahar",0.77499999934375
+2024-09-04 10:37:55.468030208,date_qa,"
+
+Here is a question about Pedigree that would have the answer as a date:
+
+In what year was Georges Simenon's autobiographical novel Pedigree, which offers a fictionalised account of his childhood in Liège, Belgium, first published?","
+
+1948", 1948,1.809748649597168,"Pedigree_(novel), Georges_Simenon",0.9999999984999999
+2024-09-06 09:52:05.031724453,date_qa,"
+
+Here's a question that would have the answer <date>:
+
+In what year did Andrew Hamilton, Lord Redhouse, marry Jean Laing, daughter of John Laing of Redhouse?","
+
+1608", 1608,1.981730937957764,"Andrew_Hamilton,_Lord_Redhouse, John_Hamilton,_Lord_Magdalens",0.9999999984999999
+2024-09-05 05:32:20.687650048,date_qa,"
+
+Here is a question about Ivica Vasti that would have the answer <date>:
+
+When was Ivica Vasti named head coach of FC Waidhofen/Ybbs of the Regionalliga Ost?","
+
+16 June 2009",</s>,1.4234929084777832,,0.0
+2024-09-04 04:23:28.645860910,date_qa,"
+
+In what year did Jan Henryk Wołodkowicz and his spouse get divorced?","
+
+1804", 1804,2.07364273071289,"Jan_Henryk_Wo%C5%82odkowicz, Wo%C5%82odkowicz_family",0.9999999984999999
+2024-09-01 22:16:32.037500416,date_qa,"
+
+Here is a question that would have <date> as the answer:
+
+In what year did Sam Rowley's photograph ""Station Squabble"" win the Natural History Museum's Wildlife Photographer of the Year People's Choice Award?","
+
+2019", 2019,1.5198509693145752,"Sam_Rowley, Station_Squabble",0.9999999984999999
+2024-08-31 13:53:57.699854851,date_qa,"
+
+When was Melanie Cole Moffatt, the Canadian former competitive ice dancer, born?","
+
+July 27, 1968"," July 27, 1968",1.4391887187957764,"Melanie_Cole, Michael_Farrington",0.9999999984999999
+2024-09-03 18:24:33.055529833,date_qa,"
+
+Here's a question that would have the answer <date>:
+
+In what year was the Northern Woods and Water Route established, with the three routes out of Lac La Biche extending westward along the south shores of Lesser Slave Lake, which now corresponds to the route of Alberta Highway 55?","
+
+1923", 1923,2.6325857639312744,"Northern_Woods_and_Water_Route, Alberta_Highway_2",0.9999999984999999
+2024-09-06 00:14:57.036943436,date_qa,"
+
+What year was the Eclipse Race Course founded by Captain Yelverton Oliver in New Orleans, Louisiana?","
+
+1837", 1837,1.048816204071045,Eclipse_Race_Course,0.9999999984999999
+2024-09-02 23:36:28.492181778,date_qa,"
+
+Here is a question that would have the answer as a date:
+
+What month and year did FDR Media Group Inc. launch Bollywood Times?","
+
+May 2010", May 2010,2.0491979122161865,"Bollywood_Times, Channel_Zero_(company)",0.9999999984999999
+2024-09-06 07:42:57.246838808,date_qa,"
+
+Here is a question that would have the answer <date>:
+
+When did Joseph A. Fields premiere his play ""My Sister Eileen"", which would later be adapted into a 1942 film and influence the musical ""Wonderful Town""?","
+
+1940", 1953,2.0649421215057373,"Wonderful_Town, My_Sister_Eileen_(1955_film)",0.0
+2024-09-03 08:18:48.836551680,date_qa,"
+
+Here is a question about Chris Boyd (rugby union) that would have the answer <date>:
+
+What year did Chris Boyd begin his coaching career with Tawa Rugby Club?
+
+(Answer should be the year that Boyd started coaching at Tawa Rugby Club, based on the context)","
+
+1989", 1989,4.031214952468872,"Chris_Boyd_(rugby_union), Wikipedia:WikiProject_Women_in_Red/Missing_articles_by_nationality/New_Zealand",0.9999999984999999
+2024-09-04 02:35:23.574027008,date_qa,"
+
+Here is a question that would have <date> as the answer:
+
+In what year was the company Roco founded by Ing.?","
+
+1960", 1960,1.1442582607269287,"Roco, Mihail_Roco",0.9999999984999999
+2024-09-05 06:24:32.614236160,date_qa,"
+
+Here is a question that would have the answer <date> based on the provided context:
+
+On what date did the Director General of Land Transportation sign a memorandum of understanding with the Mayor of Surabaya to implement a road-based transportation program for Trans Semanggi Suroboyo?","
+
+22 October 2020", 22 October 2020,1.9163382053375244,"Trans_Semanggi_Suroboyo, Suroboyo_Bus",0.9999999984999999
+2024-09-06 07:33:10.062171221,date_qa,"
+
+Here's a question that would have <date> as the answer:
+
+In what year did Chrissie Swan finish hosting her previous radio breakfast show Chrissie, Sam & Browny on Melbourne's Nova 100?
+
+Answer: <date>","
+
+2022", 2015,1.2979414463043213,"Chrissie,_Sam_%26_Browny, Chrissie_Swan",0.0
+2024-09-04 01:06:44.335141888,date_qa,"
+
+What year was the American comedy film ""Born to Be Loved"" directed by Hugo Haas released?","
+
+1959", 1959,1.5291450023651123,"Born_to_Be_Loved, Hugo_Haas",0.9999999984999999
+2024-08-31 11:05:13.730540276,date_qa,"
+
+When was Claus Terhoeven, one half of the German DJ duo Cosmic Gate, born?","
+
+Claus Terhoeven, one half of the German DJ duo Cosmic Gate, was born in 1972.", 1972,2.145538806915283,"Cosmic_Gate, Nic_Chagall",0.7374999996484375
+2024-09-02 03:00:58.346860647,date_qa,"
+
+What was the release date of the issue of Bookmarks magazine that gave ""Too Much Happiness"" a rating of 4.5 out of 5 stars?","
+
+March/April 2010", March/April 2010,1.5683789253234863,"Too_Much_Happiness, Thinking,_Fast_and_Slow",0.9999999984999999
+2024-09-03 05:56:10.330697775,date_qa,"
+
+When was Giulia della Rena born?","
+
+Giulia della Rena was born in 1319.","1319 – 9 January 1367) was an Italian Roman Catholic professed member of the Order of Saint Augustine in its third order branch.[1] Della Rena was orphaned sometime in her late childhood and sought work as a maid in Florence where she soon became a member of the Augustinian tertiaries. The religious then returned to Certaldo due to the negative Florentine economic and political climate where she became best known for rescuing a child from a burning building.[2][3]
+
+
+Life
+Giulia della Rena was born to impoverished nobles (whose status began to wane) in Certaldo sometime in 1319",1.6605489253997805,"Giulia_della_Rena, Giulia_(given_name)",0.7518518513781436
+2024-09-05 03:37:38.179939840,date_qa,"
+
+What date marked the start of the 22nd Summer Grand Prix season in ski jumping on plastic for men and the 4th for ladies in the FIS Ski Jumping Grand Prix?","
+
+July 31, 2015", 2015,2.2171006202697754,"2022_FIS_Ski_Jumping_Grand_Prix, 2015_FIS_Ski_Jumping_Grand_Prix",0.149999998875
+2024-09-05 08:37:24.904423714,date_qa,"
+
+What was the year in which the 23rd Balkan Athletics Indoor Championships took place?","
+
+2018", 2018,1.630626201629639,"2018_Balkan_Athletics_Indoor_Championships, Balkan_Race_Walking_Championships",0.9999999984999999
+2024-09-01 00:39:15.905764341,date_qa,"
+
+Here is a question with the answer <date>:
+
+What year did Batu Khan sack Kyiv and damage the Church of the Saviour at Berestove?
+
+(Answer: <date> would be 1240, which is the year Batu Khan sacked Kyiv)","
+
+1240", 1240,1.6675291061401367,"Church_of_the_Saviour_at_Berestove, Timeline_of_Kyiv",0.9999999984999999
+2024-09-03 06:26:33.732359936,date_qa,"
+
+When was the Nia album initially released in Europe by Mo' Wax?","
+
+August 30, 1999"," August 30, 1999",1.6021981239318848,"Nia_(album), Blackalicious",0.9999999984999999
+2024-09-04 15:36:52.760897636,date_qa,"
+
+Here is a question that would have the answer <date>:
+
+What month and year did Niccolò Pisilli sign a professional contract with Roma that would keep him with the club until 2026?","
+
+November 2022", November 2022,1.5970749855041504,"Niccol%C3%B2_Pisilli, 2024%E2%80%9325_AS_Roma_season",0.9999999984999999
+2024-09-03 21:30:36.074420214,date_qa,"
+
+Here is a question about Virgin Oceanic that would have the answer <date>:
+
+What month and year did Virgin Oceanic first announce its attempt on Challenger Deep?
+
+Answer: April <date>","
+
+April 2011", April 2011,1.4920477867126465,"DeepFlight_Challenger, Virgin_Oceanic",0.9999999984999999
+2024-09-03 16:25:17.847070464,date_qa,"
+
+What year did the first two GWR Bogie Class locomotives roll out of Swindon Works to tackle the challenging terrain of the South Devon Railway?","
+
+1849", 1849,1.6362860202789309,"GWR_Bogie_Class, 4-4-0",0.9999999984999999
+2024-09-04 01:00:37.970891520,date_qa,"
+
+Here is a question with the answer <date>:
+
+In what year did Unnur Anna Valdimarsdóttir complete her matriculation examination from the natural sciences track of Akureyri Junior College?","
+
+1992", 1992,1.1030080318450928,Unnur_Anna_Valdimarsd%C3%B3ttir,0.9999999984999999
+2024-09-04 09:34:28.565000296,date_qa,"
+
+Here is a question with the answer <date>:
+
+What year was the European Championship for which Bekim Balaj was part of the Albania U-19 squad for the qualifying stage?
+
+Answer: 2009","
+
+2009", 2009,1.7528135776519775,"Bekim_Balaj, Serbia_v_Albania_(UEFA_Euro_2016_qualifying)",0.9999999984999999
+2024-09-01 14:52:31.346047744,date_qa,"
+
+What year did WTYN (AM) first go on the air, broadcasting to the Tryon, Columbus, Landrum (SC) area on 1550 kHz?","
+
+1954", 1954,1.0033414363861084,WTYN_(AM),0.9999999984999999
+2024-09-05 01:43:38.516211271,date_qa,"
+
+Here is a question that would have the answer ""1961"":
+
+What year did the Midland Theatre drop ""Loew's"" from its name?","
+
+1961", 1961,1.8448216915130613,"Midland_Theatre, Category:Loew%27s_Theatres_buildings_and_structures",0.9999999984999999
+2024-09-05 04:49:53.258899449,date_qa,"
+
+What year did the Cyprus crisis start, which would lead to significant changes in the area now occupied by Göçmenköy, transforming it from an agricultural zone?","
+
+1963", 1963–64,1.6763813495635986,"G%C3%B6%C3%A7menk%C3%B6y, KTFF_S%C3%BCper_Lig",0.7
+2024-09-04 04:30:10.149639368,date_qa,"
+
+What is the year of the census when the population of Ab Bid-e Deli Rich-e Olya was 96, in 19 families?","
+
+2006", 2006,2.111024141311645,"Ab_Bid-e_Deli_Rich-e_Olya, Category:Populated_places_in_Boyer-Ahmad_County",0.9999999984999999
+2024-09-03 01:35:23.058926848,date_qa,"
+
+Here's a question that would have the answer as the date:
+
+In what year did Jan SBomka begin writing his memoirs as the mayor of a Polish village, which were later translated by William John Rose and published in 1941?","
+
+1842",No  CONTEXT</s>,1.831425189971924,,0.0
+2024-09-05 13:32:57.062155008,date_qa,"
+
+Here is a question about Cuba–Sri Lanka relations that would have the answer as the date:
+
+What year did Fidel Castro's ascent to power in Cuba mark the beginning of diplomatic relations between Cuba and Sri Lanka?
+
+Answer: <date>","
+
+1959", 1959,2.2246971130371094,"Cuba%E2%80%93Sri_Lanka_relations, 6th_Summit_of_the_Non-Aligned_Movement",0.9999999984999999

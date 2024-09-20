@@ -43,12 +43,12 @@ def relevance_score(reference, completion, model) :
 
 
 # Load your CSV
-df_score = pd.read_csv("empty_data1.csv")
+df_score = pd.read_csv("model_predict_qa_valhalle_Ilyas.csv")
 df_score = df_score[:200]
 
 df_score["QA_SCORE"] = None  # Initialize QA_SCORE as None
 
-model = AnglE.from_pretrained("WhereIsAI/UAE-Large-V1", pooling_strategy="cls", device="cuda:0")
+model = AnglE.from_pretrained("WhereIsAI/UAE-Large-V1", pooling_strategy="cls")
 model = model.cuda()
 
 # Debug: Print initial data
@@ -76,4 +76,4 @@ print(df_score.loc[:, "QA_SCORE"])
 
 print("SUCCESS RATIO :",(sum(df_score.loc[:, "QA_SCORE"])/len(df_score)))
 # Save the result to a CSV file
-df_score.to_csv("model_score_qa_ha.csv", index=False)
+df_score.to_csv("model_score_qa_2.csv", index=False)
